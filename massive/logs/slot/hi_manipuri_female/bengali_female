@@ -1,0 +1,558 @@
+Some weights of the model checkpoint at google/muril-base-cased were not used when initializing BertModel: ['cls.predictions.decoder.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+1335624, 1318447
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of TGRU_slot_hi_manipuri_female_contrast_out_32_0.1
+[1, 25] loss: 8.071452
+[1, 50] loss: 7.544029
+[1, 75] loss: 7.489088
+[1, 100] loss: 6.958159
+[1, 125] loss: 6.789066
+[1, 150] loss: 6.140240
+[1, 175] loss: 5.778996
+[1, 200] loss: 5.152404
+[1, 225] loss: 4.581824
+[1, 250] loss: 4.257632
+[1, 275] loss: 3.861115
+[1, 300] loss: 3.518350
+[1, 325] loss: 3.228393
+[1, 350] loss: 3.105841
+Epoch: 1 Validation loss: 15.81191 accuracy: 0.98665 F1-score: 0.48500
+Epoch: 1 Test loss: 10.88210 accuracy: 0.98665 F1-score: 0.48500
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_0
+[2, 25] loss: 2.792816
+[2, 50] loss: 2.697990
+[2, 75] loss: 2.488375
+[2, 100] loss: 2.448762
+[2, 125] loss: 2.400136
+[2, 150] loss: 2.285314
+[2, 175] loss: 2.181845
+[2, 200] loss: 2.016081
+[2, 225] loss: 2.125233
+[2, 250] loss: 2.051203
+[2, 275] loss: 2.097022
+[2, 300] loss: 2.239925
+[2, 325] loss: 2.092685
+[2, 350] loss: 1.769089
+Epoch: 2 Validation loss: 8.85864 accuracy: 0.98288 F1-score: 0.50945
+Epoch: 2 Test loss: 6.05659 accuracy: 0.98288 F1-score: 0.50945
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_1
+[3, 25] loss: 1.612711
+[3, 50] loss: 1.555910
+[3, 75] loss: 1.610469
+[3, 100] loss: 1.565891
+[3, 125] loss: 1.428800
+[3, 150] loss: 1.427834
+[3, 175] loss: 1.352552
+[3, 200] loss: 1.348977
+[3, 225] loss: 1.263521
+[3, 250] loss: 1.190545
+[3, 275] loss: 1.231687
+[3, 300] loss: 1.216301
+[3, 325] loss: 1.121061
+[3, 350] loss: 1.138655
+Epoch: 3 Validation loss: 5.35623 accuracy: 0.97925 F1-score: 0.48034
+Epoch: 3 Test loss: 3.66093 accuracy: 0.97925 F1-score: 0.48034
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_2
+[4, 25] loss: 0.980958
+[4, 50] loss: 0.944231
+[4, 75] loss: 0.839308
+[4, 100] loss: 0.901663
+[4, 125] loss: 1.021526
+[4, 150] loss: 1.047492
+[4, 175] loss: 0.942187
+[4, 200] loss: 1.224284
+[4, 225] loss: 1.062743
+[4, 250] loss: 0.945059
+[4, 275] loss: 1.048088
+[4, 300] loss: 0.810438
+[4, 325] loss: 0.898604
+[4, 350] loss: 0.905560
+Epoch: 4 Validation loss: 3.58279 accuracy: 0.98356 F1-score: 0.55132
+Epoch: 4 Test loss: 2.49687 accuracy: 0.98356 F1-score: 0.55132
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_3
+[5, 25] loss: 0.641584
+[5, 50] loss: 0.674713
+[5, 75] loss: 0.788181
+[5, 100] loss: 0.708993
+[5, 125] loss: 0.584438
+[5, 150] loss: 0.615126
+[5, 175] loss: 0.769437
+[5, 200] loss: 0.597338
+[5, 225] loss: 0.585346
+[5, 250] loss: 0.617511
+[5, 275] loss: 0.596502
+[5, 300] loss: 0.646448
+[5, 325] loss: 0.538572
+[5, 350] loss: 0.652955
+Epoch: 5 Validation loss: 2.57424 accuracy: 0.98629 F1-score: 0.57810
+Epoch: 5 Test loss: 1.79559 accuracy: 0.98629 F1-score: 0.57810
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_4
+[6, 25] loss: 0.486201
+[6, 50] loss: 0.398177
+[6, 75] loss: 0.510331
+[6, 100] loss: 0.565892
+[6, 125] loss: 0.469155
+[6, 150] loss: 0.479080
+[6, 175] loss: 0.450505
+[6, 200] loss: 0.559051
+[6, 225] loss: 0.504166
+[6, 250] loss: 0.492477
+[6, 275] loss: 0.384933
+[6, 300] loss: 0.441361
+[6, 325] loss: 0.429881
+[6, 350] loss: 0.530407
+Epoch: 6 Validation loss: 1.90508 accuracy: 0.98489 F1-score: 0.56895
+Epoch: 6 Test loss: 1.30805 accuracy: 0.98489 F1-score: 0.56895
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_5
+[7, 25] loss: 0.391577
+[7, 50] loss: 0.472193
+[7, 75] loss: 0.396670
+[7, 100] loss: 0.303614
+[7, 125] loss: 0.379371
+[7, 150] loss: 0.357710
+[7, 175] loss: 0.644294
+[7, 200] loss: 0.552831
+[7, 225] loss: 0.492858
+[7, 250] loss: 0.465094
+[7, 275] loss: 0.412631
+[7, 300] loss: 0.398166
+[7, 325] loss: 0.404425
+[7, 350] loss: 0.433716
+Epoch: 7 Validation loss: 1.65926 accuracy: 0.98470 F1-score: 0.57722
+Epoch: 7 Test loss: 1.14144 accuracy: 0.98470 F1-score: 0.57722
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_6
+[8, 25] loss: 0.307432
+[8, 50] loss: 0.308633
+[8, 75] loss: 0.330399
+[8, 100] loss: 0.320352
+[8, 125] loss: 0.381454
+[8, 150] loss: 0.317510
+[8, 175] loss: 0.306768
+[8, 200] loss: 0.315246
+[8, 225] loss: 0.241289
+[8, 250] loss: 0.312833
+[8, 275] loss: 0.345194
+[8, 300] loss: 0.366387
+[8, 325] loss: 0.279471
+[8, 350] loss: 0.292517
+Epoch: 8 Validation loss: 1.34260 accuracy: 0.98588 F1-score: 0.59208
+Epoch: 8 Test loss: 0.93526 accuracy: 0.98588 F1-score: 0.59208
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_7
+[9, 25] loss: 0.215368
+[9, 50] loss: 0.233820
+[9, 75] loss: 0.275745
+[9, 100] loss: 0.298329
+[9, 125] loss: 0.317172
+[9, 150] loss: 0.304066
+[9, 175] loss: 0.279452
+[9, 200] loss: 0.339308
+[9, 225] loss: 0.327874
+[9, 250] loss: 0.361852
+[9, 275] loss: 0.237111
+[9, 300] loss: 0.305131
+[9, 325] loss: 0.310157
+[9, 350] loss: 0.289529
+Epoch: 9 Validation loss: 1.20315 accuracy: 0.98755 F1-score: 0.61321
+Epoch: 9 Test loss: 0.82407 accuracy: 0.98755 F1-score: 0.61321
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_8
+[10, 25] loss: 0.262269
+[10, 50] loss: 0.184915
+[10, 75] loss: 0.294816
+[10, 100] loss: 0.249396
+[10, 125] loss: 0.301010
+[10, 150] loss: 0.220658
+[10, 175] loss: 0.285023
+[10, 200] loss: 0.218908
+[10, 225] loss: 0.194841
+[10, 250] loss: 0.226064
+[10, 275] loss: 0.298019
+[10, 300] loss: 0.244571
+[10, 325] loss: 0.238582
+[10, 350] loss: 0.220378
+Epoch: 10 Validation loss: 0.92476 accuracy: 0.99052 F1-score: 0.63996
+Epoch: 10 Test loss: 0.63040 accuracy: 0.99052 F1-score: 0.63996
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_9
+[11, 25] loss: 0.180445
+[11, 50] loss: 0.235297
+[11, 75] loss: 0.183332
+[11, 100] loss: 0.171431
+[11, 125] loss: 0.249376
+[11, 150] loss: 0.163872
+[11, 175] loss: 0.209726
+[11, 200] loss: 0.199813
+[11, 225] loss: 0.153645
+[11, 250] loss: 0.206215
+[11, 275] loss: 0.175547
+[11, 300] loss: 0.274848
+[11, 325] loss: 0.263085
+[11, 350] loss: 0.200904
+Epoch: 11 Validation loss: 0.87407 accuracy: 0.99061 F1-score: 0.64824
+Epoch: 11 Test loss: 0.59991 accuracy: 0.99061 F1-score: 0.64824
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_10
+[12, 25] loss: 0.165455
+[12, 50] loss: 0.209276
+[12, 75] loss: 0.203788
+[12, 100] loss: 0.198950
+[12, 125] loss: 0.191247
+[12, 150] loss: 0.179952
+[12, 175] loss: 0.210446
+[12, 200] loss: 0.206982
+[12, 225] loss: 0.204736
+[12, 250] loss: 0.189502
+[12, 275] loss: 0.202211
+[12, 300] loss: 0.251656
+[12, 325] loss: 0.202079
+[12, 350] loss: 0.195805
+Epoch: 12 Validation loss: 0.85602 accuracy: 0.99005 F1-score: 0.68613
+Epoch: 12 Test loss: 0.58380 accuracy: 0.99005 F1-score: 0.68613
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_11
+[13, 25] loss: 0.194974
+[13, 50] loss: 0.155604
+[13, 75] loss: 0.189584
+[13, 100] loss: 0.124239
+[13, 125] loss: 0.162259
+[13, 150] loss: 0.152494
+[13, 175] loss: 0.133582
+[13, 200] loss: 0.142554
+[13, 225] loss: 0.201310
+[13, 250] loss: 0.169517
+[13, 275] loss: 0.158009
+[13, 300] loss: 0.134552
+[13, 325] loss: 0.180098
+[13, 350] loss: 0.203008
+Epoch: 13 Validation loss: 0.73450 accuracy: 0.99082 F1-score: 0.68846
+Epoch: 13 Test loss: 0.51294 accuracy: 0.99082 F1-score: 0.68846
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_12
+[14, 25] loss: 0.167031
+[14, 50] loss: 0.185041
+[14, 75] loss: 0.167540
+[14, 100] loss: 0.198898
+[14, 125] loss: 0.184736
+[14, 150] loss: 0.159514
+[14, 175] loss: 0.167782
+[14, 200] loss: 0.164747
+[14, 225] loss: 0.170088
+[14, 250] loss: 0.165092
+[14, 275] loss: 0.172872
+[14, 300] loss: 0.168989
+[14, 325] loss: 0.187605
+[14, 350] loss: 0.247996
+Epoch: 14 Validation loss: 0.88792 accuracy: 0.98771 F1-score: 0.68592
+Epoch: 14 Test loss: 0.60959 accuracy: 0.98771 F1-score: 0.68592
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_13
+[15, 25] loss: 0.146917
+[15, 50] loss: 0.144057
+[15, 75] loss: 0.165969
+[15, 100] loss: 0.192020
+[15, 125] loss: 0.195930
+[15, 150] loss: 0.160949
+[15, 175] loss: 0.149473
+[15, 200] loss: 0.156999
+[15, 225] loss: 0.211097
+[15, 250] loss: 0.199522
+[15, 275] loss: 0.162444
+[15, 300] loss: 0.170295
+[15, 325] loss: 0.145209
+[15, 350] loss: 0.193150
+Epoch: 15 Validation loss: 0.74799 accuracy: 0.99210 F1-score: 0.71116
+Epoch: 15 Test loss: 0.50715 accuracy: 0.99210 F1-score: 0.71116
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_14
+[16, 25] loss: 0.156503
+[16, 50] loss: 0.171367
+[16, 75] loss: 0.159587
+[16, 100] loss: 0.163208
+[16, 125] loss: 0.164998
+[16, 150] loss: 0.198743
+[16, 175] loss: 0.154911
+[16, 200] loss: 0.213506
+[16, 225] loss: 0.187865
+[16, 250] loss: 0.240736
+[16, 275] loss: 0.151938
+[16, 300] loss: 0.132778
+[16, 325] loss: 0.174655
+[16, 350] loss: 0.166157
+Epoch: 16 Validation loss: 0.58583 accuracy: 0.98828 F1-score: 0.68681
+Epoch: 16 Test loss: 0.40082 accuracy: 0.98828 F1-score: 0.68681
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_15
+[17, 25] loss: 0.102442
+[17, 50] loss: 0.121319
+[17, 75] loss: 0.117286
+[17, 100] loss: 0.156106
+[17, 125] loss: 0.110798
+[17, 150] loss: 0.130109
+[17, 175] loss: 0.149556
+[17, 200] loss: 0.167260
+[17, 225] loss: 0.139904
+[17, 250] loss: 0.103888
+[17, 275] loss: 0.114276
+[17, 300] loss: 0.156820
+[17, 325] loss: 0.192632
+[17, 350] loss: 0.152066
+Epoch: 17 Validation loss: 0.63814 accuracy: 0.98938 F1-score: 0.69607
+Epoch: 17 Test loss: 0.44554 accuracy: 0.98938 F1-score: 0.69607
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_16
+[18, 25] loss: 0.145531
+[18, 50] loss: 0.140573
+[18, 75] loss: 0.180462
+[18, 100] loss: 0.125979
+[18, 125] loss: 0.137863
+[18, 150] loss: 0.136596
+[18, 175] loss: 0.117298
+[18, 200] loss: 0.135456
+[18, 225] loss: 0.130812
+[18, 250] loss: 0.125589
+[18, 275] loss: 0.132843
+[18, 300] loss: 0.141818
+[18, 325] loss: 0.148506
+[18, 350] loss: 0.199315
+Epoch: 18 Validation loss: 0.81886 accuracy: 0.98925 F1-score: 0.75177
+Epoch: 18 Test loss: 0.56407 accuracy: 0.98925 F1-score: 0.75177
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_17
+[19, 25] loss: 0.168120
+[19, 50] loss: 0.154845
+[19, 75] loss: 0.171299
+[19, 100] loss: 0.115391
+[19, 125] loss: 0.130850
+[19, 150] loss: 0.180324
+[19, 175] loss: 0.150194
+[19, 200] loss: 0.231285
+[19, 225] loss: 0.164454
+[19, 250] loss: 0.196884
+[19, 275] loss: 0.144401
+[19, 300] loss: 0.179173
+[19, 325] loss: 0.150213
+[19, 350] loss: 0.196530
+Epoch: 19 Validation loss: 0.67343 accuracy: 0.99220 F1-score: 0.72426
+Epoch: 19 Test loss: 0.45683 accuracy: 0.99220 F1-score: 0.72426
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_18
+[20, 25] loss: 0.171266
+[20, 50] loss: 0.099857
+[20, 75] loss: 0.109654
+[20, 100] loss: 0.126837
+[20, 125] loss: 0.214144
+[20, 150] loss: 0.246212
+[20, 175] loss: 0.142320
+[20, 200] loss: 0.187871
+[20, 225] loss: 0.225750
+[20, 250] loss: 0.164231
+[20, 275] loss: 0.147670
+[20, 300] loss: 0.223475
+[20, 325] loss: 0.324849
+[20, 350] loss: 0.159656
+Epoch: 20 Validation loss: 0.56061 accuracy: 0.99158 F1-score: 0.72094
+Epoch: 20 Test loss: 0.38230 accuracy: 0.99158 F1-score: 0.72094
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_19
+[21, 25] loss: 0.103061
+[21, 50] loss: 0.093126
+[21, 75] loss: 0.115295
+[21, 100] loss: 0.098096
+[21, 125] loss: 0.169410
+[21, 150] loss: 0.149015
+[21, 175] loss: 0.113350
+[21, 200] loss: 0.131348
+[21, 225] loss: 0.100572
+[21, 250] loss: 0.120140
+[21, 275] loss: 0.128180
+[21, 300] loss: 0.167503
+[21, 325] loss: 0.170917
+[21, 350] loss: 0.167331
+Epoch: 21 Validation loss: 0.47317 accuracy: 0.99264 F1-score: 0.76740
+Epoch: 21 Test loss: 0.32242 accuracy: 0.99264 F1-score: 0.76740
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_20
+[22, 25] loss: 0.125847
+[22, 50] loss: 0.130065
+[22, 75] loss: 0.078494
+[22, 100] loss: 0.093145
+[22, 125] loss: 0.097977
+[22, 150] loss: 0.108416
+[22, 175] loss: 0.136399
+[22, 200] loss: 0.117566
+[22, 225] loss: 0.085793
+[22, 250] loss: 0.091901
+[22, 275] loss: 0.121753
+[22, 300] loss: 0.157848
+[22, 325] loss: 0.117333
+[22, 350] loss: 0.136572
+Epoch: 22 Validation loss: 0.42059 accuracy: 0.99326 F1-score: 0.75966
+Epoch: 22 Test loss: 0.29119 accuracy: 0.99326 F1-score: 0.75966
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_21
+[23, 25] loss: 0.076112
+[23, 50] loss: 0.070451
+[23, 75] loss: 0.063237
+[23, 100] loss: 0.068735
+[23, 125] loss: 0.085340
+[23, 150] loss: 0.099584
+[23, 175] loss: 0.063765
+[23, 200] loss: 0.082417
+[23, 225] loss: 0.094154
+[23, 250] loss: 0.157868
+[23, 275] loss: 0.083239
+[23, 300] loss: 0.070763
+[23, 325] loss: 0.107300
+[23, 350] loss: 0.096427
+Epoch: 23 Validation loss: 0.38718 accuracy: 0.99342 F1-score: 0.78739
+Epoch: 23 Test loss: 0.26912 accuracy: 0.99342 F1-score: 0.78739
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_22
+[24, 25] loss: 0.058252
+[24, 50] loss: 0.102657
+[24, 75] loss: 0.114204
+[24, 100] loss: 0.082755
+[24, 125] loss: 0.104428
+[24, 150] loss: 0.099864
+[24, 175] loss: 0.068644
+[24, 200] loss: 0.069321
+[24, 225] loss: 0.063696
+[24, 250] loss: 0.091547
+[24, 275] loss: 0.122228
+[24, 300] loss: 0.145453
+[24, 325] loss: 0.106543
+[24, 350] loss: 0.078588
+Epoch: 24 Validation loss: 0.38495 accuracy: 0.99347 F1-score: 0.78026
+Epoch: 24 Test loss: 0.26472 accuracy: 0.99347 F1-score: 0.78026
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_23
+[25, 25] loss: 0.089739
+[25, 50] loss: 0.069977
+[25, 75] loss: 0.118515
+[25, 100] loss: 0.069537
+[25, 125] loss: 0.073390
+[25, 150] loss: 0.072484
+[25, 175] loss: 0.082366
+[25, 200] loss: 0.077853
+[25, 225] loss: 0.080729
+[25, 250] loss: 0.078992
+[25, 275] loss: 0.105155
+[25, 300] loss: 0.079881
+[25, 325] loss: 0.097815
+[25, 350] loss: 0.108515
+Epoch: 25 Validation loss: 0.39162 accuracy: 0.99299 F1-score: 0.76360
+Epoch: 25 Test loss: 0.27109 accuracy: 0.99299 F1-score: 0.76360
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_24
+[26, 25] loss: 0.065106
+[26, 50] loss: 0.061320
+[26, 75] loss: 0.091911
+[26, 100] loss: 0.108015
+[26, 125] loss: 0.104958
+[26, 150] loss: 0.096845
+[26, 175] loss: 0.074601
+[26, 200] loss: 0.100418
+[26, 225] loss: 0.118848
+[26, 250] loss: 0.090084
+[26, 275] loss: 0.078483
+[26, 300] loss: 0.092181
+[26, 325] loss: 0.083738
+[26, 350] loss: 0.113419
+Epoch: 26 Validation loss: 0.35554 accuracy: 0.99437 F1-score: 0.80096
+Epoch: 26 Test loss: 0.24050 accuracy: 0.99437 F1-score: 0.80096
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_25
+[27, 25] loss: 0.085494
+[27, 50] loss: 0.076668
+[27, 75] loss: 0.105235
+[27, 100] loss: 0.140773
+[27, 125] loss: 0.104264
+[27, 150] loss: 0.082436
+[27, 175] loss: 0.076683
+[27, 200] loss: 0.159406
+[27, 225] loss: 0.082658
+[27, 250] loss: 0.095042
+[27, 275] loss: 0.108914
+[27, 300] loss: 0.136367
+[27, 325] loss: 0.115212
+[27, 350] loss: 0.096747
+Epoch: 27 Validation loss: 0.31228 accuracy: 0.99436 F1-score: 0.80751
+Epoch: 27 Test loss: 0.21256 accuracy: 0.99436 F1-score: 0.80751
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_26
+[28, 25] loss: 0.065599
+[28, 50] loss: 0.064337
+[28, 75] loss: 0.118937
+[28, 100] loss: 0.079108
+[28, 125] loss: 0.128001
+[28, 150] loss: 0.102656
+[28, 175] loss: 0.070842
+[28, 200] loss: 0.072491
+[28, 225] loss: 0.391809
+[28, 250] loss: 0.909293
+[28, 275] loss: 0.219031
+[28, 300] loss: 0.221798
+[28, 325] loss: 0.162655
+[28, 350] loss: 0.228383
+Epoch: 28 Validation loss: 1.12513 accuracy: 0.97466 F1-score: 0.73459
+Epoch: 28 Test loss: 0.77428 accuracy: 0.97466 F1-score: 0.73459
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_27
+[29, 25] loss: 0.242474
+[29, 50] loss: 0.201133
+[29, 75] loss: 0.206624
+[29, 100] loss: 0.158448
+[29, 125] loss: 0.180438
+[29, 150] loss: 0.182715
+[29, 175] loss: 0.126498
+[29, 200] loss: 0.202342
+[29, 225] loss: 0.200561
+[29, 250] loss: 0.249276
+[29, 275] loss: 0.194868
+[29, 300] loss: 0.196193
+[29, 325] loss: 0.157751
+[29, 350] loss: 0.160500
+Epoch: 29 Validation loss: 0.91394 accuracy: 0.98775 F1-score: 0.76027
+Epoch: 29 Test loss: 0.62659 accuracy: 0.98775 F1-score: 0.76027
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_28
+[30, 25] loss: 0.126385
+[30, 50] loss: 0.124989
+[30, 75] loss: 0.146040
+[30, 100] loss: 0.132763
+[30, 125] loss: 0.145035
+[30, 150] loss: 0.099764
+[30, 175] loss: 0.211945
+[30, 200] loss: 0.140584
+[30, 225] loss: 0.123131
+[30, 250] loss: 0.113168
+[30, 275] loss: 0.182487
+[30, 300] loss: 0.096388
+[30, 325] loss: 0.124759
+[30, 350] loss: 0.130372
+Epoch: 30 Validation loss: 0.47445 accuracy: 0.99345 F1-score: 0.74894
+Epoch: 30 Test loss: 0.32493 accuracy: 0.99345 F1-score: 0.74894
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_29
+[31, 25] loss: 0.084297
+[31, 50] loss: 0.076592
+[31, 75] loss: 0.093190
+[31, 100] loss: 0.081656
+[31, 125] loss: 0.118411
+[31, 150] loss: 0.099205
+[31, 175] loss: 0.130968
+[31, 200] loss: 0.091841
+[31, 225] loss: 0.102600
+[31, 250] loss: 0.104261
+[31, 275] loss: 0.101176
+[31, 300] loss: 0.175134
+[31, 325] loss: 0.136356
+[31, 350] loss: 0.091581
+Epoch: 31 Validation loss: 0.36871 accuracy: 0.99507 F1-score: 0.82070
+Epoch: 31 Test loss: 0.24763 accuracy: 0.99507 F1-score: 0.82070
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_30
+[32, 25] loss: 0.077735
+[32, 50] loss: 0.059868
+[32, 75] loss: 0.084603
+[32, 100] loss: 0.114341
+[32, 125] loss: 0.053678
+[32, 150] loss: 0.057759
+[32, 175] loss: 0.057126
+[32, 200] loss: 0.075847
+[32, 225] loss: 0.070281
+[32, 250] loss: 0.084287
+[32, 275] loss: 0.117286
+[32, 300] loss: 0.151082
+[32, 325] loss: 0.252509
+[32, 350] loss: 0.166178
+Epoch: 32 Validation loss: 0.44819 accuracy: 0.99115 F1-score: 0.77225
+Epoch: 32 Test loss: 0.29887 accuracy: 0.99115 F1-score: 0.77225
+Epoch 00032: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in /scratch/ut_ckp/manipuri_female/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1checkpoint_31
+Early Stopping the training
+Finished Training
+Saving Final Model in /scratch/ut_ckp/final/TGRU_slot_hi_manipuri_female_contrast_out_32_0.1final
+Val loss = 0.43871909379959106 	 Val accuracy = 0.9911472090947752 F1-score = 0.7722508516981746
+Test loss = 0.3001745343208313 	 Test accuracy = 0.9911472090947752 F1-score = 0.7722508516981746

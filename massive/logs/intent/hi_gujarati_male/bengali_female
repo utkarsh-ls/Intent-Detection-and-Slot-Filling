@@ -1,0 +1,289 @@
+Some weights of the model checkpoint at google/muril-base-cased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.decoder.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of TGRU_intent_hi_gujarati_male_contrast_out_32_0.1
+[1, 25] loss: 109.132339
+[1, 50] loss: 139.596130
+[1, 75] loss: 147.840042
+[1, 100] loss: 163.854065
+[1, 125] loss: 131.998657
+[1, 150] loss: 140.016617
+[1, 175] loss: 138.163071
+[1, 200] loss: 154.319092
+[1, 225] loss: 124.990837
+[1, 250] loss: 132.818588
+[1, 275] loss: 110.886993
+[1, 300] loss: 133.757141
+[1, 325] loss: 116.408989
+[1, 350] loss: 108.194771
+Epoch: 1 Validation loss: 284.49741 accuracy: 0.66503 accuracy_scn: 0.00000
+Epoch: 1 Test loss: 288.56799 accuracy: 0.65905 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/gujarati_male/TGRU_intent_hi_gujarati_male_contrast_out_32_0.1checkpoint_0
+[2, 25] loss: 127.715279
+[2, 50] loss: 101.736832
+[2, 75] loss: 123.906822
+[2, 100] loss: 132.827713
+[2, 125] loss: 120.313560
+[2, 150] loss: 130.753784
+[2, 175] loss: 120.793503
+[2, 200] loss: 149.921066
+[2, 225] loss: 147.260010
+[2, 250] loss: 134.540039
+[2, 275] loss: 128.062851
+[2, 300] loss: 113.267456
+[2, 325] loss: 140.160599
+[2, 350] loss: 138.217850
+Epoch: 2 Validation loss: 321.32297 accuracy: 0.72405 accuracy_scn: 0.00000
+Epoch: 2 Test loss: 322.60965 accuracy: 0.71688 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/gujarati_male/TGRU_intent_hi_gujarati_male_contrast_out_32_0.1checkpoint_1
+[3, 25] loss: 109.507500
+[3, 50] loss: 108.414345
+[3, 75] loss: 116.669235
+[3, 100] loss: 126.083099
+[3, 125] loss: 121.358276
+[3, 150] loss: 117.994713
+[3, 175] loss: 120.362396
+[3, 200] loss: 133.157852
+[3, 225] loss: 145.589447
+[3, 250] loss: 119.651718
+[3, 275] loss: 131.486084
+[3, 300] loss: 128.688751
+[3, 325] loss: 128.795746
+[3, 350] loss: 140.103439
+Epoch: 3 Validation loss: 307.10837 accuracy: 0.75799 accuracy_scn: 0.00000
+Epoch: 3 Test loss: 315.07733 accuracy: 0.75555 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/gujarati_male/TGRU_intent_hi_gujarati_male_contrast_out_32_0.1checkpoint_2
+[4, 25] loss: 114.080963
+[4, 50] loss: 101.217232
+[4, 75] loss: 108.793358
+[4, 100] loss: 104.285591
+[4, 125] loss: 104.678612
+[4, 150] loss: 114.223061
+[4, 175] loss: 107.387146
+[4, 200] loss: 118.561073
+[4, 225] loss: 111.622986
+[4, 250] loss: 115.981415
+[4, 275] loss: 114.848595
+[4, 300] loss: 125.112206
+[4, 325] loss: 107.522911
+[4, 350] loss: 95.503532
+Epoch: 4 Validation loss: 306.23547 accuracy: 0.76488 accuracy_scn: 0.00000
+Epoch: 4 Test loss: 311.77762 accuracy: 0.77337 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/gujarati_male/TGRU_intent_hi_gujarati_male_contrast_out_32_0.1checkpoint_3
+[5, 25] loss: 109.599297
+[5, 50] loss: 100.432869
+[5, 75] loss: 118.671104
+[5, 100] loss: 115.544624
+[5, 125] loss: 111.925812
+[5, 150] loss: 88.921997
+[5, 175] loss: 94.793785
+[5, 200] loss: 98.264626
+[5, 225] loss: 97.048935
+[5, 250] loss: 90.311035
+[5, 275] loss: 94.198975
+[5, 300] loss: 122.597420
+[5, 325] loss: 135.184143
+[5, 350] loss: 116.894569
+Epoch: 5 Validation loss: 303.00247 accuracy: 0.78554 accuracy_scn: 0.00000
+Epoch: 5 Test loss: 321.78082 accuracy: 0.77001 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/gujarati_male/TGRU_intent_hi_gujarati_male_contrast_out_32_0.1checkpoint_4
+[6, 25] loss: 85.848846
+[6, 50] loss: 85.729927
+[6, 75] loss: 83.972244
+[6, 100] loss: 90.795898
+[6, 125] loss: 106.773026
+[6, 150] loss: 76.881523
+[6, 175] loss: 106.569054
+[6, 200] loss: 94.796661
+[6, 225] loss: 103.870987
+[6, 250] loss: 80.561180
+[6, 275] loss: 97.286346
+[6, 300] loss: 104.565887
+[6, 325] loss: 107.853271
+[6, 350] loss: 120.638657
+Epoch: 6 Validation loss: 307.90085 accuracy: 0.78160 accuracy_scn: 0.00000
+Epoch: 6 Test loss: 325.33752 accuracy: 0.77471 accuracy_scn: 0.00000
+Epoch 00006: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in /scratch/ut_ckp/gujarati_male/TGRU_intent_hi_gujarati_male_contrast_out_32_0.1checkpoint_5
+[7, 25] loss: 85.550415
+[7, 50] loss: 76.162491
+[7, 75] loss: 73.389648
+[7, 100] loss: 76.407867
+[7, 125] loss: 90.492226
+[7, 150] loss: 93.299072
+[7, 175] loss: 74.715508
+[7, 200] loss: 74.695671
+[7, 225] loss: 83.095360
+[7, 250] loss: 79.274475
+[7, 275] loss: 67.731079
+[7, 300] loss: 82.397194
+[7, 325] loss: 61.999432
+[7, 350] loss: 103.703773
+Epoch: 7 Validation loss: 308.65250 accuracy: 0.79144 accuracy_scn: 0.00000
+Epoch: 7 Test loss: 319.13095 accuracy: 0.79018 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/gujarati_male/TGRU_intent_hi_gujarati_male_contrast_out_32_0.1checkpoint_6
+[8, 25] loss: 60.511410
+[8, 50] loss: 83.012146
+[8, 75] loss: 70.594452
+[8, 100] loss: 77.201134
+[8, 125] loss: 64.943512
+[8, 150] loss: 55.116631
+[8, 175] loss: 82.754852
+[8, 200] loss: 80.777832
+[8, 225] loss: 70.624664
+[8, 250] loss: 71.571571
+[8, 275] loss: 70.908325
+[8, 300] loss: 65.552589
+[8, 325] loss: 85.020905
+[8, 350] loss: 65.097343
+Epoch: 8 Validation loss: 306.85440 accuracy: 0.79390 accuracy_scn: 0.00000
+Epoch: 8 Test loss: 319.45517 accuracy: 0.78884 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/gujarati_male/TGRU_intent_hi_gujarati_male_contrast_out_32_0.1checkpoint_7
+[9, 25] loss: 70.553185
+[9, 50] loss: 58.131020
+[9, 75] loss: 67.933922
+[9, 100] loss: 74.340485
+[9, 125] loss: 56.516472
+[9, 150] loss: 72.102272
+[9, 175] loss: 60.308441
+[9, 200] loss: 70.957123
+[9, 225] loss: 70.885262
+[9, 250] loss: 70.000488
+[9, 275] loss: 81.099434
+[9, 300] loss: 75.117813
+[9, 325] loss: 67.341347
+[9, 350] loss: 78.978806
+Epoch: 9 Validation loss: 305.30643 accuracy: 0.79538 accuracy_scn: 0.00000
+Epoch: 9 Test loss: 315.48721 accuracy: 0.78884 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/gujarati_male/TGRU_intent_hi_gujarati_male_contrast_out_32_0.1checkpoint_8
+[10, 25] loss: 72.941719
+[10, 50] loss: 67.286125
+[10, 75] loss: 74.648834
+[10, 100] loss: 51.122639
+[10, 125] loss: 69.158669
+[10, 150] loss: 73.320274
+[10, 175] loss: 64.795197
+[10, 200] loss: 59.753628
+[10, 225] loss: 57.981228
+[10, 250] loss: 62.741440
+[10, 275] loss: 57.172695
+[10, 300] loss: 59.904854
+[10, 325] loss: 67.759216
+[10, 350] loss: 76.495140
+Epoch: 10 Validation loss: 312.66568 accuracy: 0.79636 accuracy_scn: 0.00000
+Epoch: 10 Test loss: 330.45987 accuracy: 0.78379 accuracy_scn: 0.00000
+fatal error: sync: RUnlock of unlocked RWMutex
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x30 pc=0x55db4f]
+
+goroutine 1 [running]:
+runtime.throw(0xbe4717, 0x21)
+	/usr/lib/go-1.10/src/runtime/panic.go:616 +0x81 fp=0xc4201e83f0 sp=0xc4201e83d0 pc=0x42c0c1
+sync.throw(0xbe4717, 0x21)
+	/usr/lib/go-1.10/src/runtime/panic.go:605 +0x35 fp=0xc4201e8410 sp=0xc4201e83f0 pc=0x42c035
+sync.(*RWMutex).RUnlock(0xc4200b9100)
+	/usr/lib/go-1.10/src/sync/rwmutex.go:71 +0x50 fp=0xc4201e8430 sp=0xc4201e8410 pc=0x46f2b0
+runtime.call32(0x0, 0xc028e8, 0xc4200b80b0, 0x800000008)
+	/usr/lib/go-1.10/src/runtime/asm_amd64.s:573 +0x3b fp=0xc4201e8460 sp=0xc4201e8430 pc=0x456ceb
+panic(0xadd3e0, 0xfd09c0)
+	/usr/lib/go-1.10/src/runtime/panic.go:502 +0x229 fp=0xc4201e8500 sp=0xc4201e8460 pc=0x42ba89
+runtime.panicmem()
+	/usr/lib/go-1.10/src/runtime/panic.go:63 +0x5e fp=0xc4201e8520 sp=0xc4201e8500 pc=0x42aafe
+runtime.sigpanic()
+	/usr/lib/go-1.10/src/runtime/signal_unix.go:388 +0x17a fp=0xc4201e8570 sp=0xc4201e8520 pc=0x44176a
+context.(*valueCtx).Value(0xc4201c91a0, 0xadd2c0, 0x1001d10, 0x1, 0xc4200ecee8)
+	/usr/lib/go-1.10/src/context/context.go:492 +0x3f fp=0xc4201e85a8 sp=0xc4201e8570 pc=0x55db4f
+net/http/httptrace.ContextClientTrace(0xc5b680, 0xc4201c91a0, 0x0)
+	/usr/lib/go-1.10/src/net/http/httptrace/trace.go:24 +0x49 fp=0xc4201e85e0 sp=0xc4201e85a8 pc=0x66fe19
+net/http.(*Transport).RoundTrip(0xc4200ece10, 0xc420154d00, 0xa, 0xc4200b2ed0, 0xc)
+	/usr/lib/go-1.10/src/net/http/transport.go:353 +0x9d fp=0xc4201e8828 sp=0xc4201e85e0 pc=0x6d9eed
+github.com/ncw/rclone/fs.(*Transport).RoundTrip(0xc4201c2b80, 0xc420154d00, 0xc4201c2b80, 0x0, 0x0)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/fs/http.go:234 +0x309 fp=0xc4201e8970 sp=0xc4201e8828 pc=0x713d09
+net/http.send(0xc420154d00, 0xc52fc0, 0xc4201c2b80, 0x0, 0x0, 0x0, 0xc4200b4280, 0x14c7fce75400, 0xc4201e8b08, 0x1)
+	/usr/lib/go-1.10/src/net/http/client.go:252 +0x185 fp=0xc4201e8a98 sp=0xc4201e8970 pc=0x68f025
+net/http.(*Client).send(0xc4201c9170, 0xc420154d00, 0x0, 0x0, 0x0, 0xc4200b4280, 0x0, 0x1, 0x150)
+	/usr/lib/go-1.10/src/net/http/client.go:176 +0xfa fp=0xc4201e8b18 sp=0xc4201e8a98 pc=0x68ecfa
+net/http.(*Client).Do(0xc4201c9170, 0xc420154d00, 0xc4201c91a0, 0xc420154d00, 0xc4201c91a0)
+	/usr/lib/go-1.10/src/net/http/client.go:615 +0x28d fp=0xc4201e8ca0 sp=0xc4201e8b18 pc=0x6903bd
+golang.org/x/net/context/ctxhttp.Do(0x14c7fce7c440, 0xc4201c91a0, 0xc4201c9170, 0xc420154c00, 0x21, 0xc420216980, 0xc420154c00)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/golang.org/x/net/context/ctxhttp/ctxhttp.go:30 +0x92 fp=0xc4201e8cf0 sp=0xc4201e8ca0 pc=0x7d8622
+golang.org/x/oauth2/internal.RetrieveToken(0x14c7fce7c440, 0xc4201c91a0, 0xbd4821, 0x10, 0xc4200db460, 0x20, 0xbe979c, 0x28, 0xc4201e8f18, 0x0, ...)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/golang.org/x/oauth2/internal/token.go:193 +0x1d8 fp=0xc4201e8e38 sp=0xc4201e8cf0 pc=0x7d8ed8
+golang.org/x/oauth2.retrieveToken(0x14c7fce7c440, 0xc4201c91a0, 0xc420205ea0, 0xc4201e8f18, 0xc4201e8fe8, 0x4863d3, 0xfe4040)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/golang.org/x/oauth2/token.go:154 +0x86 fp=0xc4201e8eb0 sp=0xc4201e8e38 pc=0x7dc7b6
+golang.org/x/oauth2.(*tokenRefresher).Token(0xc4201c9380, 0xc02800, 0xc420216950, 0xb32800)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/golang.org/x/oauth2/oauth2.go:242 +0x26b fp=0xc4201e90a8 sp=0xc4201e8eb0 pc=0x7dba5b
+golang.org/x/oauth2.(*reuseTokenSource).Token(0xc420216940, 0x0, 0x0, 0x0)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/golang.org/x/oauth2/oauth2.go:276 +0xb3 fp=0xc4201e90e8 sp=0xc4201e90a8 pc=0x7dbc63
+github.com/ncw/rclone/oauthutil.(*TokenSource).Token(0xc4200b76d0, 0x0, 0x0, 0x0)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/oauthutil/oauthutil.go:134 +0x90 fp=0xc4201e9150 sp=0xc4201e90e8 pc=0x7de6f0
+golang.org/x/oauth2.(*reuseTokenSource).Token(0xc420216880, 0x0, 0x0, 0x0)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/golang.org/x/oauth2/oauth2.go:276 +0xb3 fp=0xc4201e9190 sp=0xc4201e9150 pc=0x7dbc63
+golang.org/x/oauth2.(*Transport).RoundTrip(0xc4201c91d0, 0xc420154b00, 0xc4201c91d0, 0x0, 0x0)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/golang.org/x/oauth2/transport.go:40 +0x40 fp=0xc4201e9200 sp=0xc4201e9190 pc=0x7dcae0
+net/http.send(0xc420154b00, 0xc53300, 0xc4201c91d0, 0x0, 0x0, 0x0, 0xc4200b4260, 0xf8, 0xc4201e9398, 0x1)
+	/usr/lib/go-1.10/src/net/http/client.go:252 +0x185 fp=0xc4201e9328 sp=0xc4201e9200 pc=0x68f025
+net/http.(*Client).send(0xc4201c9200, 0xc420154b00, 0x0, 0x0, 0x0, 0xc4200b4260, 0x0, 0x1, 0x4127a8)
+	/usr/lib/go-1.10/src/net/http/client.go:176 +0xfa fp=0xc4201e93a8 sp=0xc4201e9328 pc=0x68ecfa
+net/http.(*Client).Do(0xc4201c9200, 0xc420154b00, 0xc4201c9200, 0xc4201c92c0, 0x0)
+	/usr/lib/go-1.10/src/net/http/client.go:615 +0x28d fp=0xc4201e9530 sp=0xc4201e93a8 pc=0x6903bd
+github.com/ncw/rclone/rest.(*Client).Call(0xc4200b9100, 0xc42010e630, 0x0, 0x0, 0x0)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/rest/rest.go:183 +0x3d1 fp=0xc4201e96f0 sp=0xc4201e9530 pc=0x7e3921
+github.com/ncw/rclone/rest.(*Client).CallJSON(0xc4200b9100, 0xc42010e630, 0x0, 0x0, 0xa5f600, 0xc4200b4220, 0x7e211c, 0xc4200d1440, 0xc01bf8)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/rest/rest.go:216 +0x80 fp=0xc4201e9808 sp=0xc4201e96f0 pc=0x7e3e30
+github.com/ncw/rclone/onedrive.(*Fs).readMetaDataForPath.func1(0xc4200d1440, 0x0, 0xc4201e9920)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/onedrive/onedrive.go:161 +0x6a fp=0xc4201e9870 sp=0xc4201e9808 pc=0x8dfdba
+github.com/ncw/rclone/pacer.(*Pacer).call(0xc4200d1440, 0xc4201c9260, 0xa, 0xb65920, 0xbd2201)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/pacer/pacer.go:334 +0x171 fp=0xc4201e9920 sp=0xc4201e9870 pc=0x7e2991
+github.com/ncw/rclone/pacer.(*Pacer).Call(0xc4200d1440, 0xc4201c9260, 0xd, 0x0)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/pacer/pacer.go:357 +0x66 fp=0xc4201e9960 sp=0xc4201e9920 pc=0x7e2ac6
+github.com/ncw/rclone/onedrive.(*Fs).readMetaDataForPath(0xc4200b7720, 0x0, 0x0, 0xc4200b7770, 0xc4200b76d0, 0x0, 0x0)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/onedrive/onedrive.go:160 +0x1fc fp=0xc4201e9a78 sp=0xc4201e9960 pc=0x8d902c
+github.com/ncw/rclone/onedrive.NewFs(0x7ffd423bfc04, 0x5, 0x7ffd423bfc0a, 0x9, 0x5, 0x7ffd423bfc0a, 0xa, 0x0)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/onedrive/onedrive.go:199 +0x2ff fp=0xc4201e9b58 sp=0xc4201e9a78 pc=0x8d958f
+github.com/ncw/rclone/fs.NewFs(0x7ffd423bfc04, 0x10, 0xc60460, 0xc420205e30, 0xc42011a840, 0xc42011d080)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/fs/fs.go:613 +0x9f fp=0xc4201e9bb0 sp=0xc4201e9b58 pc=0x71062f
+github.com/ncw/rclone/cmd.newFsDst(0x7ffd423bfc04, 0x10, 0xc60460, 0xc420205e30)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/cmd/cmd.go:151 +0x4d fp=0xc4201e9c48 sp=0xc4201e9bb0 pc=0x76d1bd
+github.com/ncw/rclone/cmd.NewFsSrcDst(0xc420216640, 0x2, 0x2, 0xc420216640, 0x2, 0x2, 0xc420216680)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/cmd/cmd.go:162 +0x93 fp=0xc4201e9cc8 sp=0xc4201e9c48 pc=0x76d383
+github.com/ncw/rclone/cmd/copy.glob..func1(0xfdab60, 0xc420216640, 0x2, 0x2)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/cmd/copy/copy.go:58 +0x8d fp=0xc4201e9d38 sp=0xc4201e9cc8 pc=0x77050d
+github.com/spf13/cobra.(*Command).execute(0xfdab60, 0xc420216560, 0x2, 0x2, 0xfdab60, 0xc420216560)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/spf13/cobra/command.go:702 +0x2c6 fp=0xc4201e9de0 sp=0xc4201e9d38 pc=0x764e46
+github.com/spf13/cobra.(*Command).ExecuteC(0xfd9ea0, 0xc4200b7540, 0xc4201e9f78, 0x405d7c)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/spf13/cobra/command.go:783 +0x2e4 fp=0xc4201e9f10 sp=0xc4201e9de0 pc=0x765764
+github.com/spf13/cobra.(*Command).Execute(0xfd9ea0, 0xc4200db780, 0x0)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/spf13/cobra/command.go:736 +0x2b fp=0xc4201e9f40 sp=0xc4201e9f10 pc=0x76545b
+main.main()
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/rclone.go:15 +0x31 fp=0xc4201e9f88 sp=0xc4201e9f40 pc=0xa10091
+runtime.main()
+	/usr/lib/go-1.10/src/runtime/proc.go:198 +0x212 fp=0xc4201e9fe0 sp=0xc4201e9f88 pc=0x42d932
+runtime.goexit()
+	/usr/lib/go-1.10/src/runtime/asm_amd64.s:2361 +0x1 fp=0xc4201e9fe8 sp=0xc4201e9fe0 pc=0x4594b1
+
+goroutine 19 [syscall]:
+os/signal.signal_recv(0x0)
+	/usr/lib/go-1.10/src/runtime/sigqueue.go:139 +0xa6
+os/signal.loop()
+	/usr/lib/go-1.10/src/os/signal/signal_unix.go:22 +0x22
+created by os/signal.init.0
+	/usr/lib/go-1.10/src/os/signal/signal_unix.go:28 +0x41
+
+goroutine 20 [sleep]:
+time.Sleep(0x989680)
+	/usr/lib/go-1.10/src/runtime/time.go:102 +0x166
+github.com/ncw/rclone/pacer.(*Pacer).beginCall.func1(0xc4200d1440, 0x989680)
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/pacer/pacer.go:212 +0x2b
+created by github.com/ncw/rclone/pacer.(*Pacer).beginCall
+	/build/rclone-gIxe80/rclone-1.36/obj-x86_64-linux-gnu/src/github.com/ncw/rclone/pacer/pacer.go:210 +0x7e
+Saving Model in /scratch/ut_ckp/gujarati_male/TGRU_intent_hi_gujarati_male_contrast_out_32_0.1checkpoint_9
+Early Stopping the training
+Finished Training
+Saving Final Model in /scratch/ut_ckp/final/TGRU_intent_hi_gujarati_male_contrast_out_32_0.1final
+b'' None
+Model uploaded successfully to OneDrive
+Val loss = 312.6656799316406 	 Val accuracy = 0.7963600158691406 accuracy_scn = 0
+Test loss = 330.4598693847656 	 Test accuracy = 0.7837928533554077 accuracy_scn = 0

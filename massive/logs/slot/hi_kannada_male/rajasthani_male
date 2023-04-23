@@ -1,0 +1,9 @@
+Some weights of the model checkpoint at google/muril-base-cased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+1036260, 1019074
+Using model from /scratch/ut_ckp/final/TGRU_slot_hi_kannada_male_contrast_out_32_0.1final.pt
+Val loss = 20.074050903320312 	 Val accuracy = 0.8913757165190204 F1-score = 0.49617649779456807
+Test loss = 13.820191383361816 	 Test accuracy = 0.8913757165190204 F1-score = 0.49617649779456807

@@ -1,0 +1,694 @@
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of TGRU_intent_en_hindi_female_contrast_out_32_0.1
+[1, 25] loss: 222.047806
+[1, 50] loss: 250.537460
+[1, 75] loss: 233.960098
+[1, 100] loss: 231.635529
+[1, 125] loss: 206.681320
+[1, 150] loss: 192.948471
+[1, 175] loss: 177.549240
+[1, 200] loss: 210.889877
+[1, 225] loss: 211.312027
+[1, 250] loss: 221.525482
+[1, 275] loss: 204.640228
+[1, 300] loss: 193.514191
+[1, 325] loss: 199.866867
+[1, 350] loss: 219.428253
+Epoch: 1 Validation loss: 370.48386 accuracy: 0.81505 accuracy_scn: 0.00000
+Epoch: 1 Test loss: 368.68005 accuracy: 0.82414 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_0
+[2, 25] loss: 176.537766
+[2, 50] loss: 168.803848
+[2, 75] loss: 173.040665
+[2, 100] loss: 197.345230
+[2, 125] loss: 172.802032
+[2, 150] loss: 185.622849
+[2, 175] loss: 167.188339
+[2, 200] loss: 165.621017
+[2, 225] loss: 164.843155
+[2, 250] loss: 180.477783
+[2, 275] loss: 161.611023
+[2, 300] loss: 189.759354
+[2, 325] loss: 181.714722
+[2, 350] loss: 187.377594
+Epoch: 2 Validation loss: 367.41278 accuracy: 0.83669 accuracy_scn: 0.00000
+Epoch: 2 Test loss: 359.31509 accuracy: 0.83927 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_1
+[3, 25] loss: 144.707199
+[3, 50] loss: 156.202805
+[3, 75] loss: 158.631485
+[3, 100] loss: 154.243362
+[3, 125] loss: 144.530014
+[3, 150] loss: 163.678177
+[3, 175] loss: 155.972717
+[3, 200] loss: 144.967209
+[3, 225] loss: 168.874329
+[3, 250] loss: 163.727631
+[3, 275] loss: 173.507202
+[3, 300] loss: 149.292328
+[3, 325] loss: 162.576736
+[3, 350] loss: 166.753845
+Epoch: 3 Validation loss: 383.14636 accuracy: 0.82292 accuracy_scn: 0.00000
+Epoch: 3 Test loss: 377.31711 accuracy: 0.83221 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_2
+[4, 25] loss: 160.411667
+[4, 50] loss: 149.735199
+[4, 75] loss: 141.531891
+[4, 100] loss: 141.713821
+[4, 125] loss: 151.737350
+[4, 150] loss: 158.790146
+[4, 175] loss: 147.124786
+[4, 200] loss: 148.592331
+[4, 225] loss: 147.053207
+[4, 250] loss: 147.078857
+[4, 275] loss: 144.639191
+[4, 300] loss: 153.850555
+[4, 325] loss: 139.416840
+[4, 350] loss: 136.498489
+Epoch: 4 Validation loss: 377.10165 accuracy: 0.82932 accuracy_scn: 0.00000
+Epoch: 4 Test loss: 378.09863 accuracy: 0.83255 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_3
+[5, 25] loss: 147.895233
+[5, 50] loss: 130.956223
+[5, 75] loss: 126.206169
+[5, 100] loss: 135.275467
+[5, 125] loss: 135.950119
+[5, 150] loss: 132.783859
+[5, 175] loss: 140.314301
+[5, 200] loss: 131.112350
+[5, 225] loss: 152.348206
+[5, 250] loss: 146.237473
+[5, 275] loss: 138.369537
+[5, 300] loss: 142.455917
+[5, 325] loss: 143.547958
+[5, 350] loss: 142.459625
+Epoch: 5 Validation loss: 369.01004 accuracy: 0.83079 accuracy_scn: 0.00000
+Epoch: 5 Test loss: 374.26425 accuracy: 0.83020 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_4
+[6, 25] loss: 133.333237
+[6, 50] loss: 134.971680
+[6, 75] loss: 127.507217
+[6, 100] loss: 139.356674
+[6, 125] loss: 120.892181
+[6, 150] loss: 125.115623
+[6, 175] loss: 134.485107
+[6, 200] loss: 122.854958
+[6, 225] loss: 131.004074
+[6, 250] loss: 131.222290
+[6, 275] loss: 139.802261
+[6, 300] loss: 131.782806
+[6, 325] loss: 142.668045
+[6, 350] loss: 143.815536
+Epoch: 6 Validation loss: 381.27048 accuracy: 0.84358 accuracy_scn: 0.00000
+Epoch: 6 Test loss: 380.55325 accuracy: 0.83759 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_5
+[7, 25] loss: 140.968369
+[7, 50] loss: 134.847031
+[7, 75] loss: 121.454796
+[7, 100] loss: 135.801758
+[7, 125] loss: 129.028534
+[7, 150] loss: 138.557434
+[7, 175] loss: 146.768448
+[7, 200] loss: 136.722321
+[7, 225] loss: 135.033005
+[7, 250] loss: 132.229584
+[7, 275] loss: 139.534912
+[7, 300] loss: 154.549454
+[7, 325] loss: 142.648682
+[7, 350] loss: 121.694984
+Epoch: 7 Validation loss: 360.47485 accuracy: 0.84260 accuracy_scn: 0.00000
+Epoch: 7 Test loss: 362.77280 accuracy: 0.83457 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_6
+[8, 25] loss: 117.111839
+[8, 50] loss: 127.714165
+[8, 75] loss: 119.071747
+[8, 100] loss: 129.500565
+[8, 125] loss: 115.997543
+[8, 150] loss: 125.297989
+[8, 175] loss: 120.315521
+[8, 200] loss: 122.173241
+[8, 225] loss: 134.626144
+[8, 250] loss: 114.469498
+[8, 275] loss: 122.443886
+[8, 300] loss: 123.980736
+[8, 325] loss: 136.991486
+[8, 350] loss: 139.629639
+Epoch: 8 Validation loss: 378.76349 accuracy: 0.83620 accuracy_scn: 0.00000
+Epoch: 8 Test loss: 380.14777 accuracy: 0.83188 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_7
+[9, 25] loss: 140.608215
+[9, 50] loss: 127.390625
+[9, 75] loss: 122.999451
+[9, 100] loss: 138.695557
+[9, 125] loss: 120.390762
+[9, 150] loss: 118.027321
+[9, 175] loss: 117.400078
+[9, 200] loss: 122.355522
+[9, 225] loss: 137.433731
+[9, 250] loss: 138.963959
+[9, 275] loss: 139.893280
+[9, 300] loss: 131.473984
+[9, 325] loss: 119.245399
+[9, 350] loss: 143.466553
+Epoch: 9 Validation loss: 367.01505 accuracy: 0.82735 accuracy_scn: 0.00000
+Epoch: 9 Test loss: 376.07010 accuracy: 0.82145 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_8
+[10, 25] loss: 113.191246
+[10, 50] loss: 124.919136
+[10, 75] loss: 127.963379
+[10, 100] loss: 131.720428
+[10, 125] loss: 121.528687
+[10, 150] loss: 114.588470
+[10, 175] loss: 129.410919
+[10, 200] loss: 132.599136
+[10, 225] loss: 130.632355
+[10, 250] loss: 124.181374
+[10, 275] loss: 127.889030
+[10, 300] loss: 115.396538
+[10, 325] loss: 127.965340
+[10, 350] loss: 125.518600
+Epoch: 10 Validation loss: 363.83170 accuracy: 0.82636 accuracy_scn: 0.00000
+Epoch: 10 Test loss: 368.92297 accuracy: 0.82179 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_9
+[11, 25] loss: 115.395798
+[11, 50] loss: 120.643578
+[11, 75] loss: 118.169479
+[11, 100] loss: 137.278549
+[11, 125] loss: 127.609375
+[11, 150] loss: 113.781319
+[11, 175] loss: 118.345757
+[11, 200] loss: 121.556137
+[11, 225] loss: 123.013443
+[11, 250] loss: 115.111954
+[11, 275] loss: 123.756775
+[11, 300] loss: 123.325737
+[11, 325] loss: 125.943649
+[11, 350] loss: 118.157051
+Epoch: 11 Validation loss: 352.01624 accuracy: 0.83571 accuracy_scn: 0.00000
+Epoch: 11 Test loss: 354.60483 accuracy: 0.83120 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_10
+[12, 25] loss: 104.192017
+[12, 50] loss: 111.801247
+[12, 75] loss: 102.448517
+[12, 100] loss: 114.854813
+[12, 125] loss: 93.095177
+[12, 150] loss: 100.909111
+[12, 175] loss: 102.191277
+[12, 200] loss: 104.868523
+[12, 225] loss: 104.537704
+[12, 250] loss: 113.068810
+[12, 275] loss: 112.647705
+[12, 300] loss: 103.193634
+[12, 325] loss: 112.836952
+[12, 350] loss: 115.645378
+Epoch: 12 Validation loss: 343.88144 accuracy: 0.84407 accuracy_scn: 0.00000
+Epoch: 12 Test loss: 344.99213 accuracy: 0.82952 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_11
+[13, 25] loss: 109.154053
+[13, 50] loss: 97.483711
+[13, 75] loss: 110.801964
+[13, 100] loss: 120.187439
+[13, 125] loss: 119.464645
+[13, 150] loss: 111.874496
+[13, 175] loss: 112.426674
+[13, 200] loss: 111.221329
+[13, 225] loss: 114.735268
+[13, 250] loss: 115.938660
+[13, 275] loss: 117.727142
+[13, 300] loss: 114.864105
+[13, 325] loss: 109.216118
+[13, 350] loss: 123.040085
+Epoch: 13 Validation loss: 356.85925 accuracy: 0.83620 accuracy_scn: 0.00000
+Epoch: 13 Test loss: 359.91940 accuracy: 0.82650 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_12
+[14, 25] loss: 111.498383
+[14, 50] loss: 117.343590
+[14, 75] loss: 100.880562
+[14, 100] loss: 92.891808
+[14, 125] loss: 111.714493
+[14, 150] loss: 118.371849
+[14, 175] loss: 122.187706
+[14, 200] loss: 104.910439
+[14, 225] loss: 109.438141
+[14, 250] loss: 105.712944
+[14, 275] loss: 111.128754
+[14, 300] loss: 110.442429
+[14, 325] loss: 108.709038
+[14, 350] loss: 126.093765
+Epoch: 14 Validation loss: 361.74097 accuracy: 0.82932 accuracy_scn: 0.00000
+Epoch: 14 Test loss: 357.41397 accuracy: 0.83020 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_13
+[15, 25] loss: 114.436127
+[15, 50] loss: 110.424820
+[15, 75] loss: 120.152557
+[15, 100] loss: 111.456017
+[15, 125] loss: 115.284889
+[15, 150] loss: 108.440826
+[15, 175] loss: 95.342575
+[15, 200] loss: 98.744034
+[15, 225] loss: 106.713913
+[15, 250] loss: 105.984566
+[15, 275] loss: 108.544502
+[15, 300] loss: 107.922188
+[15, 325] loss: 116.937767
+[15, 350] loss: 112.605431
+Epoch: 15 Validation loss: 346.35880 accuracy: 0.83374 accuracy_scn: 0.00000
+Epoch: 15 Test loss: 345.38745 accuracy: 0.83423 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_14
+[16, 25] loss: 100.781952
+[16, 50] loss: 105.010971
+[16, 75] loss: 95.132240
+[16, 100] loss: 96.426315
+[16, 125] loss: 99.009171
+[16, 150] loss: 104.431244
+[16, 175] loss: 101.338417
+[16, 200] loss: 104.284790
+[16, 225] loss: 115.348969
+[16, 250] loss: 109.181267
+[16, 275] loss: 106.131882
+[16, 300] loss: 114.487106
+[16, 325] loss: 110.061356
+[16, 350] loss: 120.399490
+Epoch: 16 Validation loss: 352.53979 accuracy: 0.83866 accuracy_scn: 0.00000
+Epoch: 16 Test loss: 351.35214 accuracy: 0.83692 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_15
+[17, 25] loss: 104.687164
+[17, 50] loss: 100.769600
+[17, 75] loss: 117.922340
+[17, 100] loss: 100.061813
+[17, 125] loss: 114.804695
+[17, 150] loss: 107.209404
+[17, 175] loss: 131.441437
+[17, 200] loss: 109.269531
+[17, 225] loss: 124.660271
+[17, 250] loss: 117.548012
+[17, 275] loss: 107.760025
+[17, 300] loss: 112.064491
+[17, 325] loss: 114.518364
+[17, 350] loss: 116.774261
+Epoch: 17 Validation loss: 343.53275 accuracy: 0.83276 accuracy_scn: 0.00000
+Epoch: 17 Test loss: 338.10605 accuracy: 0.83457 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_16
+[18, 25] loss: 93.296783
+[18, 50] loss: 108.048912
+[18, 75] loss: 100.076218
+[18, 100] loss: 107.107056
+[18, 125] loss: 95.653923
+[18, 150] loss: 103.347084
+[18, 175] loss: 106.965279
+[18, 200] loss: 114.398155
+[18, 225] loss: 114.553139
+[18, 250] loss: 100.632462
+[18, 275] loss: 120.494331
+[18, 300] loss: 110.208435
+[18, 325] loss: 121.188545
+[18, 350] loss: 112.872078
+Epoch: 18 Validation loss: 352.00928 accuracy: 0.83915 accuracy_scn: 0.00000
+Epoch: 18 Test loss: 357.37262 accuracy: 0.82683 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_17
+[19, 25] loss: 116.241570
+[19, 50] loss: 108.586853
+[19, 75] loss: 96.120323
+[19, 100] loss: 98.540390
+[19, 125] loss: 111.515785
+[19, 150] loss: 91.824776
+[19, 175] loss: 111.213829
+[19, 200] loss: 100.812973
+[19, 225] loss: 101.844208
+[19, 250] loss: 100.134415
+[19, 275] loss: 95.638039
+[19, 300] loss: 93.273979
+[19, 325] loss: 114.075684
+[19, 350] loss: 114.352158
+Epoch: 19 Validation loss: 338.58960 accuracy: 0.83866 accuracy_scn: 0.00000
+Epoch: 19 Test loss: 338.94501 accuracy: 0.83793 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_18
+[20, 25] loss: 100.608025
+[20, 50] loss: 95.187149
+[20, 75] loss: 102.465332
+[20, 100] loss: 108.474274
+[20, 125] loss: 107.446381
+[20, 150] loss: 101.777771
+[20, 175] loss: 95.326225
+[20, 200] loss: 93.173065
+[20, 225] loss: 104.094376
+[20, 250] loss: 95.253136
+[20, 275] loss: 100.992310
+[20, 300] loss: 114.011696
+[20, 325] loss: 106.362770
+[20, 350] loss: 110.125473
+Epoch: 20 Validation loss: 343.16278 accuracy: 0.83374 accuracy_scn: 0.00000
+Epoch: 20 Test loss: 343.63519 accuracy: 0.82213 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_19
+[21, 25] loss: 85.571075
+[21, 50] loss: 84.792740
+[21, 75] loss: 93.053986
+[21, 100] loss: 108.357254
+[21, 125] loss: 107.684830
+[21, 150] loss: 98.753571
+[21, 175] loss: 90.681824
+[21, 200] loss: 105.480858
+[21, 225] loss: 108.020271
+[21, 250] loss: 96.537750
+[21, 275] loss: 103.809120
+[21, 300] loss: 112.279839
+[21, 325] loss: 93.598351
+[21, 350] loss: 100.536514
+Epoch: 21 Validation loss: 347.75616 accuracy: 0.83768 accuracy_scn: 0.00000
+Epoch: 21 Test loss: 342.46381 accuracy: 0.82750 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_20
+[22, 25] loss: 114.559975
+[22, 50] loss: 103.634811
+[22, 75] loss: 115.778252
+[22, 100] loss: 95.221977
+[22, 125] loss: 108.653534
+[22, 150] loss: 105.117172
+[22, 175] loss: 111.209892
+[22, 200] loss: 101.056969
+[22, 225] loss: 103.491035
+[22, 250] loss: 114.601608
+[22, 275] loss: 93.163094
+[22, 300] loss: 114.810623
+[22, 325] loss: 123.177940
+[22, 350] loss: 131.712128
+Epoch: 22 Validation loss: 360.95529 accuracy: 0.83276 accuracy_scn: 0.00000
+Epoch: 22 Test loss: 353.29550 accuracy: 0.83020 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_21
+[23, 25] loss: 109.231384
+[23, 50] loss: 104.494720
+[23, 75] loss: 96.695671
+[23, 100] loss: 103.722687
+[23, 125] loss: 106.900253
+[23, 150] loss: 103.812546
+[23, 175] loss: 110.601280
+[23, 200] loss: 96.849854
+[23, 225] loss: 104.414665
+[23, 250] loss: 110.641602
+[23, 275] loss: 106.151627
+[23, 300] loss: 99.610603
+[23, 325] loss: 105.132050
+[23, 350] loss: 102.074760
+Epoch: 23 Validation loss: 337.70633 accuracy: 0.83669 accuracy_scn: 0.00000
+Epoch: 23 Test loss: 336.97052 accuracy: 0.83793 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_22
+[24, 25] loss: 106.047455
+[24, 50] loss: 100.594498
+[24, 75] loss: 109.396988
+[24, 100] loss: 105.820381
+[24, 125] loss: 110.437088
+[24, 150] loss: 103.534164
+[24, 175] loss: 109.289833
+[24, 200] loss: 85.991501
+[24, 225] loss: 94.025543
+[24, 250] loss: 95.102837
+[24, 275] loss: 97.875153
+[24, 300] loss: 102.258835
+[24, 325] loss: 104.682907
+[24, 350] loss: 104.241074
+Epoch: 24 Validation loss: 343.83334 accuracy: 0.83128 accuracy_scn: 0.00000
+Epoch: 24 Test loss: 341.51343 accuracy: 0.83188 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_23
+[25, 25] loss: 98.460251
+[25, 50] loss: 90.170662
+[25, 75] loss: 88.494919
+[25, 100] loss: 95.775024
+[25, 125] loss: 86.269188
+[25, 150] loss: 93.696571
+[25, 175] loss: 101.468559
+[25, 200] loss: 86.549042
+[25, 225] loss: 91.117271
+[25, 250] loss: 88.188591
+[25, 275] loss: 89.188042
+[25, 300] loss: 88.764832
+[25, 325] loss: 93.555603
+[25, 350] loss: 110.276978
+Epoch: 25 Validation loss: 358.64999 accuracy: 0.80620 accuracy_scn: 0.00000
+Epoch: 25 Test loss: 356.78836 accuracy: 0.81036 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_24
+[26, 25] loss: 90.343300
+[26, 50] loss: 93.145294
+[26, 75] loss: 106.323242
+[26, 100] loss: 104.620468
+[26, 125] loss: 94.980728
+[26, 150] loss: 95.003738
+[26, 175] loss: 93.876427
+[26, 200] loss: 106.934990
+[26, 225] loss: 94.384109
+[26, 250] loss: 93.057281
+[26, 275] loss: 91.384262
+[26, 300] loss: 97.424721
+[26, 325] loss: 100.227898
+[26, 350] loss: 86.930069
+Epoch: 26 Validation loss: 337.94473 accuracy: 0.83768 accuracy_scn: 0.00000
+Epoch: 26 Test loss: 336.31375 accuracy: 0.82919 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_25
+[27, 25] loss: 82.064117
+[27, 50] loss: 92.009636
+[27, 75] loss: 97.577126
+[27, 100] loss: 89.422035
+[27, 125] loss: 88.492790
+[27, 150] loss: 88.605644
+[27, 175] loss: 93.684235
+[27, 200] loss: 80.329346
+[27, 225] loss: 97.219467
+[27, 250] loss: 109.453133
+[27, 275] loss: 100.118797
+[27, 300] loss: 88.096725
+[27, 325] loss: 88.505844
+[27, 350] loss: 95.214569
+Epoch: 27 Validation loss: 338.19397 accuracy: 0.82489 accuracy_scn: 0.00000
+Epoch: 27 Test loss: 334.67426 accuracy: 0.81843 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_26
+[28, 25] loss: 91.994926
+[28, 50] loss: 116.392075
+[28, 75] loss: 116.373199
+[28, 100] loss: 89.167793
+[28, 125] loss: 88.029335
+[28, 150] loss: 88.010948
+[28, 175] loss: 106.153130
+[28, 200] loss: 89.621208
+[28, 225] loss: 89.441093
+[28, 250] loss: 88.739647
+[28, 275] loss: 93.876984
+[28, 300] loss: 108.494568
+[28, 325] loss: 103.934586
+[28, 350] loss: 90.601372
+Epoch: 28 Validation loss: 345.71558 accuracy: 0.82292 accuracy_scn: 0.00000
+Epoch: 28 Test loss: 349.06308 accuracy: 0.82078 accuracy_scn: 0.00000
+Epoch 00028: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_27
+[29, 25] loss: 99.413872
+[29, 50] loss: 88.422501
+[29, 75] loss: 86.148415
+[29, 100] loss: 84.062202
+[29, 125] loss: 80.047310
+[29, 150] loss: 84.886726
+[29, 175] loss: 82.419609
+[29, 200] loss: 86.685242
+[29, 225] loss: 77.163399
+[29, 250] loss: 86.414131
+[29, 275] loss: 80.049225
+[29, 300] loss: 74.989594
+[29, 325] loss: 93.955780
+[29, 350] loss: 84.483788
+Epoch: 29 Validation loss: 327.06570 accuracy: 0.84112 accuracy_scn: 0.00000
+Epoch: 29 Test loss: 332.94415 accuracy: 0.83356 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_28
+[30, 25] loss: 81.818306
+[30, 50] loss: 77.133034
+[30, 75] loss: 79.980957
+[30, 100] loss: 70.501778
+[30, 125] loss: 84.285782
+[30, 150] loss: 79.829521
+[30, 175] loss: 84.372124
+[30, 200] loss: 79.912743
+[30, 225] loss: 77.293121
+[30, 250] loss: 75.252518
+[30, 275] loss: 71.990166
+[30, 300] loss: 73.952339
+[30, 325] loss: 78.147491
+[30, 350] loss: 74.787979
+Epoch: 30 Validation loss: 321.67752 accuracy: 0.84014 accuracy_scn: 0.00000
+Epoch: 30 Test loss: 328.94434 accuracy: 0.83591 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_29
+[31, 25] loss: 69.488609
+[31, 50] loss: 66.493057
+[31, 75] loss: 68.532013
+[31, 100] loss: 78.744141
+[31, 125] loss: 81.790565
+[31, 150] loss: 74.116295
+[31, 175] loss: 77.437538
+[31, 200] loss: 65.155914
+[31, 225] loss: 65.269791
+[31, 250] loss: 73.659805
+[31, 275] loss: 69.298836
+[31, 300] loss: 72.534782
+[31, 325] loss: 72.318199
+[31, 350] loss: 67.625343
+Epoch: 31 Validation loss: 316.42587 accuracy: 0.84604 accuracy_scn: 0.00000
+Epoch: 31 Test loss: 327.69000 accuracy: 0.83557 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_30
+[32, 25] loss: 68.434944
+[32, 50] loss: 74.816315
+[32, 75] loss: 71.688179
+[32, 100] loss: 77.038269
+[32, 125] loss: 79.793114
+[32, 150] loss: 66.553970
+[32, 175] loss: 73.645393
+[32, 200] loss: 68.282303
+[32, 225] loss: 73.829292
+[32, 250] loss: 73.073341
+[32, 275] loss: 64.592560
+[32, 300] loss: 66.819176
+[32, 325] loss: 68.402145
+[32, 350] loss: 71.078972
+Epoch: 32 Validation loss: 326.08505 accuracy: 0.83915 accuracy_scn: 0.00000
+Epoch: 32 Test loss: 329.53870 accuracy: 0.83524 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_31
+[33, 25] loss: 69.238960
+[33, 50] loss: 69.469955
+[33, 75] loss: 67.856445
+[33, 100] loss: 66.971397
+[33, 125] loss: 70.301056
+[33, 150] loss: 68.251205
+[33, 175] loss: 70.011040
+[33, 200] loss: 69.925163
+[33, 225] loss: 71.099762
+[33, 250] loss: 69.465324
+[33, 275] loss: 67.389000
+[33, 300] loss: 74.601784
+[33, 325] loss: 72.253326
+[33, 350] loss: 77.680000
+Epoch: 33 Validation loss: 328.79941 accuracy: 0.83915 accuracy_scn: 0.00000
+Epoch: 33 Test loss: 332.20444 accuracy: 0.83557 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_32
+[34, 25] loss: 70.011909
+[34, 50] loss: 68.563675
+[34, 75] loss: 75.682800
+[34, 100] loss: 70.604973
+[34, 125] loss: 64.441895
+[34, 150] loss: 79.365997
+[34, 175] loss: 76.194122
+[34, 200] loss: 79.975517
+[34, 225] loss: 74.749008
+[34, 250] loss: 72.698807
+[34, 275] loss: 75.721619
+[34, 300] loss: 77.054695
+[34, 325] loss: 64.532150
+[34, 350] loss: 82.334641
+Epoch: 34 Validation loss: 325.02191 accuracy: 0.83866 accuracy_scn: 0.00000
+Epoch: 34 Test loss: 327.98819 accuracy: 0.83591 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_33
+[35, 25] loss: 77.854530
+[35, 50] loss: 81.874290
+[35, 75] loss: 71.864166
+[35, 100] loss: 68.204903
+[35, 125] loss: 71.872841
+[35, 150] loss: 70.428848
+[35, 175] loss: 68.024475
+[35, 200] loss: 68.589615
+[35, 225] loss: 72.021713
+[35, 250] loss: 69.858940
+[35, 275] loss: 69.090729
+[35, 300] loss: 71.545822
+[35, 325] loss: 68.407898
+[35, 350] loss: 68.048004
+Epoch: 35 Validation loss: 330.87354 accuracy: 0.83424 accuracy_scn: 0.00000
+Epoch: 35 Test loss: 334.80066 accuracy: 0.83692 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_34
+[36, 25] loss: 72.352150
+[36, 50] loss: 67.848076
+[36, 75] loss: 66.925346
+[36, 100] loss: 67.728127
+[36, 125] loss: 67.001495
+[36, 150] loss: 63.776917
+[36, 175] loss: 70.516899
+[36, 200] loss: 72.917480
+[36, 225] loss: 80.720436
+[36, 250] loss: 72.812004
+[36, 275] loss: 69.293022
+[36, 300] loss: 71.374107
+[36, 325] loss: 77.985291
+[36, 350] loss: 74.525002
+Epoch: 36 Validation loss: 320.18607 accuracy: 0.84358 accuracy_scn: 0.00000
+Epoch: 36 Test loss: 325.93289 accuracy: 0.83692 accuracy_scn: 0.00000
+Epoch 00036: reducing learning rate of group 0 to 2.5000e-05.
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_35
+[37, 25] loss: 70.767555
+[37, 50] loss: 68.223427
+[37, 75] loss: 73.428764
+[37, 100] loss: 71.698372
+[37, 125] loss: 67.798546
+[37, 150] loss: 63.867867
+[37, 175] loss: 70.321838
+[37, 200] loss: 70.099426
+[37, 225] loss: 72.742271
+[37, 250] loss: 75.316277
+[37, 275] loss: 72.128258
+[37, 300] loss: 74.423111
+[37, 325] loss: 71.951767
+[37, 350] loss: 71.856621
+Epoch: 37 Validation loss: 324.86746 accuracy: 0.84161 accuracy_scn: 0.00000
+Epoch: 37 Test loss: 330.14981 accuracy: 0.83995 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_36
+[38, 25] loss: 69.505211
+[38, 50] loss: 68.822510
+[38, 75] loss: 72.759689
+[38, 100] loss: 72.246246
+[38, 125] loss: 68.875046
+[38, 150] loss: 69.210762
+[38, 175] loss: 65.199219
+[38, 200] loss: 69.852905
+[38, 225] loss: 62.295959
+[38, 250] loss: 67.767609
+[38, 275] loss: 70.260475
+[38, 300] loss: 68.688034
+[38, 325] loss: 64.901337
+[38, 350] loss: 68.737267
+Epoch: 38 Validation loss: 317.66571 accuracy: 0.84702 accuracy_scn: 0.00000
+Epoch: 38 Test loss: 323.10873 accuracy: 0.84028 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_37
+[39, 25] loss: 66.412125
+[39, 50] loss: 63.479530
+[39, 75] loss: 61.205696
+[39, 100] loss: 79.335457
+[39, 125] loss: 72.083046
+[39, 150] loss: 57.298309
+[39, 175] loss: 62.824577
+[39, 200] loss: 66.117889
+[39, 225] loss: 63.443684
+[39, 250] loss: 64.690979
+[39, 275] loss: 68.127228
+[39, 300] loss: 65.686501
+[39, 325] loss: 59.985710
+[39, 350] loss: 69.397690
+Epoch: 39 Validation loss: 318.52255 accuracy: 0.84063 accuracy_scn: 0.00000
+Epoch: 39 Test loss: 322.63544 accuracy: 0.84028 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_38
+[40, 25] loss: 68.458824
+[40, 50] loss: 61.648438
+[40, 75] loss: 61.658306
+[40, 100] loss: 59.821991
+[40, 125] loss: 61.071953
+[40, 150] loss: 64.980698
+[40, 175] loss: 67.643250
+[40, 200] loss: 62.972298
+[40, 225] loss: 61.991230
+[40, 250] loss: 64.477921
+[40, 275] loss: 61.642048
+[40, 300] loss: 64.780869
+[40, 325] loss: 61.563671
+[40, 350] loss: 58.068462
+Epoch: 40 Validation loss: 317.98929 accuracy: 0.84309 accuracy_scn: 0.00000
+Epoch: 40 Test loss: 321.08328 accuracy: 0.84230 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/hindi_female/TGRU_intent_en_hindi_female_contrast_out_32_0.1checkpoint_39
+Early Stopping the training
+Finished Training
+Saving Final Model in /scratch/ut_ckp/final/TGRU_intent_en_hindi_female_contrast_out_32_0.1final
+Val loss = 317.9892883300781 	 Val accuracy = 0.8430889844894409 accuracy_scn = 0
+Test loss = 321.0832824707031 	 Test accuracy = 0.8422998785972595 accuracy_scn = 0

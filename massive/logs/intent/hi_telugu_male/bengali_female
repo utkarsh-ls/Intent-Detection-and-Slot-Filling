@@ -1,0 +1,183 @@
+Some weights of the model checkpoint at google/muril-base-cased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of TGRU_intent_hi_telugu_male_contrast_out_32_0.1
+[1, 25] loss: 129.273621
+[1, 50] loss: 148.115280
+[1, 75] loss: 156.400894
+[1, 100] loss: 155.877930
+[1, 125] loss: 145.385117
+[1, 150] loss: 135.000534
+[1, 175] loss: 134.869522
+[1, 200] loss: 146.607498
+[1, 225] loss: 126.006958
+[1, 250] loss: 118.110672
+[1, 275] loss: 128.662216
+[1, 300] loss: 124.489891
+[1, 325] loss: 123.566879
+[1, 350] loss: 139.375839
+Epoch: 1 Validation loss: 286.20038 accuracy: 0.62814 accuracy_scn: 0.00000
+Epoch: 1 Test loss: 269.76578 accuracy: 0.63921 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/telugu_male/TGRU_intent_hi_telugu_male_contrast_out_32_0.1checkpoint_0
+[2, 25] loss: 139.300797
+[2, 50] loss: 126.507675
+[2, 75] loss: 123.515427
+[2, 100] loss: 114.217461
+[2, 125] loss: 124.905655
+[2, 150] loss: 142.099335
+[2, 175] loss: 142.418869
+[2, 200] loss: 124.244156
+[2, 225] loss: 131.406937
+[2, 250] loss: 133.435074
+[2, 275] loss: 112.127106
+[2, 300] loss: 131.653656
+[2, 325] loss: 145.227554
+[2, 350] loss: 133.729202
+Epoch: 2 Validation loss: 315.49576 accuracy: 0.70635 accuracy_scn: 0.00000
+Epoch: 2 Test loss: 304.20972 accuracy: 0.71150 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/telugu_male/TGRU_intent_hi_telugu_male_contrast_out_32_0.1checkpoint_1
+[3, 25] loss: 106.006813
+[3, 50] loss: 119.110802
+[3, 75] loss: 128.626083
+[3, 100] loss: 140.163040
+[3, 125] loss: 120.268578
+[3, 150] loss: 143.729492
+[3, 175] loss: 132.957825
+[3, 200] loss: 119.275703
+[3, 225] loss: 123.850876
+[3, 250] loss: 121.720047
+[3, 275] loss: 128.386292
+[3, 300] loss: 123.928535
+[3, 325] loss: 113.103462
+[3, 350] loss: 112.480309
+Epoch: 3 Validation loss: 327.79343 accuracy: 0.72848 accuracy_scn: 0.00000
+Epoch: 3 Test loss: 309.71213 accuracy: 0.74445 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/telugu_male/TGRU_intent_hi_telugu_male_contrast_out_32_0.1checkpoint_2
+[4, 25] loss: 111.339493
+[4, 50] loss: 107.543999
+[4, 75] loss: 106.212631
+[4, 100] loss: 103.313080
+[4, 125] loss: 109.025826
+[4, 150] loss: 122.573074
+[4, 175] loss: 131.609543
+[4, 200] loss: 121.908867
+[4, 225] loss: 103.922569
+[4, 250] loss: 105.044823
+[4, 275] loss: 121.365738
+[4, 300] loss: 129.842667
+[4, 325] loss: 118.030479
+[4, 350] loss: 112.588051
+Epoch: 4 Validation loss: 322.52359 accuracy: 0.76291 accuracy_scn: 0.00000
+Epoch: 4 Test loss: 318.12006 accuracy: 0.76362 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/telugu_male/TGRU_intent_hi_telugu_male_contrast_out_32_0.1checkpoint_3
+[5, 25] loss: 106.380844
+[5, 50] loss: 100.474480
+[5, 75] loss: 101.932243
+[5, 100] loss: 97.643806
+[5, 125] loss: 106.484978
+[5, 150] loss: 95.689430
+[5, 175] loss: 108.361572
+[5, 200] loss: 106.761940
+[5, 225] loss: 109.546928
+[5, 250] loss: 84.539413
+[5, 275] loss: 127.952812
+[5, 300] loss: 98.254158
+[5, 325] loss: 107.416138
+[5, 350] loss: 115.361900
+Epoch: 5 Validation loss: 327.42392 accuracy: 0.76832 accuracy_scn: 0.00000
+Epoch: 5 Test loss: 322.33728 accuracy: 0.77808 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/telugu_male/TGRU_intent_hi_telugu_male_contrast_out_32_0.1checkpoint_4
+[6, 25] loss: 106.964149
+[6, 50] loss: 86.316551
+[6, 75] loss: 82.676620
+[6, 100] loss: 108.726913
+[6, 125] loss: 82.646172
+[6, 150] loss: 95.191589
+[6, 175] loss: 125.210014
+[6, 200] loss: 87.327782
+[6, 225] loss: 94.883766
+[6, 250] loss: 128.211884
+[6, 275] loss: 112.632088
+[6, 300] loss: 94.344284
+[6, 325] loss: 94.253784
+[6, 350] loss: 108.188660
+Epoch: 6 Validation loss: 332.81116 accuracy: 0.77029 accuracy_scn: 0.00000
+Epoch: 6 Test loss: 338.24356 accuracy: 0.76933 accuracy_scn: 0.00000
+Epoch 00006: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in /scratch/ut_ckp/telugu_male/TGRU_intent_hi_telugu_male_contrast_out_32_0.1checkpoint_5
+[7, 25] loss: 92.929214
+[7, 50] loss: 96.164444
+[7, 75] loss: 83.370575
+[7, 100] loss: 93.799767
+[7, 125] loss: 84.459404
+[7, 150] loss: 71.322441
+[7, 175] loss: 85.040855
+[7, 200] loss: 91.823425
+[7, 225] loss: 88.079376
+[7, 250] loss: 81.987793
+[7, 275] loss: 75.167953
+[7, 300] loss: 79.037437
+[7, 325] loss: 85.230766
+[7, 350] loss: 79.318275
+Epoch: 7 Validation loss: 312.95615 accuracy: 0.79046 accuracy_scn: 0.00000
+Epoch: 7 Test loss: 312.14673 accuracy: 0.79018 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/telugu_male/TGRU_intent_hi_telugu_male_contrast_out_32_0.1checkpoint_6
+[8, 25] loss: 77.211174
+[8, 50] loss: 77.480499
+[8, 75] loss: 77.113403
+[8, 100] loss: 69.376221
+[8, 125] loss: 71.625389
+[8, 150] loss: 85.494675
+[8, 175] loss: 66.126236
+[8, 200] loss: 69.193352
+[8, 225] loss: 66.930450
+[8, 250] loss: 66.879028
+[8, 275] loss: 68.129257
+[8, 300] loss: 72.540535
+[8, 325] loss: 92.407204
+[8, 350] loss: 84.038795
+Epoch: 8 Validation loss: 324.05887 accuracy: 0.78111 accuracy_scn: 0.00000
+Epoch: 8 Test loss: 322.35587 accuracy: 0.78581 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/telugu_male/TGRU_intent_hi_telugu_male_contrast_out_32_0.1checkpoint_7
+[9, 25] loss: 67.174637
+[9, 50] loss: 80.989586
+[9, 75] loss: 61.629448
+[9, 100] loss: 67.050598
+[9, 125] loss: 77.923309
+[9, 150] loss: 71.831581
+[9, 175] loss: 77.791786
+[9, 200] loss: 64.406296
+[9, 225] loss: 66.838768
+[9, 250] loss: 73.450676
+[9, 275] loss: 76.424576
+[9, 300] loss: 73.393150
+[9, 325] loss: 82.857994
+[9, 350] loss: 83.505913
+Epoch: 9 Validation loss: 313.46893 accuracy: 0.79095 accuracy_scn: 0.00000
+Epoch: 9 Test loss: 312.50912 accuracy: 0.78480 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/telugu_male/TGRU_intent_hi_telugu_male_contrast_out_32_0.1checkpoint_8
+[10, 25] loss: 67.715919
+[10, 50] loss: 69.219078
+[10, 75] loss: 86.975098
+[10, 100] loss: 64.830734
+[10, 125] loss: 63.720104
+[10, 150] loss: 82.434937
+[10, 175] loss: 77.448433
+[10, 200] loss: 70.112213
+[10, 225] loss: 69.809059
+[10, 250] loss: 68.500778
+[10, 275] loss: 74.377869
+[10, 300] loss: 74.313164
+[10, 325] loss: 80.628708
+[10, 350] loss: 78.996010
+Epoch: 10 Validation loss: 318.43976 accuracy: 0.78751 accuracy_scn: 0.00000
+Epoch: 10 Test loss: 314.27057 accuracy: 0.78749 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/telugu_male/TGRU_intent_hi_telugu_male_contrast_out_32_0.1checkpoint_9
+Early Stopping the training
+Finished Training
+Saving Final Model in /scratch/ut_ckp/final/TGRU_intent_hi_telugu_male_contrast_out_32_0.1final
+Val loss = 318.43975830078125 	 Val accuracy = 0.787506103515625 accuracy_scn = 0
+Test loss = 314.27056884765625 	 Test accuracy = 0.7874915599822998 accuracy_scn = 0

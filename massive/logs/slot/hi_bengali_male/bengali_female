@@ -1,0 +1,235 @@
+Some weights of the model checkpoint at google/muril-base-cased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+1036260, 1019080
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of TGRU_slot_hi_bengali_male_contrast_out_32_0.1
+[1, 25] loss: 8.018784
+[1, 50] loss: 7.699036
+[1, 75] loss: 7.578413
+[1, 100] loss: 6.998337
+[1, 125] loss: 6.723919
+[1, 150] loss: 6.237634
+[1, 175] loss: 5.738939
+[1, 200] loss: 5.207784
+[1, 225] loss: 4.682281
+[1, 250] loss: 4.216968
+[1, 275] loss: 3.770973
+[1, 300] loss: 3.494540
+[1, 325] loss: 3.235760
+[1, 350] loss: 3.144989
+Epoch: 1 Validation loss: 16.09786 accuracy: 0.98504 F1-score: 0.62565
+Epoch: 1 Test loss: 11.05393 accuracy: 0.98504 F1-score: 0.62565
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_0
+[2, 25] loss: 2.928829
+[2, 50] loss: 2.817192
+[2, 75] loss: 2.518283
+[2, 100] loss: 2.526173
+[2, 125] loss: 2.407214
+[2, 150] loss: 2.220567
+[2, 175] loss: 2.216162
+[2, 200] loss: 3.302102
+[2, 225] loss: 3.273758
+[2, 250] loss: 2.152608
+[2, 275] loss: 2.105926
+[2, 300] loss: 2.020632
+[2, 325] loss: 1.999602
+[2, 350] loss: 2.037351
+Epoch: 2 Validation loss: 10.15404 accuracy: 0.97614 F1-score: 0.46911
+Epoch: 2 Test loss: 7.01392 accuracy: 0.97614 F1-score: 0.46911
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_1
+[3, 25] loss: 1.789157
+[3, 50] loss: 1.713558
+[3, 75] loss: 1.616320
+[3, 100] loss: 1.762787
+[3, 125] loss: 1.470623
+[3, 150] loss: 1.332359
+[3, 175] loss: 1.953346
+[3, 200] loss: 1.929639
+[3, 225] loss: 1.505547
+[3, 250] loss: 1.372955
+[3, 275] loss: 1.396858
+[3, 300] loss: 1.467879
+[3, 325] loss: 1.367951
+[3, 350] loss: 1.200677
+Epoch: 3 Validation loss: 5.82917 accuracy: 0.97596 F1-score: 0.51631
+Epoch: 3 Test loss: 4.00466 accuracy: 0.97596 F1-score: 0.51631
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_2
+[4, 25] loss: 1.099348
+[4, 50] loss: 1.025653
+[4, 75] loss: 0.976451
+[4, 100] loss: 1.185691
+[4, 125] loss: 0.945877
+[4, 150] loss: 0.989975
+[4, 175] loss: 0.939857
+[4, 200] loss: 0.876468
+[4, 225] loss: 0.837298
+[4, 250] loss: 0.865053
+[4, 275] loss: 0.917004
+[4, 300] loss: 0.928280
+[4, 325] loss: 0.850535
+[4, 350] loss: 0.923104
+Epoch: 4 Validation loss: 3.80753 accuracy: 0.97579 F1-score: 0.52914
+Epoch: 4 Test loss: 2.61632 accuracy: 0.97579 F1-score: 0.52914
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_3
+[5, 25] loss: 0.802161
+[5, 50] loss: 0.754378
+[5, 75] loss: 0.722752
+[5, 100] loss: 0.626138
+[5, 125] loss: 0.654124
+[5, 150] loss: 0.575450
+[5, 175] loss: 0.678546
+[5, 200] loss: 0.650649
+[5, 225] loss: 0.740037
+[5, 250] loss: 0.613166
+[5, 275] loss: 0.636379
+[5, 300] loss: 0.558944
+[5, 325] loss: 0.723091
+[5, 350] loss: 0.683433
+Epoch: 5 Validation loss: 2.98447 accuracy: 0.97768 F1-score: 0.53677
+Epoch: 5 Test loss: 2.05480 accuracy: 0.97768 F1-score: 0.53677
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_4
+[6, 25] loss: 0.565290
+[6, 50] loss: 0.573569
+[6, 75] loss: 0.581224
+[6, 100] loss: 0.469889
+[6, 125] loss: 0.542274
+[6, 150] loss: 0.499847
+[6, 175] loss: 0.465644
+[6, 200] loss: 0.469972
+[6, 225] loss: 0.470120
+[6, 250] loss: 0.521815
+[6, 275] loss: 0.501759
+[6, 300] loss: 0.507633
+[6, 325] loss: 0.485778
+[6, 350] loss: 0.524253
+Epoch: 6 Validation loss: 2.13806 accuracy: 0.97990 F1-score: 0.58669
+Epoch: 6 Test loss: 1.45444 accuracy: 0.97990 F1-score: 0.58669
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_5
+[7, 25] loss: 0.387167
+[7, 50] loss: 0.430615
+[7, 75] loss: 0.409732
+[7, 100] loss: 0.400437
+[7, 125] loss: 0.399707
+[7, 150] loss: 0.519859
+[7, 175] loss: 0.453877
+[7, 200] loss: 0.454457
+[7, 225] loss: 0.407018
+[7, 250] loss: 0.454459
+[7, 275] loss: 0.405836
+[7, 300] loss: 0.409293
+[7, 325] loss: 0.531545
+[7, 350] loss: 0.333943
+Epoch: 7 Validation loss: 1.66179 accuracy: 0.98277 F1-score: 0.58486
+Epoch: 7 Test loss: 1.14082 accuracy: 0.98277 F1-score: 0.58486
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_6
+[8, 25] loss: 0.420102
+[8, 50] loss: 0.357068
+[8, 75] loss: 0.288190
+[8, 100] loss: 0.403849
+[8, 125] loss: 0.295935
+[8, 150] loss: 0.394501
+[8, 175] loss: 0.331834
+[8, 200] loss: 0.325293
+[8, 225] loss: 0.267360
+[8, 250] loss: 0.340370
+[8, 275] loss: 0.413363
+[8, 300] loss: 0.328333
+[8, 325] loss: 0.323410
+[8, 350] loss: 0.270392
+Epoch: 8 Validation loss: 1.47088 accuracy: 0.98104 F1-score: 0.61335
+Epoch: 8 Test loss: 0.99241 accuracy: 0.98104 F1-score: 0.61335
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_7
+[9, 25] loss: 0.272964
+[9, 50] loss: 1.631693
+[9, 75] loss: 3.652243
+[9, 100] loss: 4.207897
+[9, 125] loss: 4.716741
+[9, 150] loss: 4.729811
+[9, 175] loss: 4.760817
+[9, 200] loss: 4.666688
+[9, 225] loss: 4.716256
+[9, 250] loss: 4.628474
+[9, 275] loss: 4.698786
+[9, 300] loss: 4.720841
+[9, 325] loss: 4.628784
+[9, 350] loss: 4.556947
+Epoch: 9 Validation loss: 26.18122 accuracy: 0.98342 F1-score: 0.99164
+Epoch: 9 Test loss: 18.03814 accuracy: 0.98342 F1-score: 0.99164
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_8
+[10, 25] loss: 4.755467
+[10, 50] loss: 4.683191
+[10, 75] loss: 4.557422
+[10, 100] loss: 4.579649
+[10, 125] loss: 4.692758
+[10, 150] loss: 4.713953
+[10, 175] loss: 4.630217
+[10, 200] loss: 4.623862
+[10, 225] loss: 4.649835
+[10, 250] loss: 4.676522
+[10, 275] loss: 4.727889
+[10, 300] loss: 4.580159
+[10, 325] loss: 4.717834
+[10, 350] loss: 4.637195
+Epoch: 10 Validation loss: 26.16351 accuracy: 0.98342 F1-score: 0.99164
+Epoch: 10 Test loss: 18.01034 accuracy: 0.98342 F1-score: 0.99164
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_9
+[11, 25] loss: 4.686705
+[11, 50] loss: 4.657227
+[11, 75] loss: 4.638592
+[11, 100] loss: 4.655719
+[11, 125] loss: 4.762721
+[11, 150] loss: 4.562651
+[11, 175] loss: 4.740634
+[11, 200] loss: 4.597693
+[11, 225] loss: 4.692470
+[11, 250] loss: 4.673833
+[11, 275] loss: 4.571673
+[11, 300] loss: 4.619199
+[11, 325] loss: 4.634317
+[11, 350] loss: 4.656415
+Epoch: 11 Validation loss: 26.14649 accuracy: 0.98342 F1-score: 0.99164
+Epoch: 11 Test loss: 18.00229 accuracy: 0.98342 F1-score: 0.99164
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_10
+[12, 25] loss: 4.580194
+[12, 50] loss: 4.658276
+[12, 75] loss: 4.696401
+[12, 100] loss: 4.731604
+[12, 125] loss: 4.565887
+[12, 150] loss: 4.569759
+[12, 175] loss: 4.681782
+[12, 200] loss: 4.603623
+[12, 225] loss: 4.797894
+[12, 250] loss: 4.516354
+[12, 275] loss: 4.587311
+[12, 300] loss: 4.636312
+[12, 325] loss: 4.606556
+[12, 350] loss: 4.615429
+Epoch: 12 Validation loss: 26.11678 accuracy: 0.98342 F1-score: 0.99164
+Epoch: 12 Test loss: 17.99456 accuracy: 0.98342 F1-score: 0.99164
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_11
+[13, 25] loss: 4.595215
+[13, 50] loss: 4.620923
+[13, 75] loss: 4.631354
+[13, 100] loss: 4.573603
+[13, 125] loss: 4.714756
+[13, 150] loss: 4.674594
+[13, 175] loss: 4.563769
+[13, 200] loss: 4.635876
+[13, 225] loss: 4.703570
+[13, 250] loss: 4.517768
+[13, 275] loss: 4.589577
+[13, 300] loss: 4.620243
+[13, 325] loss: 4.549844
+[13, 350] loss: 4.549975
+Epoch: 13 Validation loss: 26.19916 accuracy: 0.98342 F1-score: 0.99164
+Epoch: 13 Test loss: 18.03256 accuracy: 0.98342 F1-score: 0.99164
+Epoch 00013: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in /scratch/ut_ckp/bengali_male/TGRU_slot_hi_bengali_male_contrast_out_32_0.1checkpoint_12
+Early Stopping the training
+Finished Training
+Saving Final Model in /scratch/ut_ckp/final/TGRU_slot_hi_bengali_male_contrast_out_32_0.1final
+Val loss = 26.201231002807617 	 Val accuracy = 0.9834211491324572 F1-score = 0.991641285626709
+Test loss = 18.031661987304688 	 Test accuracy = 0.9834211491324572 F1-score = 0.991641285626709

@@ -1,0 +1,405 @@
+Some weights of the model checkpoint at google/muril-base-cased were not used when initializing BertModel: ['cls.predictions.decoder.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+506616, 488241
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of TGRU_slot_hi_orig_contrast_out_32_0.1
+[1, 25] loss: 7.952568
+[1, 50] loss: 7.762067
+[1, 75] loss: 7.448315
+[1, 100] loss: 7.407776
+[1, 125] loss: 6.673826
+[1, 150] loss: 6.330327
+[1, 175] loss: 5.688117
+[1, 200] loss: 5.111112
+[1, 225] loss: 4.594434
+[1, 250] loss: 4.256178
+[1, 275] loss: 3.765494
+[1, 300] loss: 3.542295
+[1, 325] loss: 3.253632
+[1, 350] loss: 3.101393
+Epoch: 1 Validation loss: 16.02472 accuracy: 0.97084 F1-score: 0.65614
+Epoch: 1 Test loss: 11.00599 accuracy: 0.97084 F1-score: 0.65614
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_0
+[2, 25] loss: 2.878817
+[2, 50] loss: 2.721090
+[2, 75] loss: 2.584962
+[2, 100] loss: 2.440804
+[2, 125] loss: 2.358498
+[2, 150] loss: 2.254170
+[2, 175] loss: 2.302188
+[2, 200] loss: 2.031901
+[2, 225] loss: 1.969021
+[2, 250] loss: 1.886505
+[2, 275] loss: 1.905011
+[2, 300] loss: 1.757738
+[2, 325] loss: 1.839713
+[2, 350] loss: 1.660165
+Epoch: 2 Validation loss: 8.32240 accuracy: 0.97067 F1-score: 0.62749
+Epoch: 2 Test loss: 5.73757 accuracy: 0.97067 F1-score: 0.62749
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_1
+[3, 25] loss: 1.464421
+[3, 50] loss: 1.349757
+[3, 75] loss: 1.437483
+[3, 100] loss: 1.376997
+[3, 125] loss: 1.398331
+[3, 150] loss: 1.319654
+[3, 175] loss: 1.269837
+[3, 200] loss: 1.274405
+[3, 225] loss: 1.357305
+[3, 250] loss: 1.167318
+[3, 275] loss: 1.226077
+[3, 300] loss: 1.153479
+[3, 325] loss: 1.215330
+[3, 350] loss: 1.030865
+Epoch: 3 Validation loss: 4.94853 accuracy: 0.97160 F1-score: 0.66301
+Epoch: 3 Test loss: 3.39435 accuracy: 0.97160 F1-score: 0.66301
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_2
+[4, 25] loss: 0.906524
+[4, 50] loss: 0.934256
+[4, 75] loss: 0.846357
+[4, 100] loss: 0.881194
+[4, 125] loss: 0.886731
+[4, 150] loss: 0.849176
+[4, 175] loss: 0.867229
+[4, 200] loss: 0.767599
+[4, 225] loss: 0.742305
+[4, 250] loss: 0.791228
+[4, 275] loss: 0.736348
+[4, 300] loss: 0.765960
+[4, 325] loss: 0.638023
+[4, 350] loss: 0.747930
+Epoch: 4 Validation loss: 3.11696 accuracy: 0.97484 F1-score: 0.68073
+Epoch: 4 Test loss: 2.14011 accuracy: 0.97484 F1-score: 0.68073
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_3
+[5, 25] loss: 0.634346
+[5, 50] loss: 0.719429
+[5, 75] loss: 0.615510
+[5, 100] loss: 0.603531
+[5, 125] loss: 0.574178
+[5, 150] loss: 0.571840
+[5, 175] loss: 0.546175
+[5, 200] loss: 0.581085
+[5, 225] loss: 0.611685
+[5, 250] loss: 0.568277
+[5, 275] loss: 0.441563
+[5, 300] loss: 0.472912
+[5, 325] loss: 0.546204
+[5, 350] loss: 0.495966
+Epoch: 5 Validation loss: 2.18627 accuracy: 0.97512 F1-score: 0.69580
+Epoch: 5 Test loss: 1.50209 accuracy: 0.97512 F1-score: 0.69580
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_4
+[6, 25] loss: 0.556570
+[6, 50] loss: 0.434441
+[6, 75] loss: 0.413924
+[6, 100] loss: 0.403259
+[6, 125] loss: 0.411393
+[6, 150] loss: 0.372635
+[6, 175] loss: 0.461661
+[6, 200] loss: 0.462176
+[6, 225] loss: 0.423605
+[6, 250] loss: 0.386187
+[6, 275] loss: 0.337629
+[6, 300] loss: 0.384402
+[6, 325] loss: 0.391359
+[6, 350] loss: 0.402682
+Epoch: 6 Validation loss: 1.76812 accuracy: 0.97190 F1-score: 0.67327
+Epoch: 6 Test loss: 1.22733 accuracy: 0.97190 F1-score: 0.67327
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_5
+[7, 25] loss: 0.321359
+[7, 50] loss: 0.300638
+[7, 75] loss: 0.323669
+[7, 100] loss: 0.364423
+[7, 125] loss: 0.303343
+[7, 150] loss: 0.311641
+[7, 175] loss: 0.358625
+[7, 200] loss: 0.327383
+[7, 225] loss: 0.318211
+[7, 250] loss: 0.415185
+[7, 275] loss: 0.416675
+[7, 300] loss: 0.339963
+[7, 325] loss: 0.396504
+[7, 350] loss: 0.376993
+Epoch: 7 Validation loss: 1.42165 accuracy: 0.98218 F1-score: 0.71647
+Epoch: 7 Test loss: 0.96623 accuracy: 0.98218 F1-score: 0.71647
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_6
+[8, 25] loss: 0.296726
+[8, 50] loss: 0.322506
+[8, 75] loss: 0.339866
+[8, 100] loss: 0.408390
+[8, 125] loss: 0.306333
+[8, 150] loss: 0.334420
+[8, 175] loss: 0.254064
+[8, 200] loss: 0.289797
+[8, 225] loss: 0.258786
+[8, 250] loss: 0.230086
+[8, 275] loss: 0.260902
+[8, 300] loss: 0.341748
+[8, 325] loss: 0.335889
+[8, 350] loss: 0.247042
+Epoch: 8 Validation loss: 1.17197 accuracy: 0.98252 F1-score: 0.74052
+Epoch: 8 Test loss: 0.80229 accuracy: 0.98252 F1-score: 0.74052
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_7
+[9, 25] loss: 0.233488
+[9, 50] loss: 0.219566
+[9, 75] loss: 0.274677
+[9, 100] loss: 0.310836
+[9, 125] loss: 0.261956
+[9, 150] loss: 0.303267
+[9, 175] loss: 0.256252
+[9, 200] loss: 0.290248
+[9, 225] loss: 0.224203
+[9, 250] loss: 0.279226
+[9, 275] loss: 1.100006
+[9, 300] loss: 0.484831
+[9, 325] loss: 0.350646
+[9, 350] loss: 0.295643
+Epoch: 9 Validation loss: 1.30380 accuracy: 0.98295 F1-score: 0.74544
+Epoch: 9 Test loss: 0.88647 accuracy: 0.98295 F1-score: 0.74544
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_8
+[10, 25] loss: 0.206692
+[10, 50] loss: 0.241906
+[10, 75] loss: 0.203645
+[10, 100] loss: 0.224848
+[10, 125] loss: 0.267943
+[10, 150] loss: 0.202915
+[10, 175] loss: 0.217503
+[10, 200] loss: 0.272198
+[10, 225] loss: 0.247780
+[10, 250] loss: 0.235843
+[10, 275] loss: 0.192029
+[10, 300] loss: 0.240873
+[10, 325] loss: 0.223628
+[10, 350] loss: 0.203190
+Epoch: 10 Validation loss: 0.79400 accuracy: 0.98742 F1-score: 0.79076
+Epoch: 10 Test loss: 0.54878 accuracy: 0.98742 F1-score: 0.79076
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_9
+[11, 25] loss: 0.154766
+[11, 50] loss: 0.164891
+[11, 75] loss: 0.159695
+[11, 100] loss: 0.169841
+[11, 125] loss: 0.189264
+[11, 150] loss: 0.154338
+[11, 175] loss: 0.187704
+[11, 200] loss: 0.205065
+[11, 225] loss: 0.194399
+[11, 250] loss: 0.190068
+[11, 275] loss: 0.213524
+[11, 300] loss: 0.232554
+[11, 325] loss: 0.189445
+[11, 350] loss: 0.146494
+Epoch: 11 Validation loss: 0.72788 accuracy: 0.98645 F1-score: 0.81033
+Epoch: 11 Test loss: 0.51535 accuracy: 0.98645 F1-score: 0.81033
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_10
+[12, 25] loss: 0.156065
+[12, 50] loss: 0.168765
+[12, 75] loss: 0.194663
+[12, 100] loss: 0.130985
+[12, 125] loss: 0.162786
+[12, 150] loss: 0.172192
+[12, 175] loss: 0.191279
+[12, 200] loss: 0.142676
+[12, 225] loss: 0.159917
+[12, 250] loss: 0.142450
+[12, 275] loss: 0.144155
+[12, 300] loss: 0.170417
+[12, 325] loss: 0.191166
+[12, 350] loss: 0.203684
+Epoch: 12 Validation loss: 0.76139 accuracy: 0.98683 F1-score: 0.80882
+Epoch: 12 Test loss: 0.53074 accuracy: 0.98683 F1-score: 0.80882
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_11
+[13, 25] loss: 0.129654
+[13, 50] loss: 0.124897
+[13, 75] loss: 0.123852
+[13, 100] loss: 0.134653
+[13, 125] loss: 0.148628
+[13, 150] loss: 0.140242
+[13, 175] loss: 0.127156
+[13, 200] loss: 0.158626
+[13, 225] loss: 0.106714
+[13, 250] loss: 0.131527
+[13, 275] loss: 0.143038
+[13, 300] loss: 0.162065
+[13, 325] loss: 0.153562
+[13, 350] loss: 0.146272
+Epoch: 13 Validation loss: 0.57890 accuracy: 0.98799 F1-score: 0.83329
+Epoch: 13 Test loss: 0.40114 accuracy: 0.98799 F1-score: 0.83329
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_12
+[14, 25] loss: 0.136119
+[14, 50] loss: 0.173282
+[14, 75] loss: 0.225847
+[14, 100] loss: 0.218615
+[14, 125] loss: 0.148954
+[14, 150] loss: 0.150379
+[14, 175] loss: 0.161852
+[14, 200] loss: 0.154943
+[14, 225] loss: 0.208545
+[14, 250] loss: 0.182767
+[14, 275] loss: 0.136248
+[14, 300] loss: 0.182024
+[14, 325] loss: 0.246116
+[14, 350] loss: 0.170542
+Epoch: 14 Validation loss: 0.66519 accuracy: 0.98609 F1-score: 0.80518
+Epoch: 14 Test loss: 0.46050 accuracy: 0.98609 F1-score: 0.80518
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_13
+[15, 25] loss: 0.154764
+[15, 50] loss: 0.181231
+[15, 75] loss: 0.174499
+[15, 100] loss: 0.149993
+[15, 125] loss: 0.125732
+[15, 150] loss: 0.126730
+[15, 175] loss: 0.129835
+[15, 200] loss: 0.150644
+[15, 225] loss: 0.162618
+[15, 250] loss: 0.195091
+[15, 275] loss: 0.157896
+[15, 300] loss: 0.185330
+[15, 325] loss: 0.136930
+[15, 350] loss: 0.117222
+Epoch: 15 Validation loss: 0.61548 accuracy: 0.98777 F1-score: 0.84686
+Epoch: 15 Test loss: 0.42056 accuracy: 0.98777 F1-score: 0.84686
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_14
+[16, 25] loss: 0.144350
+[16, 50] loss: 0.110299
+[16, 75] loss: 0.136918
+[16, 100] loss: 0.102272
+[16, 125] loss: 0.104042
+[16, 150] loss: 0.126349
+[16, 175] loss: 0.109935
+[16, 200] loss: 0.128737
+[16, 225] loss: 0.149033
+[16, 250] loss: 0.177056
+[16, 275] loss: 0.150194
+[16, 300] loss: 0.160256
+[16, 325] loss: 0.146881
+[16, 350] loss: 0.156125
+Epoch: 16 Validation loss: 0.52889 accuracy: 0.98942 F1-score: 0.84677
+Epoch: 16 Test loss: 0.37205 accuracy: 0.98942 F1-score: 0.84677
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_15
+[17, 25] loss: 0.142890
+[17, 50] loss: 0.150204
+[17, 75] loss: 0.195601
+[17, 100] loss: 0.132388
+[17, 125] loss: 0.104573
+[17, 150] loss: 0.106957
+[17, 175] loss: 0.115520
+[17, 200] loss: 0.113750
+[17, 225] loss: 0.114236
+[17, 250] loss: 0.122594
+[17, 275] loss: 0.132429
+[17, 300] loss: 0.080874
+[17, 325] loss: 0.097645
+[17, 350] loss: 0.140950
+Epoch: 17 Validation loss: 0.41182 accuracy: 0.99020 F1-score: 0.87135
+Epoch: 17 Test loss: 0.28225 accuracy: 0.99020 F1-score: 0.87135
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_16
+[18, 25] loss: 0.105037
+[18, 50] loss: 0.136409
+[18, 75] loss: 0.131579
+[18, 100] loss: 0.093112
+[18, 125] loss: 0.083117
+[18, 150] loss: 0.110180
+[18, 175] loss: 0.103449
+[18, 200] loss: 0.072619
+[18, 225] loss: 0.079962
+[18, 250] loss: 0.117122
+[18, 275] loss: 0.108279
+[18, 300] loss: 0.111450
+[18, 325] loss: 0.094857
+[18, 350] loss: 0.104856
+Epoch: 18 Validation loss: 0.35001 accuracy: 0.99199 F1-score: 0.87904
+Epoch: 18 Test loss: 0.23969 accuracy: 0.99199 F1-score: 0.87904
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_17
+[19, 25] loss: 0.093244
+[19, 50] loss: 0.084799
+[19, 75] loss: 0.130102
+[19, 100] loss: 0.130419
+[19, 125] loss: 0.130136
+[19, 150] loss: 0.119441
+[19, 175] loss: 0.117093
+[19, 200] loss: 0.166884
+[19, 225] loss: 0.122363
+[19, 250] loss: 0.157301
+[19, 275] loss: 0.176585
+[19, 300] loss: 0.147616
+[19, 325] loss: 0.325810
+[19, 350] loss: 0.300883
+Epoch: 19 Validation loss: 5.34456 accuracy: 0.92048 F1-score: 0.46587
+Epoch: 19 Test loss: 3.66872 accuracy: 0.92048 F1-score: 0.46587
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_18
+[20, 25] loss: 0.630997
+[20, 50] loss: 0.270726
+[20, 75] loss: 0.279181
+[20, 100] loss: 0.239856
+[20, 125] loss: 0.213673
+[20, 150] loss: 0.292553
+[20, 175] loss: 0.286938
+[20, 200] loss: 0.259204
+[20, 225] loss: 0.190619
+[20, 250] loss: 0.184866
+[20, 275] loss: 0.130998
+[20, 300] loss: 0.235347
+[20, 325] loss: 0.158753
+[20, 350] loss: 0.212313
+Epoch: 20 Validation loss: 0.84378 accuracy: 0.97902 F1-score: 0.77303
+Epoch: 20 Test loss: 0.58161 accuracy: 0.97902 F1-score: 0.77303
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_19
+[21, 25] loss: 0.158650
+[21, 50] loss: 0.172157
+[21, 75] loss: 0.543057
+[21, 100] loss: 1.233476
+[21, 125] loss: 1.760881
+[21, 150] loss: 1.333723
+[21, 175] loss: 0.648883
+[21, 200] loss: 0.506689
+[21, 225] loss: 0.331802
+[21, 250] loss: 0.346853
+[21, 275] loss: 0.402838
+[21, 300] loss: 0.293990
+[21, 325] loss: 0.237956
+[21, 350] loss: 0.244361
+Epoch: 21 Validation loss: 0.84791 accuracy: 0.97576 F1-score: 0.74744
+Epoch: 21 Test loss: 0.58244 accuracy: 0.97576 F1-score: 0.74744
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_20
+[22, 25] loss: 0.169582
+[22, 50] loss: 0.167440
+[22, 75] loss: 0.216741
+[22, 100] loss: 0.189152
+[22, 125] loss: 0.185244
+[22, 150] loss: 0.179230
+[22, 175] loss: 0.203448
+[22, 200] loss: 0.156400
+[22, 225] loss: 0.258574
+[22, 250] loss: 0.188249
+[22, 275] loss: 0.167235
+[22, 300] loss: 0.129367
+[22, 325] loss: 0.135052
+[22, 350] loss: 0.154920
+Epoch: 22 Validation loss: 0.49046 accuracy: 0.98656 F1-score: 0.82187
+Epoch: 22 Test loss: 0.34109 accuracy: 0.98656 F1-score: 0.82187
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_21
+[23, 25] loss: 0.103696
+[23, 50] loss: 0.079550
+[23, 75] loss: 0.092905
+[23, 100] loss: 0.082176
+[23, 125] loss: 0.076019
+[23, 150] loss: 0.087441
+[23, 175] loss: 0.102571
+[23, 200] loss: 0.103801
+[23, 225] loss: 0.096459
+[23, 250] loss: 0.096541
+[23, 275] loss: 0.104493
+[23, 300] loss: 0.145069
+[23, 325] loss: 0.112399
+[23, 350] loss: 0.093420
+Epoch: 23 Validation loss: 0.35623 accuracy: 0.99079 F1-score: 0.87340
+Epoch: 23 Test loss: 0.24618 accuracy: 0.99079 F1-score: 0.87340
+Epoch 00023: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in /scratch/ut_ckp/orig/TGRU_slot_hi_orig_contrast_out_32_0.1checkpoint_22
+Early Stopping the training
+Finished Training
+Saving Final Model in /scratch/ut_ckp/final/TGRU_slot_hi_orig_contrast_out_32_0.1final
+Val loss = 0.3519555330276489 	 Val accuracy = 0.9907878945789316 F1-score = 0.8734010358926634
+Test loss = 0.24584130942821503 	 Test accuracy = 0.9907878945789316 F1-score = 0.8734010358926634

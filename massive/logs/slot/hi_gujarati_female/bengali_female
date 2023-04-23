@@ -1,0 +1,422 @@
+Some weights of the model checkpoint at google/muril-base-cased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.decoder.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+955662, 938483
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of TGRU_slot_hi_gujarati_female_contrast_out_32_0.1
+[1, 25] loss: 8.187717
+[1, 50] loss: 7.603887
+[1, 75] loss: 7.249367
+[1, 100] loss: 7.109470
+[1, 125] loss: 6.631971
+[1, 150] loss: 6.481839
+[1, 175] loss: 5.590562
+[1, 200] loss: 5.103395
+[1, 225] loss: 4.676472
+[1, 250] loss: 4.141021
+[1, 275] loss: 3.771703
+[1, 300] loss: 3.421881
+[1, 325] loss: 3.332939
+[1, 350] loss: 3.119704
+Epoch: 1 Validation loss: 15.90118 accuracy: 0.98018 F1-score: 0.30896
+Epoch: 1 Test loss: 10.93842 accuracy: 0.98018 F1-score: 0.30896
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_0
+[2, 25] loss: 2.813884
+[2, 50] loss: 2.757866
+[2, 75] loss: 2.623701
+[2, 100] loss: 2.425939
+[2, 125] loss: 2.427019
+[2, 150] loss: 2.359539
+[2, 175] loss: 2.333078
+[2, 200] loss: 2.177137
+[2, 225] loss: 1.983056
+[2, 250] loss: 1.930835
+[2, 275] loss: 1.865113
+[2, 300] loss: 1.911278
+[2, 325] loss: 1.758130
+[2, 350] loss: 1.738893
+Epoch: 2 Validation loss: 8.45663 accuracy: 0.98009 F1-score: 0.58298
+Epoch: 2 Test loss: 5.80200 accuracy: 0.98009 F1-score: 0.58298
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_1
+[3, 25] loss: 1.581895
+[3, 50] loss: 1.578522
+[3, 75] loss: 1.449409
+[3, 100] loss: 1.396716
+[3, 125] loss: 1.412512
+[3, 150] loss: 1.335687
+[3, 175] loss: 1.300399
+[3, 200] loss: 1.317413
+[3, 225] loss: 1.344362
+[3, 250] loss: 1.250734
+[3, 275] loss: 1.148883
+[3, 300] loss: 1.111126
+[3, 325] loss: 1.167384
+[3, 350] loss: 1.026701
+Epoch: 3 Validation loss: 5.13191 accuracy: 0.97737 F1-score: 0.53732
+Epoch: 3 Test loss: 3.52668 accuracy: 0.97737 F1-score: 0.53732
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_2
+[4, 25] loss: 0.914963
+[4, 50] loss: 0.899223
+[4, 75] loss: 0.947362
+[4, 100] loss: 0.847795
+[4, 125] loss: 0.882331
+[4, 150] loss: 0.847279
+[4, 175] loss: 1.111792
+[4, 200] loss: 0.996125
+[4, 225] loss: 1.070341
+[4, 250] loss: 0.876215
+[4, 275] loss: 0.828004
+[4, 300] loss: 0.946618
+[4, 325] loss: 0.903090
+[4, 350] loss: 0.769636
+Epoch: 4 Validation loss: 3.61636 accuracy: 0.97820 F1-score: 0.53096
+Epoch: 4 Test loss: 2.49413 accuracy: 0.97820 F1-score: 0.53096
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_3
+[5, 25] loss: 0.669089
+[5, 50] loss: 0.710671
+[5, 75] loss: 0.732735
+[5, 100] loss: 0.784076
+[5, 125] loss: 0.637667
+[5, 150] loss: 0.659346
+[5, 175] loss: 0.649113
+[5, 200] loss: 0.698207
+[5, 225] loss: 0.631602
+[5, 250] loss: 0.696132
+[5, 275] loss: 0.656816
+[5, 300] loss: 0.546178
+[5, 325] loss: 0.616444
+[5, 350] loss: 0.637170
+Epoch: 5 Validation loss: 2.67304 accuracy: 0.97607 F1-score: 0.58874
+Epoch: 5 Test loss: 1.83413 accuracy: 0.97607 F1-score: 0.58874
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_4
+[6, 25] loss: 0.550024
+[6, 50] loss: 0.497873
+[6, 75] loss: 0.532228
+[6, 100] loss: 0.482499
+[6, 125] loss: 0.469943
+[6, 150] loss: 0.481565
+[6, 175] loss: 0.476895
+[6, 200] loss: 0.496175
+[6, 225] loss: 0.516980
+[6, 250] loss: 0.418915
+[6, 275] loss: 0.439165
+[6, 300] loss: 0.480388
+[6, 325] loss: 0.461863
+[6, 350] loss: 0.464995
+Epoch: 6 Validation loss: 1.94142 accuracy: 0.98177 F1-score: 0.61027
+Epoch: 6 Test loss: 1.32577 accuracy: 0.98177 F1-score: 0.61027
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_5
+[7, 25] loss: 0.338108
+[7, 50] loss: 0.420613
+[7, 75] loss: 0.368076
+[7, 100] loss: 0.397804
+[7, 125] loss: 0.339365
+[7, 150] loss: 0.375927
+[7, 175] loss: 0.334735
+[7, 200] loss: 0.345304
+[7, 225] loss: 0.313032
+[7, 250] loss: 0.360124
+[7, 275] loss: 0.392294
+[7, 300] loss: 0.430813
+[7, 325] loss: 0.357938
+[7, 350] loss: 0.429244
+Epoch: 7 Validation loss: 1.47271 accuracy: 0.98501 F1-score: 0.64040
+Epoch: 7 Test loss: 1.01831 accuracy: 0.98501 F1-score: 0.64040
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_6
+[8, 25] loss: 0.285720
+[8, 50] loss: 0.304587
+[8, 75] loss: 0.448752
+[8, 100] loss: 0.325611
+[8, 125] loss: 0.320535
+[8, 150] loss: 0.370452
+[8, 175] loss: 0.440344
+[8, 200] loss: 0.400896
+[8, 225] loss: 0.308590
+[8, 250] loss: 0.290429
+[8, 275] loss: 0.267558
+[8, 300] loss: 0.323702
+[8, 325] loss: 0.316280
+[8, 350] loss: 0.233904
+Epoch: 8 Validation loss: 1.37479 accuracy: 0.98811 F1-score: 0.69461
+Epoch: 8 Test loss: 0.94287 accuracy: 0.98811 F1-score: 0.69461
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_7
+[9, 25] loss: 0.265762
+[9, 50] loss: 0.339175
+[9, 75] loss: 0.314814
+[9, 100] loss: 0.290604
+[9, 125] loss: 0.234901
+[9, 150] loss: 0.267667
+[9, 175] loss: 0.265503
+[9, 200] loss: 0.284980
+[9, 225] loss: 0.271652
+[9, 250] loss: 0.289980
+[9, 275] loss: 0.266480
+[9, 300] loss: 0.259477
+[9, 325] loss: 0.280303
+[9, 350] loss: 0.267536
+Epoch: 9 Validation loss: 1.26462 accuracy: 0.98600 F1-score: 0.62964
+Epoch: 9 Test loss: 0.86921 accuracy: 0.98600 F1-score: 0.62964
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_8
+[10, 25] loss: 0.204021
+[10, 50] loss: 0.259093
+[10, 75] loss: 0.239938
+[10, 100] loss: 0.250599
+[10, 125] loss: 0.241157
+[10, 150] loss: 0.275585
+[10, 175] loss: 0.242674
+[10, 200] loss: 0.261359
+[10, 225] loss: 0.296916
+[10, 250] loss: 0.292126
+[10, 275] loss: 1.257827
+[10, 300] loss: 0.882159
+[10, 325] loss: 0.493003
+[10, 350] loss: 0.355326
+Epoch: 10 Validation loss: 1.38046 accuracy: 0.98571 F1-score: 0.64245
+Epoch: 10 Test loss: 0.94886 accuracy: 0.98571 F1-score: 0.64245
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_9
+[11, 25] loss: 0.323559
+[11, 50] loss: 0.291321
+[11, 75] loss: 0.273550
+[11, 100] loss: 0.297971
+[11, 125] loss: 0.347584
+[11, 150] loss: 0.312810
+[11, 175] loss: 0.253810
+[11, 200] loss: 0.229133
+[11, 225] loss: 0.244485
+[11, 250] loss: 0.237137
+[11, 275] loss: 0.373633
+[11, 300] loss: 0.274428
+[11, 325] loss: 0.301019
+[11, 350] loss: 0.321422
+Epoch: 11 Validation loss: 1.28125 accuracy: 0.97948 F1-score: 0.58176
+Epoch: 11 Test loss: 0.87870 accuracy: 0.97948 F1-score: 0.58176
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_10
+[12, 25] loss: 0.258759
+[12, 50] loss: 0.258264
+[12, 75] loss: 0.269200
+[12, 100] loss: 0.265831
+[12, 125] loss: 0.382612
+[12, 150] loss: 0.264155
+[12, 175] loss: 0.225257
+[12, 200] loss: 0.213315
+[12, 225] loss: 0.219679
+[12, 250] loss: 0.400653
+[12, 275] loss: 0.321143
+[12, 300] loss: 0.343068
+[12, 325] loss: 0.266837
+[12, 350] loss: 0.228592
+Epoch: 12 Validation loss: 0.84903 accuracy: 0.98957 F1-score: 0.69388
+Epoch: 12 Test loss: 0.58087 accuracy: 0.98957 F1-score: 0.69388
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_11
+[13, 25] loss: 0.220130
+[13, 50] loss: 0.168081
+[13, 75] loss: 0.175215
+[13, 100] loss: 0.214966
+[13, 125] loss: 0.174436
+[13, 150] loss: 0.213730
+[13, 175] loss: 0.183871
+[13, 200] loss: 0.250663
+[13, 225] loss: 0.198929
+[13, 250] loss: 0.254923
+[13, 275] loss: 0.228039
+[13, 300] loss: 0.215811
+[13, 325] loss: 0.235265
+[13, 350] loss: 0.226384
+Epoch: 13 Validation loss: 0.83591 accuracy: 0.98908 F1-score: 0.71921
+Epoch: 13 Test loss: 0.58208 accuracy: 0.98908 F1-score: 0.71921
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_12
+[14, 25] loss: 0.183603
+[14, 50] loss: 0.142534
+[14, 75] loss: 0.145862
+[14, 100] loss: 0.196352
+[14, 125] loss: 0.223310
+[14, 150] loss: 0.184687
+[14, 175] loss: 0.183526
+[14, 200] loss: 0.207204
+[14, 225] loss: 0.189278
+[14, 250] loss: 0.167872
+[14, 275] loss: 0.153459
+[14, 300] loss: 0.199728
+[14, 325] loss: 0.218675
+[14, 350] loss: 0.183660
+Epoch: 14 Validation loss: 0.67635 accuracy: 0.98967 F1-score: 0.73383
+Epoch: 14 Test loss: 0.46212 accuracy: 0.98967 F1-score: 0.73383
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_13
+[15, 25] loss: 0.110175
+[15, 50] loss: 0.132196
+[15, 75] loss: 0.144877
+[15, 100] loss: 0.196263
+[15, 125] loss: 0.181191
+[15, 150] loss: 0.159586
+[15, 175] loss: 0.162458
+[15, 200] loss: 0.206615
+[15, 225] loss: 0.152424
+[15, 250] loss: 0.163913
+[15, 275] loss: 0.162178
+[15, 300] loss: 0.149788
+[15, 325] loss: 0.179631
+[15, 350] loss: 0.194189
+Epoch: 15 Validation loss: 0.62854 accuracy: 0.98974 F1-score: 0.74116
+Epoch: 15 Test loss: 0.42624 accuracy: 0.98974 F1-score: 0.74116
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_14
+[16, 25] loss: 0.122183
+[16, 50] loss: 0.111537
+[16, 75] loss: 0.125833
+[16, 100] loss: 0.108794
+[16, 125] loss: 0.120223
+[16, 150] loss: 0.151090
+[16, 175] loss: 0.185786
+[16, 200] loss: 0.116470
+[16, 225] loss: 0.120788
+[16, 250] loss: 0.177649
+[16, 275] loss: 0.173311
+[16, 300] loss: 0.179002
+[16, 325] loss: 0.172712
+[16, 350] loss: 0.151305
+Epoch: 16 Validation loss: 0.59009 accuracy: 0.99000 F1-score: 0.75319
+Epoch: 16 Test loss: 0.40631 accuracy: 0.99000 F1-score: 0.75319
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_15
+[17, 25] loss: 0.166628
+[17, 50] loss: 0.163120
+[17, 75] loss: 0.177682
+[17, 100] loss: 0.103392
+[17, 125] loss: 0.111007
+[17, 150] loss: 0.142743
+[17, 175] loss: 0.177130
+[17, 200] loss: 0.166885
+[17, 225] loss: 0.122224
+[17, 250] loss: 0.092905
+[17, 275] loss: 0.159058
+[17, 300] loss: 0.150794
+[17, 325] loss: 0.145548
+[17, 350] loss: 0.132902
+Epoch: 17 Validation loss: 0.48589 accuracy: 0.99179 F1-score: 0.78263
+Epoch: 17 Test loss: 0.33586 accuracy: 0.99179 F1-score: 0.78263
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_16
+[18, 25] loss: 0.089960
+[18, 50] loss: 0.099630
+[18, 75] loss: 0.119874
+[18, 100] loss: 0.135521
+[18, 125] loss: 0.157187
+[18, 150] loss: 0.244593
+[18, 175] loss: 0.117653
+[18, 200] loss: 0.122705
+[18, 225] loss: 0.187403
+[18, 250] loss: 0.168900
+[18, 275] loss: 0.167876
+[18, 300] loss: 0.180312
+[18, 325] loss: 0.203439
+[18, 350] loss: 0.130754
+Epoch: 18 Validation loss: 0.50261 accuracy: 0.99177 F1-score: 0.79414
+Epoch: 18 Test loss: 0.34489 accuracy: 0.99177 F1-score: 0.79414
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_17
+[19, 25] loss: 0.111386
+[19, 50] loss: 0.131444
+[19, 75] loss: 0.109813
+[19, 100] loss: 0.106069
+[19, 125] loss: 0.115586
+[19, 150] loss: 0.116558
+[19, 175] loss: 0.100490
+[19, 200] loss: 0.170690
+[19, 225] loss: 0.112494
+[19, 250] loss: 0.115202
+[19, 275] loss: 0.126225
+[19, 300] loss: 0.142937
+[19, 325] loss: 0.151185
+[19, 350] loss: 0.113530
+Epoch: 19 Validation loss: 0.44227 accuracy: 0.99205 F1-score: 0.75856
+Epoch: 19 Test loss: 0.30619 accuracy: 0.99205 F1-score: 0.75856
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_18
+[20, 25] loss: 0.091978
+[20, 50] loss: 0.095075
+[20, 75] loss: 0.091666
+[20, 100] loss: 0.127100
+[20, 125] loss: 0.106289
+[20, 150] loss: 0.133060
+[20, 175] loss: 0.124143
+[20, 200] loss: 0.117457
+[20, 225] loss: 0.108457
+[20, 250] loss: 0.125105
+[20, 275] loss: 0.133538
+[20, 300] loss: 0.098335
+[20, 325] loss: 0.087689
+[20, 350] loss: 0.133838
+Epoch: 20 Validation loss: 0.52070 accuracy: 0.99219 F1-score: 0.78249
+Epoch: 20 Test loss: 0.35960 accuracy: 0.99219 F1-score: 0.78249
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_19
+[21, 25] loss: 0.113200
+[21, 50] loss: 0.076347
+[21, 75] loss: 0.101604
+[21, 100] loss: 0.096847
+[21, 125] loss: 0.071633
+[21, 150] loss: 0.096484
+[21, 175] loss: 0.102423
+[21, 200] loss: 0.097768
+[21, 225] loss: 0.082636
+[21, 250] loss: 0.125871
+[21, 275] loss: 0.089048
+[21, 300] loss: 0.190086
+[21, 325] loss: 3.616227
+[21, 350] loss: 4.713181
+Epoch: 21 Validation loss: 26.30947 accuracy: 0.98202 F1-score: 0.99093
+Epoch: 21 Test loss: 18.11756 accuracy: 0.98202 F1-score: 0.99093
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_20
+[22, 25] loss: 4.653093
+[22, 50] loss: 4.662129
+[22, 75] loss: 4.698036
+[22, 100] loss: 4.734840
+[22, 125] loss: 4.640749
+[22, 150] loss: 4.691557
+[22, 175] loss: 4.849778
+[22, 200] loss: 4.700079
+[22, 225] loss: 4.678677
+[22, 250] loss: 4.541924
+[22, 275] loss: 4.634928
+[22, 300] loss: 4.609922
+[22, 325] loss: 4.627095
+[22, 350] loss: 4.707917
+Epoch: 22 Validation loss: 26.18269 accuracy: 0.98202 F1-score: 0.99093
+Epoch: 22 Test loss: 18.02008 accuracy: 0.98202 F1-score: 0.99093
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_21
+[23, 25] loss: 4.733150
+[23, 50] loss: 4.588291
+[23, 75] loss: 4.738811
+[23, 100] loss: 4.658991
+[23, 125] loss: 4.578226
+[23, 150] loss: 4.636827
+[23, 175] loss: 4.669058
+[23, 200] loss: 4.711874
+[23, 225] loss: 4.709148
+[23, 250] loss: 4.722582
+[23, 275] loss: 4.513167
+[23, 300] loss: 4.622252
+[23, 325] loss: 4.539402
+[23, 350] loss: 4.574687
+Epoch: 23 Validation loss: 26.20333 accuracy: 0.98202 F1-score: 0.99093
+Epoch: 23 Test loss: 18.02689 accuracy: 0.98202 F1-score: 0.99093
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_22
+[24, 25] loss: 4.675987
+[24, 50] loss: 4.657675
+[24, 75] loss: 4.694741
+[24, 100] loss: 4.666881
+[24, 125] loss: 4.579940
+[24, 150] loss: 4.671465
+[24, 175] loss: 4.492548
+[24, 200] loss: 4.621538
+[24, 225] loss: 4.593880
+[24, 250] loss: 4.630146
+[24, 275] loss: 4.596166
+[24, 300] loss: 4.590521
+[24, 325] loss: 4.667600
+[24, 350] loss: 4.557055
+Epoch: 24 Validation loss: 26.18645 accuracy: 0.98202 F1-score: 0.99093
+Epoch: 24 Test loss: 18.06446 accuracy: 0.98202 F1-score: 0.99093
+Epoch 00024: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in /scratch/ut_ckp/gujarati_female/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1checkpoint_23
+Early Stopping the training
+Finished Training
+Saving Final Model in /scratch/ut_ckp/final/TGRU_slot_hi_gujarati_female_contrast_out_32_0.1final
+Val loss = 26.263519287109375 	 Val accuracy = 0.982023979189295 F1-score = 0.9909304725878959
+Test loss = 18.108665466308594 	 Test accuracy = 0.982023979189295 F1-score = 0.9909304725878959

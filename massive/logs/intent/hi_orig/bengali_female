@@ -1,0 +1,183 @@
+Some weights of the model checkpoint at google/muril-base-cased were not used when initializing BertModel: ['cls.predictions.decoder.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of TGRU_intent_hi_orig_contrast_out_32_0.1
+[1, 25] loss: 127.592461
+[1, 50] loss: 138.444199
+[1, 75] loss: 152.838150
+[1, 100] loss: 133.630264
+[1, 125] loss: 126.946007
+[1, 150] loss: 115.190056
+[1, 175] loss: 121.910645
+[1, 200] loss: 119.871078
+[1, 225] loss: 104.367615
+[1, 250] loss: 131.482391
+[1, 275] loss: 116.042328
+[1, 300] loss: 114.160561
+[1, 325] loss: 105.925095
+[1, 350] loss: 131.712952
+Epoch: 1 Validation loss: 205.92465 accuracy: 0.75258 accuracy_scn: 0.00000
+Epoch: 1 Test loss: 278.55280 accuracy: 0.69099 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_hi_orig_contrast_out_32_0.1checkpoint_0
+[2, 25] loss: 90.581863
+[2, 50] loss: 85.535690
+[2, 75] loss: 109.245689
+[2, 100] loss: 100.802788
+[2, 125] loss: 99.860428
+[2, 150] loss: 90.252754
+[2, 175] loss: 100.666504
+[2, 200] loss: 111.258286
+[2, 225] loss: 113.449860
+[2, 250] loss: 124.475517
+[2, 275] loss: 119.900749
+[2, 300] loss: 124.428993
+[2, 325] loss: 114.373482
+[2, 350] loss: 105.751617
+Epoch: 2 Validation loss: 227.84947 accuracy: 0.80177 accuracy_scn: 0.00000
+Epoch: 2 Test loss: 319.99841 accuracy: 0.73336 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_hi_orig_contrast_out_32_0.1checkpoint_1
+[3, 25] loss: 83.967163
+[3, 50] loss: 98.636757
+[3, 75] loss: 89.921822
+[3, 100] loss: 85.832130
+[3, 125] loss: 93.653442
+[3, 150] loss: 88.980957
+[3, 175] loss: 89.476196
+[3, 200] loss: 86.949638
+[3, 225] loss: 85.702400
+[3, 250] loss: 104.815781
+[3, 275] loss: 97.175011
+[3, 300] loss: 110.894897
+[3, 325] loss: 105.128296
+[3, 350] loss: 102.180252
+Epoch: 3 Validation loss: 223.11078 accuracy: 0.83374 accuracy_scn: 0.00000
+Epoch: 3 Test loss: 316.82700 accuracy: 0.75588 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_hi_orig_contrast_out_32_0.1checkpoint_2
+[4, 25] loss: 80.200050
+[4, 50] loss: 92.989693
+[4, 75] loss: 88.608055
+[4, 100] loss: 78.562660
+[4, 125] loss: 75.959282
+[4, 150] loss: 90.862946
+[4, 175] loss: 79.396973
+[4, 200] loss: 74.293694
+[4, 225] loss: 78.120026
+[4, 250] loss: 83.414352
+[4, 275] loss: 86.193306
+[4, 300] loss: 86.431511
+[4, 325] loss: 79.430626
+[4, 350] loss: 99.439674
+Epoch: 4 Validation loss: 242.61128 accuracy: 0.82194 accuracy_scn: 0.00000
+Epoch: 4 Test loss: 333.38971 accuracy: 0.75353 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_hi_orig_contrast_out_32_0.1checkpoint_3
+[5, 25] loss: 72.711113
+[5, 50] loss: 67.642044
+[5, 75] loss: 92.874374
+[5, 100] loss: 71.803268
+[5, 125] loss: 65.456154
+[5, 150] loss: 84.146294
+[5, 175] loss: 63.427235
+[5, 200] loss: 86.811249
+[5, 225] loss: 63.792934
+[5, 250] loss: 78.950424
+[5, 275] loss: 72.816582
+[5, 300] loss: 79.128220
+[5, 325] loss: 67.126335
+[5, 350] loss: 67.940681
+Epoch: 5 Validation loss: 248.97156 accuracy: 0.82735 accuracy_scn: 0.00000
+Epoch: 5 Test loss: 345.10074 accuracy: 0.76530 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_hi_orig_contrast_out_32_0.1checkpoint_4
+[6, 25] loss: 69.397896
+[6, 50] loss: 67.433220
+[6, 75] loss: 69.570953
+[6, 100] loss: 64.242134
+[6, 125] loss: 61.090004
+[6, 150] loss: 57.385086
+[6, 175] loss: 68.863640
+[6, 200] loss: 62.793198
+[6, 225] loss: 85.075897
+[6, 250] loss: 71.356125
+[6, 275] loss: 80.402336
+[6, 300] loss: 81.438911
+[6, 325] loss: 81.224236
+[6, 350] loss: 81.859627
+Epoch: 6 Validation loss: 233.98918 accuracy: 0.84260 accuracy_scn: 0.00000
+Epoch: 6 Test loss: 319.14502 accuracy: 0.77438 accuracy_scn: 0.00000
+Epoch 00006: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_hi_orig_contrast_out_32_0.1checkpoint_5
+[7, 25] loss: 61.751022
+[7, 50] loss: 56.695572
+[7, 75] loss: 51.530525
+[7, 100] loss: 49.166729
+[7, 125] loss: 62.922905
+[7, 150] loss: 45.589146
+[7, 175] loss: 48.544559
+[7, 200] loss: 47.229935
+[7, 225] loss: 61.591221
+[7, 250] loss: 58.998192
+[7, 275] loss: 47.329922
+[7, 300] loss: 59.631611
+[7, 325] loss: 55.401234
+[7, 350] loss: 56.537888
+Epoch: 7 Validation loss: 219.32474 accuracy: 0.85637 accuracy_scn: 0.00000
+Epoch: 7 Test loss: 315.22910 accuracy: 0.78379 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_hi_orig_contrast_out_32_0.1checkpoint_6
+[8, 25] loss: 46.981567
+[8, 50] loss: 45.903645
+[8, 75] loss: 49.843887
+[8, 100] loss: 45.399300
+[8, 125] loss: 38.953094
+[8, 150] loss: 44.355091
+[8, 175] loss: 42.400764
+[8, 200] loss: 53.644600
+[8, 225] loss: 54.773331
+[8, 250] loss: 51.158279
+[8, 275] loss: 44.512459
+[8, 300] loss: 41.569340
+[8, 325] loss: 58.389549
+[8, 350] loss: 44.643105
+Epoch: 8 Validation loss: 223.68788 accuracy: 0.85145 accuracy_scn: 0.00000
+Epoch: 8 Test loss: 313.65509 accuracy: 0.78716 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_hi_orig_contrast_out_32_0.1checkpoint_7
+[9, 25] loss: 42.879292
+[9, 50] loss: 40.975780
+[9, 75] loss: 41.145157
+[9, 100] loss: 40.916409
+[9, 125] loss: 37.960754
+[9, 150] loss: 45.914551
+[9, 175] loss: 50.265049
+[9, 200] loss: 40.661045
+[9, 225] loss: 38.426094
+[9, 250] loss: 50.029720
+[9, 275] loss: 50.736279
+[9, 300] loss: 46.862289
+[9, 325] loss: 46.186504
+[9, 350] loss: 50.418335
+Epoch: 9 Validation loss: 225.69571 accuracy: 0.85539 accuracy_scn: 0.00000
+Epoch: 9 Test loss: 312.02505 accuracy: 0.78346 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_hi_orig_contrast_out_32_0.1checkpoint_8
+[10, 25] loss: 36.794685
+[10, 50] loss: 40.518410
+[10, 75] loss: 37.130753
+[10, 100] loss: 47.853786
+[10, 125] loss: 39.752686
+[10, 150] loss: 41.720497
+[10, 175] loss: 46.549599
+[10, 200] loss: 43.146206
+[10, 225] loss: 37.880486
+[10, 250] loss: 41.976406
+[10, 275] loss: 45.279072
+[10, 300] loss: 38.144989
+[10, 325] loss: 39.074944
+[10, 350] loss: 57.097900
+Epoch: 10 Validation loss: 240.18863 accuracy: 0.84506 accuracy_scn: 0.00000
+Epoch: 10 Test loss: 327.21127 accuracy: 0.77808 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_hi_orig_contrast_out_32_0.1checkpoint_9
+Early Stopping the training
+Finished Training
+Saving Final Model in /scratch/ut_ckp/final/TGRU_intent_hi_orig_contrast_out_32_0.1final
+Val loss = 240.18862915039062 	 Val accuracy = 0.8450565338134766 accuracy_scn = 0
+Test loss = 327.2112731933594 	 Test accuracy = 0.7780766487121582 accuracy_scn = 0

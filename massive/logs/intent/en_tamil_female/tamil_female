@@ -1,0 +1,865 @@
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of TGRU_intent_en_tamil_female_contrast_out_32_0.1
+[1, 25] loss: 228.116516
+[1, 50] loss: 210.108368
+[1, 75] loss: 224.770264
+[1, 100] loss: 214.367142
+[1, 125] loss: 210.561600
+[1, 150] loss: 217.113983
+[1, 175] loss: 205.142395
+[1, 200] loss: 212.781006
+[1, 225] loss: 201.977676
+[1, 250] loss: 205.976364
+[1, 275] loss: 201.469467
+[1, 300] loss: 185.918320
+[1, 325] loss: 207.523163
+[1, 350] loss: 205.873154
+Epoch: 1 Validation loss: 373.30112 accuracy: 0.82882 accuracy_scn: 0.00000
+Epoch: 1 Test loss: 372.33932 accuracy: 0.82179 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_0
+[2, 25] loss: 175.653244
+[2, 50] loss: 179.842255
+[2, 75] loss: 166.005157
+[2, 100] loss: 159.729019
+[2, 125] loss: 153.567001
+[2, 150] loss: 189.757736
+[2, 175] loss: 190.908142
+[2, 200] loss: 170.055466
+[2, 225] loss: 175.402145
+[2, 250] loss: 186.142380
+[2, 275] loss: 176.879074
+[2, 300] loss: 173.585556
+[2, 325] loss: 188.986115
+[2, 350] loss: 173.690567
+Epoch: 2 Validation loss: 375.21930 accuracy: 0.84014 accuracy_scn: 0.00000
+Epoch: 2 Test loss: 378.24188 accuracy: 0.83490 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_1
+[3, 25] loss: 150.262390
+[3, 50] loss: 138.552002
+[3, 75] loss: 148.718018
+[3, 100] loss: 155.200424
+[3, 125] loss: 158.851212
+[3, 150] loss: 155.003159
+[3, 175] loss: 146.213394
+[3, 200] loss: 148.646957
+[3, 225] loss: 148.896393
+[3, 250] loss: 173.060150
+[3, 275] loss: 170.627472
+[3, 300] loss: 159.376312
+[3, 325] loss: 157.453094
+[3, 350] loss: 167.224335
+Epoch: 3 Validation loss: 357.64084 accuracy: 0.83768 accuracy_scn: 0.00000
+Epoch: 3 Test loss: 360.02734 accuracy: 0.83524 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_2
+[4, 25] loss: 147.370987
+[4, 50] loss: 148.084656
+[4, 75] loss: 136.382629
+[4, 100] loss: 133.554367
+[4, 125] loss: 135.617706
+[4, 150] loss: 149.122269
+[4, 175] loss: 144.539398
+[4, 200] loss: 141.854797
+[4, 225] loss: 144.636093
+[4, 250] loss: 155.815948
+[4, 275] loss: 144.835526
+[4, 300] loss: 160.303360
+[4, 325] loss: 136.559601
+[4, 350] loss: 164.388916
+Epoch: 4 Validation loss: 362.45782 accuracy: 0.84702 accuracy_scn: 0.00000
+Epoch: 4 Test loss: 363.96820 accuracy: 0.83759 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_3
+[5, 25] loss: 128.793976
+[5, 50] loss: 140.339874
+[5, 75] loss: 133.629532
+[5, 100] loss: 131.655411
+[5, 125] loss: 132.130325
+[5, 150] loss: 131.447479
+[5, 175] loss: 141.211105
+[5, 200] loss: 142.929901
+[5, 225] loss: 128.769150
+[5, 250] loss: 136.740952
+[5, 275] loss: 146.766174
+[5, 300] loss: 142.418549
+[5, 325] loss: 142.567810
+[5, 350] loss: 135.718140
+Epoch: 5 Validation loss: 358.06100 accuracy: 0.83571 accuracy_scn: 0.00000
+Epoch: 5 Test loss: 355.31509 accuracy: 0.84566 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_4
+[6, 25] loss: 123.663330
+[6, 50] loss: 121.262390
+[6, 75] loss: 132.784271
+[6, 100] loss: 126.018730
+[6, 125] loss: 131.784744
+[6, 150] loss: 134.432144
+[6, 175] loss: 138.226746
+[6, 200] loss: 140.023422
+[6, 225] loss: 137.736191
+[6, 250] loss: 133.467102
+[6, 275] loss: 125.178871
+[6, 300] loss: 134.290863
+[6, 325] loss: 118.264565
+[6, 350] loss: 140.566422
+Epoch: 6 Validation loss: 368.79922 accuracy: 0.84456 accuracy_scn: 0.00000
+Epoch: 6 Test loss: 374.97351 accuracy: 0.83322 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_5
+[7, 25] loss: 121.987793
+[7, 50] loss: 142.382156
+[7, 75] loss: 126.692177
+[7, 100] loss: 125.295639
+[7, 125] loss: 121.013809
+[7, 150] loss: 134.009552
+[7, 175] loss: 129.721603
+[7, 200] loss: 132.971664
+[7, 225] loss: 120.571625
+[7, 250] loss: 130.385956
+[7, 275] loss: 136.832748
+[7, 300] loss: 139.970703
+[7, 325] loss: 128.977356
+[7, 350] loss: 143.840820
+Epoch: 7 Validation loss: 354.56128 accuracy: 0.84211 accuracy_scn: 0.00000
+Epoch: 7 Test loss: 361.16306 accuracy: 0.83457 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_6
+[8, 25] loss: 126.724373
+[8, 50] loss: 128.023087
+[8, 75] loss: 116.373642
+[8, 100] loss: 119.481895
+[8, 125] loss: 120.196869
+[8, 150] loss: 109.816864
+[8, 175] loss: 114.994102
+[8, 200] loss: 121.467308
+[8, 225] loss: 121.990379
+[8, 250] loss: 132.768265
+[8, 275] loss: 127.992081
+[8, 300] loss: 138.491608
+[8, 325] loss: 121.722481
+[8, 350] loss: 133.400452
+Epoch: 8 Validation loss: 368.94391 accuracy: 0.83620 accuracy_scn: 0.00000
+Epoch: 8 Test loss: 375.32999 accuracy: 0.82851 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_7
+[9, 25] loss: 130.456985
+[9, 50] loss: 118.873833
+[9, 75] loss: 129.562042
+[9, 100] loss: 129.911057
+[9, 125] loss: 133.485123
+[9, 150] loss: 126.711693
+[9, 175] loss: 135.535568
+[9, 200] loss: 125.479095
+[9, 225] loss: 122.111298
+[9, 250] loss: 121.564644
+[9, 275] loss: 130.038040
+[9, 300] loss: 131.797348
+[9, 325] loss: 121.054527
+[9, 350] loss: 135.838440
+Epoch: 9 Validation loss: 352.65717 accuracy: 0.83719 accuracy_scn: 0.00000
+Epoch: 9 Test loss: 360.12625 accuracy: 0.83120 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_8
+[10, 25] loss: 113.929939
+[10, 50] loss: 109.643593
+[10, 75] loss: 125.979362
+[10, 100] loss: 120.534599
+[10, 125] loss: 120.465622
+[10, 150] loss: 109.861504
+[10, 175] loss: 99.283081
+[10, 200] loss: 121.659058
+[10, 225] loss: 141.727493
+[10, 250] loss: 126.272758
+[10, 275] loss: 127.530037
+[10, 300] loss: 124.075302
+[10, 325] loss: 127.619713
+[10, 350] loss: 135.202225
+Epoch: 10 Validation loss: 341.41891 accuracy: 0.83817 accuracy_scn: 0.00000
+Epoch: 10 Test loss: 348.80640 accuracy: 0.83826 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_9
+[11, 25] loss: 109.707008
+[11, 50] loss: 115.310966
+[11, 75] loss: 110.397705
+[11, 100] loss: 108.136971
+[11, 125] loss: 102.906288
+[11, 150] loss: 104.421806
+[11, 175] loss: 110.560135
+[11, 200] loss: 110.621521
+[11, 225] loss: 122.471481
+[11, 250] loss: 102.428047
+[11, 275] loss: 110.480545
+[11, 300] loss: 128.839706
+[11, 325] loss: 114.846367
+[11, 350] loss: 131.983337
+Epoch: 11 Validation loss: 361.85413 accuracy: 0.83571 accuracy_scn: 0.00000
+Epoch: 11 Test loss: 365.26260 accuracy: 0.83692 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_10
+[12, 25] loss: 110.386139
+[12, 50] loss: 116.232719
+[12, 75] loss: 104.746132
+[12, 100] loss: 112.283203
+[12, 125] loss: 109.904175
+[12, 150] loss: 113.587372
+[12, 175] loss: 111.560104
+[12, 200] loss: 119.930222
+[12, 225] loss: 122.915680
+[12, 250] loss: 107.668228
+[12, 275] loss: 120.582726
+[12, 300] loss: 124.971245
+[12, 325] loss: 118.914970
+[12, 350] loss: 104.697510
+Epoch: 12 Validation loss: 363.40485 accuracy: 0.82833 accuracy_scn: 0.00000
+Epoch: 12 Test loss: 360.98660 accuracy: 0.82549 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_11
+[13, 25] loss: 116.862556
+[13, 50] loss: 110.014526
+[13, 75] loss: 107.145226
+[13, 100] loss: 112.006523
+[13, 125] loss: 111.831551
+[13, 150] loss: 109.173798
+[13, 175] loss: 119.082428
+[13, 200] loss: 108.839600
+[13, 225] loss: 104.610977
+[13, 250] loss: 114.495201
+[13, 275] loss: 129.221817
+[13, 300] loss: 145.580566
+[13, 325] loss: 116.944580
+[13, 350] loss: 113.922470
+Epoch: 13 Validation loss: 351.85150 accuracy: 0.82194 accuracy_scn: 0.00000
+Epoch: 13 Test loss: 356.78802 accuracy: 0.82851 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_12
+[14, 25] loss: 114.986137
+[14, 50] loss: 129.939713
+[14, 75] loss: 131.325546
+[14, 100] loss: 112.408516
+[14, 125] loss: 109.689568
+[14, 150] loss: 113.915085
+[14, 175] loss: 106.897888
+[14, 200] loss: 112.517807
+[14, 225] loss: 93.928535
+[14, 250] loss: 123.367798
+[14, 275] loss: 105.206123
+[14, 300] loss: 114.344345
+[14, 325] loss: 115.244217
+[14, 350] loss: 124.465401
+Epoch: 14 Validation loss: 346.67676 accuracy: 0.83669 accuracy_scn: 0.00000
+Epoch: 14 Test loss: 353.60626 accuracy: 0.82851 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_13
+[15, 25] loss: 103.251724
+[15, 50] loss: 111.482094
+[15, 75] loss: 103.367027
+[15, 100] loss: 107.259438
+[15, 125] loss: 130.915909
+[15, 150] loss: 100.126022
+[15, 175] loss: 124.146873
+[15, 200] loss: 116.072617
+[15, 225] loss: 112.054527
+[15, 250] loss: 109.977852
+[15, 275] loss: 119.957558
+[15, 300] loss: 117.391235
+[15, 325] loss: 112.674355
+[15, 350] loss: 138.121185
+Epoch: 15 Validation loss: 350.56027 accuracy: 0.84555 accuracy_scn: 0.00000
+Epoch: 15 Test loss: 356.60260 accuracy: 0.82851 accuracy_scn: 0.00000
+Epoch 00015: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_14
+[16, 25] loss: 101.109795
+[16, 50] loss: 121.804665
+[16, 75] loss: 104.995087
+[16, 100] loss: 113.791168
+[16, 125] loss: 104.806915
+[16, 150] loss: 94.972725
+[16, 175] loss: 97.345299
+[16, 200] loss: 105.819984
+[16, 225] loss: 113.732262
+[16, 250] loss: 95.165604
+[16, 275] loss: 104.539673
+[16, 300] loss: 105.352303
+[16, 325] loss: 97.764595
+[16, 350] loss: 91.371201
+Epoch: 16 Validation loss: 339.48782 accuracy: 0.84998 accuracy_scn: 0.00000
+Epoch: 16 Test loss: 342.17450 accuracy: 0.84129 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_15
+[17, 25] loss: 102.385429
+[17, 50] loss: 93.062469
+[17, 75] loss: 98.370811
+[17, 100] loss: 91.684364
+[17, 125] loss: 93.026909
+[17, 150] loss: 80.370155
+[17, 175] loss: 90.951607
+[17, 200] loss: 89.830956
+[17, 225] loss: 89.755348
+[17, 250] loss: 97.543701
+[17, 275] loss: 86.391167
+[17, 300] loss: 94.508644
+[17, 325] loss: 90.000381
+[17, 350] loss: 96.856873
+Epoch: 17 Validation loss: 336.73166 accuracy: 0.84653 accuracy_scn: 0.00000
+Epoch: 17 Test loss: 338.97546 accuracy: 0.84465 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_16
+[18, 25] loss: 86.698921
+[18, 50] loss: 87.586708
+[18, 75] loss: 93.928871
+[18, 100] loss: 86.712929
+[18, 125] loss: 77.389130
+[18, 150] loss: 90.714088
+[18, 175] loss: 86.582481
+[18, 200] loss: 90.296791
+[18, 225] loss: 89.163734
+[18, 250] loss: 87.950966
+[18, 275] loss: 86.396278
+[18, 300] loss: 100.117706
+[18, 325] loss: 85.274696
+[18, 350] loss: 82.292130
+Epoch: 18 Validation loss: 328.09821 accuracy: 0.85047 accuracy_scn: 0.00000
+Epoch: 18 Test loss: 330.84418 accuracy: 0.84499 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_17
+[19, 25] loss: 88.086426
+[19, 50] loss: 82.136833
+[19, 75] loss: 76.125389
+[19, 100] loss: 83.448708
+[19, 125] loss: 84.297188
+[19, 150] loss: 95.080986
+[19, 175] loss: 82.076691
+[19, 200] loss: 80.527412
+[19, 225] loss: 90.365898
+[19, 250] loss: 79.368454
+[19, 275] loss: 83.907410
+[19, 300] loss: 82.017860
+[19, 325] loss: 85.864952
+[19, 350] loss: 87.223961
+Epoch: 19 Validation loss: 332.58823 accuracy: 0.84506 accuracy_scn: 0.00000
+Epoch: 19 Test loss: 330.58627 accuracy: 0.84331 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_18
+[20, 25] loss: 82.867661
+[20, 50] loss: 82.705719
+[20, 75] loss: 88.729126
+[20, 100] loss: 79.194473
+[20, 125] loss: 82.279129
+[20, 150] loss: 85.866005
+[20, 175] loss: 89.975212
+[20, 200] loss: 90.439362
+[20, 225] loss: 85.836227
+[20, 250] loss: 81.786888
+[20, 275] loss: 88.468582
+[20, 300] loss: 82.633224
+[20, 325] loss: 83.533974
+[20, 350] loss: 84.915947
+Epoch: 20 Validation loss: 324.73309 accuracy: 0.84948 accuracy_scn: 0.00000
+Epoch: 20 Test loss: 324.60623 accuracy: 0.84633 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_19
+[21, 25] loss: 81.514053
+[21, 50] loss: 86.685371
+[21, 75] loss: 70.813560
+[21, 100] loss: 75.904381
+[21, 125] loss: 75.613304
+[21, 150] loss: 73.779060
+[21, 175] loss: 77.201744
+[21, 200] loss: 81.796547
+[21, 225] loss: 83.607613
+[21, 250] loss: 77.599518
+[21, 275] loss: 78.170517
+[21, 300] loss: 84.909317
+[21, 325] loss: 80.101616
+[21, 350] loss: 79.644081
+Epoch: 21 Validation loss: 320.62680 accuracy: 0.85194 accuracy_scn: 0.00000
+Epoch: 21 Test loss: 321.35794 accuracy: 0.84533 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_20
+[22, 25] loss: 80.001740
+[22, 50] loss: 80.459953
+[22, 75] loss: 71.562668
+[22, 100] loss: 77.928612
+[22, 125] loss: 75.707497
+[22, 150] loss: 76.197678
+[22, 175] loss: 72.929802
+[22, 200] loss: 69.517860
+[22, 225] loss: 71.354858
+[22, 250] loss: 72.861420
+[22, 275] loss: 80.287270
+[22, 300] loss: 76.086723
+[22, 325] loss: 68.796417
+[22, 350] loss: 75.177170
+Epoch: 22 Validation loss: 323.30313 accuracy: 0.84604 accuracy_scn: 0.00000
+Epoch: 22 Test loss: 323.27423 accuracy: 0.84566 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_21
+[23, 25] loss: 78.408409
+[23, 50] loss: 75.938766
+[23, 75] loss: 74.317993
+[23, 100] loss: 80.366997
+[23, 125] loss: 93.098282
+[23, 150] loss: 90.836777
+[23, 175] loss: 83.038315
+[23, 200] loss: 87.149643
+[23, 225] loss: 84.893356
+[23, 250] loss: 96.988991
+[23, 275] loss: 94.496437
+[23, 300] loss: 90.700806
+[23, 325] loss: 82.317352
+[23, 350] loss: 113.455780
+Epoch: 23 Validation loss: 333.41708 accuracy: 0.84702 accuracy_scn: 0.00000
+Epoch: 23 Test loss: 336.07419 accuracy: 0.83995 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_22
+[24, 25] loss: 86.444107
+[24, 50] loss: 89.258759
+[24, 75] loss: 91.127159
+[24, 100] loss: 94.388863
+[24, 125] loss: 87.274872
+[24, 150] loss: 94.521713
+[24, 175] loss: 87.565025
+[24, 200] loss: 95.428276
+[24, 225] loss: 110.480927
+[24, 250] loss: 107.432510
+[24, 275] loss: 103.085182
+[24, 300] loss: 104.204742
+[24, 325] loss: 89.862755
+[24, 350] loss: 91.532486
+Epoch: 24 Validation loss: 334.80075 accuracy: 0.84752 accuracy_scn: 0.00000
+Epoch: 24 Test loss: 339.84055 accuracy: 0.83927 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_23
+[25, 25] loss: 96.370239
+[25, 50] loss: 94.951981
+[25, 75] loss: 87.483467
+[25, 100] loss: 86.498337
+[25, 125] loss: 84.155968
+[25, 150] loss: 89.475060
+[25, 175] loss: 82.908745
+[25, 200] loss: 83.583321
+[25, 225] loss: 84.635178
+[25, 250] loss: 82.292831
+[25, 275] loss: 80.415215
+[25, 300] loss: 84.580894
+[25, 325] loss: 89.909370
+[25, 350] loss: 74.479607
+Epoch: 25 Validation loss: 319.05417 accuracy: 0.84850 accuracy_scn: 0.00000
+Epoch: 25 Test loss: 322.88596 accuracy: 0.84432 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_24
+[26, 25] loss: 81.375725
+[26, 50] loss: 79.778389
+[26, 75] loss: 75.580338
+[26, 100] loss: 81.415260
+[26, 125] loss: 75.661285
+[26, 150] loss: 82.511032
+[26, 175] loss: 71.077583
+[26, 200] loss: 78.083366
+[26, 225] loss: 80.938194
+[26, 250] loss: 76.842155
+[26, 275] loss: 86.161987
+[26, 300] loss: 79.683136
+[26, 325] loss: 71.217873
+[26, 350] loss: 83.121170
+Epoch: 26 Validation loss: 317.70679 accuracy: 0.85243 accuracy_scn: 0.00000
+Epoch: 26 Test loss: 323.04123 accuracy: 0.84633 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_25
+[27, 25] loss: 77.032661
+[27, 50] loss: 76.485283
+[27, 75] loss: 89.852020
+[27, 100] loss: 80.879227
+[27, 125] loss: 85.266167
+[27, 150] loss: 88.582565
+[27, 175] loss: 80.887573
+[27, 200] loss: 85.910698
+[27, 225] loss: 79.905014
+[27, 250] loss: 87.193390
+[27, 275] loss: 82.477798
+[27, 300] loss: 80.081558
+[27, 325] loss: 80.835289
+[27, 350] loss: 91.815964
+Epoch: 27 Validation loss: 327.73456 accuracy: 0.84456 accuracy_scn: 0.00000
+Epoch: 27 Test loss: 334.56442 accuracy: 0.83356 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_26
+[28, 25] loss: 87.875488
+[28, 50] loss: 84.841270
+[28, 75] loss: 82.812408
+[28, 100] loss: 83.030380
+[28, 125] loss: 93.649155
+[28, 150] loss: 89.768028
+[28, 175] loss: 92.033218
+[28, 200] loss: 102.816093
+[28, 225] loss: 106.135529
+[28, 250] loss: 95.413345
+[28, 275] loss: 91.960625
+[28, 300] loss: 98.670685
+[28, 325] loss: 94.482422
+[28, 350] loss: 100.002869
+Epoch: 28 Validation loss: 329.55896 accuracy: 0.83522 accuracy_scn: 0.00000
+Epoch: 28 Test loss: 334.38831 accuracy: 0.82414 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_27
+[29, 25] loss: 99.028221
+[29, 50] loss: 93.597755
+[29, 75] loss: 96.973808
+[29, 100] loss: 99.920914
+[29, 125] loss: 96.931915
+[29, 150] loss: 99.620895
+[29, 175] loss: 98.850151
+[29, 200] loss: 98.441238
+[29, 225] loss: 87.140274
+[29, 250] loss: 76.647499
+[29, 275] loss: 83.670914
+[29, 300] loss: 86.121735
+[29, 325] loss: 84.859009
+[29, 350] loss: 81.797935
+Epoch: 29 Validation loss: 324.98102 accuracy: 0.84407 accuracy_scn: 0.00000
+Epoch: 29 Test loss: 333.57492 accuracy: 0.83658 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_28
+[30, 25] loss: 83.140312
+[30, 50] loss: 88.313904
+[30, 75] loss: 89.013550
+[30, 100] loss: 78.378761
+[30, 125] loss: 81.397697
+[30, 150] loss: 81.047096
+[30, 175] loss: 86.639236
+[30, 200] loss: 74.602333
+[30, 225] loss: 82.707817
+[30, 250] loss: 81.256226
+[30, 275] loss: 85.230232
+[30, 300] loss: 78.934952
+[30, 325] loss: 84.815514
+[30, 350] loss: 77.085075
+Epoch: 30 Validation loss: 325.69461 accuracy: 0.83522 accuracy_scn: 0.00000
+Epoch: 30 Test loss: 322.83646 accuracy: 0.84364 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_29
+[31, 25] loss: 73.616943
+[31, 50] loss: 68.992569
+[31, 75] loss: 72.702248
+[31, 100] loss: 76.919395
+[31, 125] loss: 68.891190
+[31, 150] loss: 70.602859
+[31, 175] loss: 75.243820
+[31, 200] loss: 69.685417
+[31, 225] loss: 78.984688
+[31, 250] loss: 78.503799
+[31, 275] loss: 75.200439
+[31, 300] loss: 77.587524
+[31, 325] loss: 80.915680
+[31, 350] loss: 84.291672
+Epoch: 31 Validation loss: 323.76993 accuracy: 0.84260 accuracy_scn: 0.00000
+Epoch: 31 Test loss: 323.89850 accuracy: 0.84398 accuracy_scn: 0.00000
+Epoch 00031: reducing learning rate of group 0 to 2.5000e-05.
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_30
+[32, 25] loss: 74.811211
+[32, 50] loss: 79.078072
+[32, 75] loss: 79.313019
+[32, 100] loss: 78.130455
+[32, 125] loss: 78.836998
+[32, 150] loss: 76.032677
+[32, 175] loss: 74.002731
+[32, 200] loss: 68.101105
+[32, 225] loss: 75.201271
+[32, 250] loss: 78.039124
+[32, 275] loss: 79.468674
+[32, 300] loss: 78.015190
+[32, 325] loss: 74.284698
+[32, 350] loss: 80.773499
+Epoch: 32 Validation loss: 319.84055 accuracy: 0.85096 accuracy_scn: 0.00000
+Epoch: 32 Test loss: 320.46158 accuracy: 0.84297 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_31
+[33, 25] loss: 78.691505
+[33, 50] loss: 74.151192
+[33, 75] loss: 68.435860
+[33, 100] loss: 73.792313
+[33, 125] loss: 75.252800
+[33, 150] loss: 80.038315
+[33, 175] loss: 72.707535
+[33, 200] loss: 71.039009
+[33, 225] loss: 83.697998
+[33, 250] loss: 77.775787
+[33, 275] loss: 76.783020
+[33, 300] loss: 82.981133
+[33, 325] loss: 67.178879
+[33, 350] loss: 67.519424
+Epoch: 33 Validation loss: 317.27567 accuracy: 0.84899 accuracy_scn: 0.00000
+Epoch: 33 Test loss: 317.58557 accuracy: 0.84465 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_32
+[34, 25] loss: 71.516449
+[34, 50] loss: 75.123024
+[34, 75] loss: 66.705284
+[34, 100] loss: 66.697296
+[34, 125] loss: 72.813141
+[34, 150] loss: 67.019897
+[34, 175] loss: 67.976723
+[34, 200] loss: 77.332710
+[34, 225] loss: 76.259094
+[34, 250] loss: 73.872681
+[34, 275] loss: 80.432739
+[34, 300] loss: 74.352814
+[34, 325] loss: 76.211159
+[34, 350] loss: 74.342407
+Epoch: 34 Validation loss: 315.97165 accuracy: 0.85489 accuracy_scn: 0.00000
+Epoch: 34 Test loss: 321.00748 accuracy: 0.84364 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_33
+[35, 25] loss: 65.835182
+[35, 50] loss: 72.530464
+[35, 75] loss: 78.340874
+[35, 100] loss: 76.854927
+[35, 125] loss: 80.303741
+[35, 150] loss: 72.744286
+[35, 175] loss: 73.139229
+[35, 200] loss: 67.601067
+[35, 225] loss: 69.339493
+[35, 250] loss: 73.217819
+[35, 275] loss: 62.431606
+[35, 300] loss: 72.922722
+[35, 325] loss: 70.475533
+[35, 350] loss: 59.681889
+Epoch: 35 Validation loss: 312.58838 accuracy: 0.85293 accuracy_scn: 0.00000
+Epoch: 35 Test loss: 316.76425 accuracy: 0.84734 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_34
+[36, 25] loss: 67.816765
+[36, 50] loss: 71.545792
+[36, 75] loss: 69.569702
+[36, 100] loss: 60.717957
+[36, 125] loss: 67.715935
+[36, 150] loss: 66.386879
+[36, 175] loss: 63.016331
+[36, 200] loss: 70.021835
+[36, 225] loss: 66.048515
+[36, 250] loss: 60.287006
+[36, 275] loss: 64.643341
+[36, 300] loss: 64.842369
+[36, 325] loss: 67.659660
+[36, 350] loss: 66.729164
+Epoch: 36 Validation loss: 308.40741 accuracy: 0.85145 accuracy_scn: 0.00000
+Epoch: 36 Test loss: 311.49545 accuracy: 0.84364 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_35
+[37, 25] loss: 66.578217
+[37, 50] loss: 66.625999
+[37, 75] loss: 61.257538
+[37, 100] loss: 66.663284
+[37, 125] loss: 63.599941
+[37, 150] loss: 71.735359
+[37, 175] loss: 66.827652
+[37, 200] loss: 69.743065
+[37, 225] loss: 64.160690
+[37, 250] loss: 59.115311
+[37, 275] loss: 67.608475
+[37, 300] loss: 61.637074
+[37, 325] loss: 70.472389
+[37, 350] loss: 71.227081
+Epoch: 37 Validation loss: 310.14047 accuracy: 0.85342 accuracy_scn: 0.00000
+Epoch: 37 Test loss: 313.74365 accuracy: 0.84499 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_36
+[38, 25] loss: 61.083218
+[38, 50] loss: 67.617203
+[38, 75] loss: 64.010452
+[38, 100] loss: 64.731674
+[38, 125] loss: 68.101540
+[38, 150] loss: 68.271759
+[38, 175] loss: 60.805000
+[38, 200] loss: 64.027618
+[38, 225] loss: 70.671135
+[38, 250] loss: 68.795799
+[38, 275] loss: 63.129021
+[38, 300] loss: 64.717232
+[38, 325] loss: 64.201172
+[38, 350] loss: 69.199600
+Epoch: 38 Validation loss: 309.59650 accuracy: 0.85243 accuracy_scn: 0.00000
+Epoch: 38 Test loss: 314.73297 accuracy: 0.84465 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_37
+[39, 25] loss: 69.886299
+[39, 50] loss: 69.699585
+[39, 75] loss: 68.566162
+[39, 100] loss: 62.897671
+[39, 125] loss: 65.085228
+[39, 150] loss: 68.542587
+[39, 175] loss: 62.290981
+[39, 200] loss: 59.914272
+[39, 225] loss: 64.348953
+[39, 250] loss: 61.026699
+[39, 275] loss: 67.611694
+[39, 300] loss: 69.126297
+[39, 325] loss: 61.432152
+[39, 350] loss: 64.031998
+Epoch: 39 Validation loss: 313.02747 accuracy: 0.84899 accuracy_scn: 0.00000
+Epoch: 39 Test loss: 315.14029 accuracy: 0.84398 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_38
+[40, 25] loss: 68.062920
+[40, 50] loss: 61.531483
+[40, 75] loss: 58.409554
+[40, 100] loss: 63.474598
+[40, 125] loss: 65.136055
+[40, 150] loss: 62.750324
+[40, 175] loss: 63.766113
+[40, 200] loss: 67.038933
+[40, 225] loss: 54.922825
+[40, 250] loss: 65.640709
+[40, 275] loss: 60.762264
+[40, 300] loss: 65.834351
+[40, 325] loss: 62.534424
+[40, 350] loss: 59.214153
+Epoch: 40 Validation loss: 307.32544 accuracy: 0.85391 accuracy_scn: 0.00000
+Epoch: 40 Test loss: 310.01971 accuracy: 0.84364 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_39
+[41, 25] loss: 62.084507
+[41, 50] loss: 65.957214
+[41, 75] loss: 61.079197
+[41, 100] loss: 63.658115
+[41, 125] loss: 62.124538
+[41, 150] loss: 61.249416
+[41, 175] loss: 64.346581
+[41, 200] loss: 66.051666
+[41, 225] loss: 63.173084
+[41, 250] loss: 60.201038
+[41, 275] loss: 62.241550
+[41, 300] loss: 58.995628
+[41, 325] loss: 59.283306
+[41, 350] loss: 54.350418
+Epoch: 41 Validation loss: 306.69250 accuracy: 0.84998 accuracy_scn: 0.00000
+Epoch: 41 Test loss: 309.34824 accuracy: 0.84364 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_40
+[42, 25] loss: 60.452038
+[42, 50] loss: 56.017960
+[42, 75] loss: 60.453094
+[42, 100] loss: 64.348213
+[42, 125] loss: 59.990414
+[42, 150] loss: 60.113884
+[42, 175] loss: 64.564743
+[42, 200] loss: 69.003883
+[42, 225] loss: 59.745090
+[42, 250] loss: 63.934105
+[42, 275] loss: 64.395348
+[42, 300] loss: 61.799709
+[42, 325] loss: 62.778568
+[42, 350] loss: 64.747787
+Epoch: 42 Validation loss: 311.16617 accuracy: 0.84948 accuracy_scn: 0.00000
+Epoch: 42 Test loss: 313.02005 accuracy: 0.84196 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_41
+[43, 25] loss: 69.928970
+[43, 50] loss: 65.354126
+[43, 75] loss: 60.117176
+[43, 100] loss: 61.095329
+[43, 125] loss: 69.037689
+[43, 150] loss: 73.496758
+[43, 175] loss: 63.217651
+[43, 200] loss: 69.614021
+[43, 225] loss: 78.575912
+[43, 250] loss: 72.592560
+[43, 275] loss: 72.682549
+[43, 300] loss: 75.308273
+[43, 325] loss: 69.873207
+[43, 350] loss: 79.780968
+Epoch: 43 Validation loss: 316.16489 accuracy: 0.84112 accuracy_scn: 0.00000
+Epoch: 43 Test loss: 315.35037 accuracy: 0.84028 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_42
+[44, 25] loss: 75.901253
+[44, 50] loss: 76.873169
+[44, 75] loss: 72.829330
+[44, 100] loss: 75.859795
+[44, 125] loss: 74.171600
+[44, 150] loss: 78.357719
+[44, 175] loss: 72.286217
+[44, 200] loss: 63.021606
+[44, 225] loss: 75.338074
+[44, 250] loss: 78.530777
+[44, 275] loss: 77.404716
+[44, 300] loss: 73.356583
+[44, 325] loss: 75.031174
+[44, 350] loss: 68.571678
+Epoch: 44 Validation loss: 315.25467 accuracy: 0.84555 accuracy_scn: 0.00000
+Epoch: 44 Test loss: 315.97079 accuracy: 0.84465 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_43
+[45, 25] loss: 72.400810
+[45, 50] loss: 66.195610
+[45, 75] loss: 69.920929
+[45, 100] loss: 66.145523
+[45, 125] loss: 75.083931
+[45, 150] loss: 77.398766
+[45, 175] loss: 76.502365
+[45, 200] loss: 66.811935
+[45, 225] loss: 73.428955
+[45, 250] loss: 73.806168
+[45, 275] loss: 75.602951
+[45, 300] loss: 75.492867
+[45, 325] loss: 74.319733
+[45, 350] loss: 74.442352
+Epoch: 45 Validation loss: 322.58405 accuracy: 0.84211 accuracy_scn: 0.00000
+Epoch: 45 Test loss: 320.21878 accuracy: 0.84264 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_44
+[46, 25] loss: 71.735329
+[46, 50] loss: 71.863815
+[46, 75] loss: 75.158485
+[46, 100] loss: 73.640663
+[46, 125] loss: 68.660378
+[46, 150] loss: 66.116936
+[46, 175] loss: 66.078842
+[46, 200] loss: 61.642288
+[46, 225] loss: 62.932400
+[46, 250] loss: 63.229465
+[46, 275] loss: 70.598015
+[46, 300] loss: 66.583321
+[46, 325] loss: 68.675049
+[46, 350] loss: 64.583527
+Epoch: 46 Validation loss: 313.31799 accuracy: 0.84604 accuracy_scn: 0.00000
+Epoch: 46 Test loss: 312.39713 accuracy: 0.84297 accuracy_scn: 0.00000
+Epoch 00046: reducing learning rate of group 0 to 1.2500e-05.
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_45
+[47, 25] loss: 70.488152
+[47, 50] loss: 64.717522
+[47, 75] loss: 63.627850
+[47, 100] loss: 60.890560
+[47, 125] loss: 65.277336
+[47, 150] loss: 57.518559
+[47, 175] loss: 68.448578
+[47, 200] loss: 66.447052
+[47, 225] loss: 62.150249
+[47, 250] loss: 65.195511
+[47, 275] loss: 64.068375
+[47, 300] loss: 65.080132
+[47, 325] loss: 61.701038
+[47, 350] loss: 65.511925
+Epoch: 47 Validation loss: 311.72324 accuracy: 0.84407 accuracy_scn: 0.00000
+Epoch: 47 Test loss: 310.01578 accuracy: 0.84499 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_46
+[48, 25] loss: 59.574398
+[48, 50] loss: 59.298950
+[48, 75] loss: 59.760166
+[48, 100] loss: 64.379128
+[48, 125] loss: 59.819214
+[48, 150] loss: 64.385109
+[48, 175] loss: 60.523640
+[48, 200] loss: 60.921501
+[48, 225] loss: 59.933640
+[48, 250] loss: 58.810379
+[48, 275] loss: 60.662205
+[48, 300] loss: 61.110928
+[48, 325] loss: 64.279816
+[48, 350] loss: 62.826504
+Epoch: 48 Validation loss: 309.33582 accuracy: 0.84555 accuracy_scn: 0.00000
+Epoch: 48 Test loss: 308.31369 accuracy: 0.84667 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_47
+[49, 25] loss: 56.252083
+[49, 50] loss: 54.898296
+[49, 75] loss: 66.167381
+[49, 100] loss: 66.660660
+[49, 125] loss: 66.480721
+[49, 150] loss: 57.025867
+[49, 175] loss: 62.576492
+[49, 200] loss: 62.449589
+[49, 225] loss: 61.968452
+[49, 250] loss: 59.016037
+[49, 275] loss: 61.468510
+[49, 300] loss: 61.557827
+[49, 325] loss: 62.101055
+[49, 350] loss: 55.528740
+Epoch: 49 Validation loss: 308.83008 accuracy: 0.84653 accuracy_scn: 0.00000
+Epoch: 49 Test loss: 308.92380 accuracy: 0.84432 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_48
+[50, 25] loss: 56.542747
+[50, 50] loss: 60.286999
+[50, 75] loss: 62.015915
+[50, 100] loss: 67.087013
+[50, 125] loss: 59.867050
+[50, 150] loss: 65.901520
+[50, 175] loss: 62.255512
+[50, 200] loss: 58.014053
+[50, 225] loss: 62.365520
+[50, 250] loss: 63.653027
+[50, 275] loss: 63.142544
+[50, 300] loss: 58.598061
+[50, 325] loss: 59.937347
+[50, 350] loss: 60.238026
+Epoch: 50 Validation loss: 307.62350 accuracy: 0.84998 accuracy_scn: 0.00000
+Epoch: 50 Test loss: 308.94144 accuracy: 0.84600 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/tamil_female/TGRU_intent_en_tamil_female_contrast_out_32_0.1checkpoint_49
+Early Stopping the training
+Finished Training
+Saving Final Model in /scratch/ut_ckp/final/TGRU_intent_en_tamil_female_contrast_out_32_0.1final
+Val loss = 307.6235046386719 	 Val accuracy = 0.8499753475189209 accuracy_scn = 0
+Test loss = 308.9414367675781 	 Test accuracy = 0.8459986448287964 accuracy_scn = 0

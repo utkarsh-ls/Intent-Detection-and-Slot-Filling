@@ -1,0 +1,8 @@
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+Using model from /scratch/ut_ckp/final/TGRU_intent_en_tamil_female_contrast_out_32_0.1final.pt
+Val loss = 307.6235046386719 	 Val accuracy = 0.8499753475189209 accuracy_scn = 0
+Test loss = 273.76654052734375 	 Test accuracy = 0.8735709190368652 accuracy_scn = 0

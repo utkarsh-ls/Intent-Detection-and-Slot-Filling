@@ -1,0 +1,985 @@
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device:  cuda
+Using 8 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of TGRU_intent_en_orig_contrast_out_32_0.1
+[1, 25] loss: 224.681824
+[1, 50] loss: 210.816544
+[1, 75] loss: 204.256927
+[1, 100] loss: 213.743484
+[1, 125] loss: 190.208115
+[1, 150] loss: 193.892181
+[1, 175] loss: 204.329269
+[1, 200] loss: 192.660599
+[1, 225] loss: 188.522339
+[1, 250] loss: 199.389954
+[1, 275] loss: 191.504593
+[1, 300] loss: 179.518509
+[1, 325] loss: 187.899704
+[1, 350] loss: 190.597107
+Epoch: 1 Validation loss: 318.87347 accuracy: 0.85243 accuracy_scn: 0.00000
+Epoch: 1 Test loss: 378.04999 accuracy: 0.79556 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_0
+[2, 25] loss: 161.937042
+[2, 50] loss: 160.667831
+[2, 75] loss: 153.005096
+[2, 100] loss: 157.682968
+[2, 125] loss: 157.672821
+[2, 150] loss: 151.000595
+[2, 175] loss: 147.562424
+[2, 200] loss: 152.005997
+[2, 225] loss: 159.499725
+[2, 250] loss: 149.627090
+[2, 275] loss: 173.074585
+[2, 300] loss: 173.419922
+[2, 325] loss: 153.700439
+[2, 350] loss: 177.956757
+Epoch: 2 Validation loss: 317.88916 accuracy: 0.87113 accuracy_scn: 0.00000
+Epoch: 2 Test loss: 377.07217 accuracy: 0.81506 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_1
+[3, 25] loss: 149.106476
+[3, 50] loss: 133.325989
+[3, 75] loss: 141.949112
+[3, 100] loss: 139.932953
+[3, 125] loss: 128.821045
+[3, 150] loss: 141.891159
+[3, 175] loss: 135.595200
+[3, 200] loss: 135.027374
+[3, 225] loss: 149.840576
+[3, 250] loss: 142.848572
+[3, 275] loss: 140.927170
+[3, 300] loss: 167.407227
+[3, 325] loss: 146.664444
+[3, 350] loss: 150.481888
+Epoch: 3 Validation loss: 315.37845 accuracy: 0.88096 accuracy_scn: 0.00000
+Epoch: 3 Test loss: 380.13504 accuracy: 0.82179 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_2
+[4, 25] loss: 149.793381
+[4, 50] loss: 142.974609
+[4, 75] loss: 114.544014
+[4, 100] loss: 139.167450
+[4, 125] loss: 135.020111
+[4, 150] loss: 142.997223
+[4, 175] loss: 133.218460
+[4, 200] loss: 120.757866
+[4, 225] loss: 132.884872
+[4, 250] loss: 130.469482
+[4, 275] loss: 142.839249
+[4, 300] loss: 133.168198
+[4, 325] loss: 135.034973
+[4, 350] loss: 146.408783
+Epoch: 4 Validation loss: 328.05807 accuracy: 0.86572 accuracy_scn: 0.00000
+Epoch: 4 Test loss: 385.63315 accuracy: 0.80968 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_3
+[5, 25] loss: 136.984436
+[5, 50] loss: 109.372070
+[5, 75] loss: 116.630791
+[5, 100] loss: 121.601845
+[5, 125] loss: 135.260132
+[5, 150] loss: 117.119263
+[5, 175] loss: 125.585571
+[5, 200] loss: 130.049072
+[5, 225] loss: 146.757599
+[5, 250] loss: 125.460312
+[5, 275] loss: 132.312714
+[5, 300] loss: 132.271301
+[5, 325] loss: 113.309761
+[5, 350] loss: 131.711945
+Epoch: 5 Validation loss: 313.64685 accuracy: 0.86768 accuracy_scn: 0.00000
+Epoch: 5 Test loss: 373.70947 accuracy: 0.82482 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_4
+[6, 25] loss: 116.681854
+[6, 50] loss: 122.852234
+[6, 75] loss: 129.669678
+[6, 100] loss: 130.734634
+[6, 125] loss: 133.373550
+[6, 150] loss: 118.041679
+[6, 175] loss: 125.366386
+[6, 200] loss: 125.930382
+[6, 225] loss: 118.517982
+[6, 250] loss: 128.774567
+[6, 275] loss: 133.336136
+[6, 300] loss: 141.898743
+[6, 325] loss: 139.855209
+[6, 350] loss: 126.154213
+Epoch: 6 Validation loss: 311.30670 accuracy: 0.87359 accuracy_scn: 0.00000
+Epoch: 6 Test loss: 369.64011 accuracy: 0.81607 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_5
+[7, 25] loss: 132.517151
+[7, 50] loss: 133.823334
+[7, 75] loss: 130.135727
+[7, 100] loss: 117.623657
+[7, 125] loss: 139.447281
+[7, 150] loss: 116.283226
+[7, 175] loss: 133.363281
+[7, 200] loss: 118.978561
+[7, 225] loss: 122.969170
+[7, 250] loss: 122.217583
+[7, 275] loss: 121.891724
+[7, 300] loss: 120.677757
+[7, 325] loss: 112.954727
+[7, 350] loss: 115.750977
+Epoch: 7 Validation loss: 290.93909 accuracy: 0.87949 accuracy_scn: 0.00000
+Epoch: 7 Test loss: 352.27893 accuracy: 0.82750 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_6
+[8, 25] loss: 105.744255
+[8, 50] loss: 109.993446
+[8, 75] loss: 106.093887
+[8, 100] loss: 122.031158
+[8, 125] loss: 113.890564
+[8, 150] loss: 116.413864
+[8, 175] loss: 117.599350
+[8, 200] loss: 110.562859
+[8, 225] loss: 106.914009
+[8, 250] loss: 102.533348
+[8, 275] loss: 123.971939
+[8, 300] loss: 120.431229
+[8, 325] loss: 111.818893
+[8, 350] loss: 106.653793
+Epoch: 8 Validation loss: 311.17810 accuracy: 0.86719 accuracy_scn: 0.00000
+Epoch: 8 Test loss: 372.98663 accuracy: 0.80834 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_7
+[9, 25] loss: 112.794098
+[9, 50] loss: 112.998718
+[9, 75] loss: 108.199043
+[9, 100] loss: 97.066315
+[9, 125] loss: 118.035667
+[9, 150] loss: 117.933434
+[9, 175] loss: 118.824478
+[9, 200] loss: 117.574478
+[9, 225] loss: 101.035049
+[9, 250] loss: 108.522163
+[9, 275] loss: 115.531464
+[9, 300] loss: 107.966728
+[9, 325] loss: 108.707291
+[9, 350] loss: 102.658836
+Epoch: 9 Validation loss: 304.33902 accuracy: 0.86719 accuracy_scn: 0.00000
+Epoch: 9 Test loss: 366.24643 accuracy: 0.81607 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_8
+[10, 25] loss: 97.892242
+[10, 50] loss: 104.089851
+[10, 75] loss: 107.139244
+[10, 100] loss: 118.100525
+[10, 125] loss: 115.368866
+[10, 150] loss: 106.068916
+[10, 175] loss: 112.264587
+[10, 200] loss: 93.461266
+[10, 225] loss: 97.021606
+[10, 250] loss: 99.933380
+[10, 275] loss: 102.496597
+[10, 300] loss: 109.678543
+[10, 325] loss: 117.607323
+[10, 350] loss: 105.741661
+Epoch: 10 Validation loss: 315.88354 accuracy: 0.86965 accuracy_scn: 0.00000
+Epoch: 10 Test loss: 378.13675 accuracy: 0.80935 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_9
+[11, 25] loss: 112.235176
+[11, 50] loss: 106.539345
+[11, 75] loss: 101.712822
+[11, 100] loss: 113.490982
+[11, 125] loss: 103.445831
+[11, 150] loss: 105.036537
+[11, 175] loss: 102.563972
+[11, 200] loss: 103.765976
+[11, 225] loss: 104.491196
+[11, 250] loss: 100.512642
+[11, 275] loss: 115.101929
+[11, 300] loss: 161.380615
+[11, 325] loss: 121.969521
+[11, 350] loss: 122.466904
+Epoch: 11 Validation loss: 307.38297 accuracy: 0.86326 accuracy_scn: 0.00000
+Epoch: 11 Test loss: 374.15857 accuracy: 0.80565 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_10
+[12, 25] loss: 99.648300
+[12, 50] loss: 108.093315
+[12, 75] loss: 105.594238
+[12, 100] loss: 119.160858
+[12, 125] loss: 134.685791
+[12, 150] loss: 124.610878
+[12, 175] loss: 117.336464
+[12, 200] loss: 104.512115
+[12, 225] loss: 120.032028
+[12, 250] loss: 122.233749
+[12, 275] loss: 115.379082
+[12, 300] loss: 120.200768
+[12, 325] loss: 106.720253
+[12, 350] loss: 116.013634
+Epoch: 12 Validation loss: 299.35205 accuracy: 0.87063 accuracy_scn: 0.00000
+Epoch: 12 Test loss: 374.31006 accuracy: 0.80565 accuracy_scn: 0.00000
+Epoch 00012: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_11
+[13, 25] loss: 103.567398
+[13, 50] loss: 119.392700
+[13, 75] loss: 104.430183
+[13, 100] loss: 108.309120
+[13, 125] loss: 105.381660
+[13, 150] loss: 98.667374
+[13, 175] loss: 102.017128
+[13, 200] loss: 102.242050
+[13, 225] loss: 107.444717
+[13, 250] loss: 107.934448
+[13, 275] loss: 108.593155
+[13, 300] loss: 111.663643
+[13, 325] loss: 99.022911
+[13, 350] loss: 88.438843
+Epoch: 13 Validation loss: 295.00995 accuracy: 0.87654 accuracy_scn: 0.00000
+Epoch: 13 Test loss: 369.31598 accuracy: 0.81944 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_12
+[14, 25] loss: 91.959282
+[14, 50] loss: 85.509872
+[14, 75] loss: 92.200386
+[14, 100] loss: 91.792603
+[14, 125] loss: 91.611649
+[14, 150] loss: 84.692032
+[14, 175] loss: 85.034195
+[14, 200] loss: 88.681793
+[14, 225] loss: 83.974434
+[14, 250] loss: 84.879021
+[14, 275] loss: 90.728615
+[14, 300] loss: 87.497566
+[14, 325] loss: 76.025925
+[14, 350] loss: 87.293594
+Epoch: 14 Validation loss: 281.44092 accuracy: 0.87703 accuracy_scn: 0.00000
+Epoch: 14 Test loss: 357.81393 accuracy: 0.81607 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_13
+[15, 25] loss: 79.805260
+[15, 50] loss: 77.685600
+[15, 75] loss: 85.698082
+[15, 100] loss: 79.098320
+[15, 125] loss: 80.437843
+[15, 150] loss: 85.694633
+[15, 175] loss: 78.516525
+[15, 200] loss: 79.866196
+[15, 225] loss: 89.974960
+[15, 250] loss: 77.258591
+[15, 275] loss: 83.532379
+[15, 300] loss: 81.840096
+[15, 325] loss: 85.173042
+[15, 350] loss: 75.515160
+Epoch: 15 Validation loss: 281.48303 accuracy: 0.88785 accuracy_scn: 0.00000
+Epoch: 15 Test loss: 354.77151 accuracy: 0.82381 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_14
+[16, 25] loss: 79.287041
+[16, 50] loss: 76.922279
+[16, 75] loss: 77.061325
+[16, 100] loss: 77.538338
+[16, 125] loss: 79.184242
+[16, 150] loss: 71.064445
+[16, 175] loss: 83.627411
+[16, 200] loss: 84.136795
+[16, 225] loss: 85.238998
+[16, 250] loss: 79.794357
+[16, 275] loss: 84.587944
+[16, 300] loss: 89.431007
+[16, 325] loss: 76.477303
+[16, 350] loss: 78.354965
+Epoch: 16 Validation loss: 279.96417 accuracy: 0.87949 accuracy_scn: 0.00000
+Epoch: 16 Test loss: 353.27454 accuracy: 0.82078 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_15
+[17, 25] loss: 69.396675
+[17, 50] loss: 78.296928
+[17, 75] loss: 77.488434
+[17, 100] loss: 79.370201
+[17, 125] loss: 77.151833
+[17, 150] loss: 75.378571
+[17, 175] loss: 83.676102
+[17, 200] loss: 71.296814
+[17, 225] loss: 75.804131
+[17, 250] loss: 87.305466
+[17, 275] loss: 78.857094
+[17, 300] loss: 77.764992
+[17, 325] loss: 78.442802
+[17, 350] loss: 74.138741
+Epoch: 17 Validation loss: 281.81152 accuracy: 0.88293 accuracy_scn: 0.00000
+Epoch: 17 Test loss: 353.63235 accuracy: 0.82650 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_16
+[18, 25] loss: 75.877846
+[18, 50] loss: 82.567047
+[18, 75] loss: 82.117050
+[18, 100] loss: 79.015106
+[18, 125] loss: 72.149834
+[18, 150] loss: 64.988838
+[18, 175] loss: 80.066795
+[18, 200] loss: 74.262672
+[18, 225] loss: 81.065636
+[18, 250] loss: 74.972244
+[18, 275] loss: 79.498253
+[18, 300] loss: 86.943756
+[18, 325] loss: 74.909012
+[18, 350] loss: 80.463219
+Epoch: 18 Validation loss: 282.33032 accuracy: 0.87408 accuracy_scn: 0.00000
+Epoch: 18 Test loss: 350.58060 accuracy: 0.82246 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_17
+[19, 25] loss: 76.385429
+[19, 50] loss: 76.318336
+[19, 75] loss: 82.152428
+[19, 100] loss: 80.422241
+[19, 125] loss: 75.278770
+[19, 150] loss: 76.994675
+[19, 175] loss: 77.096596
+[19, 200] loss: 75.500168
+[19, 225] loss: 76.793335
+[19, 250] loss: 78.998550
+[19, 275] loss: 80.840736
+[19, 300] loss: 80.045761
+[19, 325] loss: 99.462891
+[19, 350] loss: 103.774040
+Epoch: 19 Validation loss: 292.27747 accuracy: 0.87605 accuracy_scn: 0.00000
+Epoch: 19 Test loss: 367.27209 accuracy: 0.80666 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_18
+[20, 25] loss: 86.380135
+[20, 50] loss: 85.582779
+[20, 75] loss: 79.751472
+[20, 100] loss: 89.094154
+[20, 125] loss: 89.242012
+[20, 150] loss: 86.396339
+[20, 175] loss: 95.596550
+[20, 200] loss: 87.608452
+[20, 225] loss: 91.997055
+[20, 250] loss: 93.250420
+[20, 275] loss: 101.170265
+[20, 300] loss: 97.549080
+[20, 325] loss: 92.938042
+[20, 350] loss: 87.768051
+Epoch: 20 Validation loss: 283.72214 accuracy: 0.87605 accuracy_scn: 0.00000
+Epoch: 20 Test loss: 357.72000 accuracy: 0.81406 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_19
+[21, 25] loss: 85.603233
+[21, 50] loss: 87.338531
+[21, 75] loss: 91.370224
+[21, 100] loss: 87.569504
+[21, 125] loss: 87.467209
+[21, 150] loss: 82.260216
+[21, 175] loss: 90.511459
+[21, 200] loss: 81.791412
+[21, 225] loss: 91.935600
+[21, 250] loss: 81.603836
+[21, 275] loss: 85.418037
+[21, 300] loss: 86.377647
+[21, 325] loss: 84.809479
+[21, 350] loss: 75.035164
+Epoch: 21 Validation loss: 285.52228 accuracy: 0.87801 accuracy_scn: 0.00000
+Epoch: 21 Test loss: 357.76715 accuracy: 0.82112 accuracy_scn: 0.00000
+Epoch 00021: reducing learning rate of group 0 to 2.5000e-05.
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_20
+[22, 25] loss: 78.253769
+[22, 50] loss: 87.776909
+[22, 75] loss: 82.633728
+[22, 100] loss: 73.089714
+[22, 125] loss: 81.788361
+[22, 150] loss: 64.163483
+[22, 175] loss: 79.221115
+[22, 200] loss: 87.073532
+[22, 225] loss: 75.921097
+[22, 250] loss: 70.553093
+[22, 275] loss: 75.205734
+[22, 300] loss: 68.627022
+[22, 325] loss: 76.055664
+[22, 350] loss: 69.683685
+Epoch: 22 Validation loss: 271.21765 accuracy: 0.88785 accuracy_scn: 0.00000
+Epoch: 22 Test loss: 343.82761 accuracy: 0.82885 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_21
+[23, 25] loss: 69.120552
+[23, 50] loss: 61.701260
+[23, 75] loss: 80.125778
+[23, 100] loss: 75.154922
+[23, 125] loss: 75.840668
+[23, 150] loss: 77.476425
+[23, 175] loss: 70.075584
+[23, 200] loss: 74.599930
+[23, 225] loss: 69.371262
+[23, 250] loss: 67.881660
+[23, 275] loss: 69.141899
+[23, 300] loss: 69.844284
+[23, 325] loss: 67.772110
+[23, 350] loss: 71.494591
+Epoch: 23 Validation loss: 269.95773 accuracy: 0.88293 accuracy_scn: 0.00000
+Epoch: 23 Test loss: 344.58902 accuracy: 0.82919 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_22
+[24, 25] loss: 72.950371
+[24, 50] loss: 68.043404
+[24, 75] loss: 63.843315
+[24, 100] loss: 67.505180
+[24, 125] loss: 72.201302
+[24, 150] loss: 66.731056
+[24, 175] loss: 73.698486
+[24, 200] loss: 65.009766
+[24, 225] loss: 61.879997
+[24, 250] loss: 74.451950
+[24, 275] loss: 66.438545
+[24, 300] loss: 66.968147
+[24, 325] loss: 66.485222
+[24, 350] loss: 67.457169
+Epoch: 24 Validation loss: 267.13187 accuracy: 0.88539 accuracy_scn: 0.00000
+Epoch: 24 Test loss: 342.50793 accuracy: 0.82885 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_23
+[25, 25] loss: 67.659676
+[25, 50] loss: 64.030289
+[25, 75] loss: 73.769073
+[25, 100] loss: 67.592651
+[25, 125] loss: 81.670441
+[25, 150] loss: 70.122353
+[25, 175] loss: 69.568039
+[25, 200] loss: 66.510132
+[25, 225] loss: 70.114693
+[25, 250] loss: 68.817749
+[25, 275] loss: 67.487183
+[25, 300] loss: 67.430031
+[25, 325] loss: 65.189400
+[25, 350] loss: 65.756905
+Epoch: 25 Validation loss: 268.07452 accuracy: 0.88736 accuracy_scn: 0.00000
+Epoch: 25 Test loss: 343.34857 accuracy: 0.82246 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_24
+[26, 25] loss: 65.546349
+[26, 50] loss: 65.195328
+[26, 75] loss: 63.068054
+[26, 100] loss: 67.495758
+[26, 125] loss: 66.764641
+[26, 150] loss: 69.197899
+[26, 175] loss: 74.975632
+[26, 200] loss: 69.219589
+[26, 225] loss: 71.914459
+[26, 250] loss: 72.177956
+[26, 275] loss: 75.951469
+[26, 300] loss: 75.720467
+[26, 325] loss: 61.551704
+[26, 350] loss: 66.059853
+Epoch: 26 Validation loss: 274.32895 accuracy: 0.88146 accuracy_scn: 0.00000
+Epoch: 26 Test loss: 350.64725 accuracy: 0.82145 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_25
+[27, 25] loss: 71.941742
+[27, 50] loss: 75.309166
+[27, 75] loss: 70.770691
+[27, 100] loss: 65.021378
+[27, 125] loss: 77.458519
+[27, 150] loss: 66.689285
+[27, 175] loss: 71.749855
+[27, 200] loss: 71.787415
+[27, 225] loss: 70.937202
+[27, 250] loss: 73.709908
+[27, 275] loss: 65.416008
+[27, 300] loss: 68.920624
+[27, 325] loss: 67.781128
+[27, 350] loss: 68.420456
+Epoch: 27 Validation loss: 270.31943 accuracy: 0.87801 accuracy_scn: 0.00000
+Epoch: 27 Test loss: 347.43622 accuracy: 0.82381 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_26
+[28, 25] loss: 67.990509
+[28, 50] loss: 64.600624
+[28, 75] loss: 70.465065
+[28, 100] loss: 65.558212
+[28, 125] loss: 72.276199
+[28, 150] loss: 67.461929
+[28, 175] loss: 77.017021
+[28, 200] loss: 75.901176
+[28, 225] loss: 72.146431
+[28, 250] loss: 66.937042
+[28, 275] loss: 71.303673
+[28, 300] loss: 71.112617
+[28, 325] loss: 74.536034
+[28, 350] loss: 82.756462
+Epoch: 28 Validation loss: 273.93613 accuracy: 0.88490 accuracy_scn: 0.00000
+Epoch: 28 Test loss: 350.72195 accuracy: 0.82213 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_27
+[29, 25] loss: 67.839844
+[29, 50] loss: 70.393845
+[29, 75] loss: 73.146393
+[29, 100] loss: 69.538567
+[29, 125] loss: 67.468323
+[29, 150] loss: 64.831406
+[29, 175] loss: 68.275368
+[29, 200] loss: 64.410866
+[29, 225] loss: 63.640034
+[29, 250] loss: 68.874367
+[29, 275] loss: 68.843117
+[29, 300] loss: 65.251526
+[29, 325] loss: 69.412598
+[29, 350] loss: 70.876045
+Epoch: 29 Validation loss: 269.90396 accuracy: 0.88096 accuracy_scn: 0.00000
+Epoch: 29 Test loss: 342.74039 accuracy: 0.82313 accuracy_scn: 0.00000
+Epoch 00029: reducing learning rate of group 0 to 1.2500e-05.
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_28
+[30, 25] loss: 69.953781
+[30, 50] loss: 67.216995
+[30, 75] loss: 63.775696
+[30, 100] loss: 64.365334
+[30, 125] loss: 64.516212
+[30, 150] loss: 62.872562
+[30, 175] loss: 64.894653
+[30, 200] loss: 69.438332
+[30, 225] loss: 58.322346
+[30, 250] loss: 64.381462
+[30, 275] loss: 63.995331
+[30, 300] loss: 65.057411
+[30, 325] loss: 65.611038
+[30, 350] loss: 66.348099
+Epoch: 30 Validation loss: 263.91785 accuracy: 0.88392 accuracy_scn: 0.00000
+Epoch: 30 Test loss: 338.50299 accuracy: 0.82784 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_29
+[31, 25] loss: 64.345726
+[31, 50] loss: 65.220016
+[31, 75] loss: 65.932259
+[31, 100] loss: 61.669128
+[31, 125] loss: 60.158596
+[31, 150] loss: 64.599243
+[31, 175] loss: 64.261017
+[31, 200] loss: 64.495247
+[31, 225] loss: 60.210075
+[31, 250] loss: 60.882458
+[31, 275] loss: 61.815945
+[31, 300] loss: 59.728691
+[31, 325] loss: 60.583553
+[31, 350] loss: 70.016563
+Epoch: 31 Validation loss: 262.18250 accuracy: 0.88441 accuracy_scn: 0.00000
+Epoch: 31 Test loss: 337.54126 accuracy: 0.82784 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_30
+[32, 25] loss: 56.038456
+[32, 50] loss: 61.837872
+[32, 75] loss: 61.465412
+[32, 100] loss: 63.079296
+[32, 125] loss: 68.503944
+[32, 150] loss: 55.411404
+[32, 175] loss: 61.605236
+[32, 200] loss: 62.566128
+[32, 225] loss: 63.123173
+[32, 250] loss: 58.322250
+[32, 275] loss: 61.372158
+[32, 300] loss: 62.363720
+[32, 325] loss: 56.982132
+[32, 350] loss: 64.731758
+Epoch: 32 Validation loss: 260.68674 accuracy: 0.88392 accuracy_scn: 0.00000
+Epoch: 32 Test loss: 337.35989 accuracy: 0.82717 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_31
+[33, 25] loss: 59.972282
+[33, 50] loss: 60.865120
+[33, 75] loss: 65.385262
+[33, 100] loss: 57.041248
+[33, 125] loss: 62.127132
+[33, 150] loss: 58.637032
+[33, 175] loss: 58.043900
+[33, 200] loss: 59.359009
+[33, 225] loss: 53.611431
+[33, 250] loss: 57.176697
+[33, 275] loss: 57.446865
+[33, 300] loss: 61.960838
+[33, 325] loss: 54.101936
+[33, 350] loss: 55.498573
+Epoch: 33 Validation loss: 258.38806 accuracy: 0.88490 accuracy_scn: 0.00000
+Epoch: 33 Test loss: 335.83765 accuracy: 0.82683 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_32
+[34, 25] loss: 59.645500
+[34, 50] loss: 57.290745
+[34, 75] loss: 68.358307
+[34, 100] loss: 56.891949
+[34, 125] loss: 62.012707
+[34, 150] loss: 58.104149
+[34, 175] loss: 64.302292
+[34, 200] loss: 65.807907
+[34, 225] loss: 59.932888
+[34, 250] loss: 55.967606
+[34, 275] loss: 58.811405
+[34, 300] loss: 57.618435
+[34, 325] loss: 58.453148
+[34, 350] loss: 64.828781
+Epoch: 34 Validation loss: 257.46262 accuracy: 0.88588 accuracy_scn: 0.00000
+Epoch: 34 Test loss: 334.74438 accuracy: 0.82616 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_33
+[35, 25] loss: 55.656929
+[35, 50] loss: 56.673027
+[35, 75] loss: 56.435650
+[35, 100] loss: 61.457119
+[35, 125] loss: 67.084625
+[35, 150] loss: 52.798725
+[35, 175] loss: 66.186272
+[35, 200] loss: 56.668446
+[35, 225] loss: 61.771992
+[35, 250] loss: 56.381760
+[35, 275] loss: 56.289330
+[35, 300] loss: 65.895752
+[35, 325] loss: 57.981361
+[35, 350] loss: 63.549358
+Epoch: 35 Validation loss: 257.18463 accuracy: 0.88785 accuracy_scn: 0.00000
+Epoch: 35 Test loss: 335.20557 accuracy: 0.82784 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_34
+[36, 25] loss: 60.434650
+[36, 50] loss: 56.558640
+[36, 75] loss: 56.951572
+[36, 100] loss: 56.498123
+[36, 125] loss: 54.330830
+[36, 150] loss: 51.360092
+[36, 175] loss: 62.583931
+[36, 200] loss: 59.145405
+[36, 225] loss: 58.627022
+[36, 250] loss: 56.166252
+[36, 275] loss: 57.082527
+[36, 300] loss: 59.639023
+[36, 325] loss: 54.800438
+[36, 350] loss: 57.811142
+Epoch: 36 Validation loss: 258.49698 accuracy: 0.88392 accuracy_scn: 0.00000
+Epoch: 36 Test loss: 335.92883 accuracy: 0.82280 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_35
+[37, 25] loss: 60.820824
+[37, 50] loss: 55.745064
+[37, 75] loss: 54.142803
+[37, 100] loss: 56.446117
+[37, 125] loss: 56.578640
+[37, 150] loss: 60.186016
+[37, 175] loss: 55.264286
+[37, 200] loss: 52.429966
+[37, 225] loss: 58.801674
+[37, 250] loss: 53.633862
+[37, 275] loss: 59.932098
+[37, 300] loss: 55.005501
+[37, 325] loss: 56.550938
+[37, 350] loss: 52.520866
+Epoch: 37 Validation loss: 257.83429 accuracy: 0.88490 accuracy_scn: 0.00000
+Epoch: 37 Test loss: 334.92273 accuracy: 0.82515 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_36
+[38, 25] loss: 57.478920
+[38, 50] loss: 62.128376
+[38, 75] loss: 56.016380
+[38, 100] loss: 59.137020
+[38, 125] loss: 53.390537
+[38, 150] loss: 60.551743
+[38, 175] loss: 63.625423
+[38, 200] loss: 57.520657
+[38, 225] loss: 66.568169
+[38, 250] loss: 63.103432
+[38, 275] loss: 54.583172
+[38, 300] loss: 65.024887
+[38, 325] loss: 62.698368
+[38, 350] loss: 53.369610
+Epoch: 38 Validation loss: 257.71634 accuracy: 0.88293 accuracy_scn: 0.00000
+Epoch: 38 Test loss: 334.34253 accuracy: 0.82482 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_37
+[39, 25] loss: 56.930634
+[39, 50] loss: 53.226257
+[39, 75] loss: 60.070747
+[39, 100] loss: 58.851208
+[39, 125] loss: 60.218025
+[39, 150] loss: 53.122849
+[39, 175] loss: 58.699200
+[39, 200] loss: 58.073364
+[39, 225] loss: 54.077312
+[39, 250] loss: 60.222290
+[39, 275] loss: 59.247265
+[39, 300] loss: 58.481873
+[39, 325] loss: 53.458416
+[39, 350] loss: 54.885292
+Epoch: 39 Validation loss: 256.99152 accuracy: 0.87949 accuracy_scn: 0.00000
+Epoch: 39 Test loss: 333.74847 accuracy: 0.82582 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_38
+[40, 25] loss: 57.307163
+[40, 50] loss: 56.524868
+[40, 75] loss: 57.439526
+[40, 100] loss: 57.797401
+[40, 125] loss: 56.819080
+[40, 150] loss: 56.393314
+[40, 175] loss: 56.975639
+[40, 200] loss: 56.854492
+[40, 225] loss: 56.070393
+[40, 250] loss: 52.969406
+[40, 275] loss: 52.844917
+[40, 300] loss: 51.911488
+[40, 325] loss: 51.776268
+[40, 350] loss: 58.590805
+Epoch: 40 Validation loss: 256.60046 accuracy: 0.88244 accuracy_scn: 0.00000
+Epoch: 40 Test loss: 332.79306 accuracy: 0.82650 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_39
+[41, 25] loss: 58.251534
+[41, 50] loss: 53.347759
+[41, 75] loss: 57.176468
+[41, 100] loss: 55.907478
+[41, 125] loss: 56.077103
+[41, 150] loss: 48.363876
+[41, 175] loss: 58.932346
+[41, 200] loss: 52.648495
+[41, 225] loss: 54.596107
+[41, 250] loss: 59.214130
+[41, 275] loss: 53.322056
+[41, 300] loss: 53.071606
+[41, 325] loss: 53.641449
+[41, 350] loss: 59.128399
+Epoch: 41 Validation loss: 252.42920 accuracy: 0.88342 accuracy_scn: 0.00000
+Epoch: 41 Test loss: 329.23169 accuracy: 0.82616 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_40
+[42, 25] loss: 51.805901
+[42, 50] loss: 50.884014
+[42, 75] loss: 52.840591
+[42, 100] loss: 53.481262
+[42, 125] loss: 53.924915
+[42, 150] loss: 50.222885
+[42, 175] loss: 51.852806
+[42, 200] loss: 53.626446
+[42, 225] loss: 50.809029
+[42, 250] loss: 52.227615
+[42, 275] loss: 50.453979
+[42, 300] loss: 47.023354
+[42, 325] loss: 51.908646
+[42, 350] loss: 54.842632
+Epoch: 42 Validation loss: 251.57143 accuracy: 0.88342 accuracy_scn: 0.00000
+Epoch: 42 Test loss: 328.18436 accuracy: 0.82683 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_41
+[43, 25] loss: 52.610023
+[43, 50] loss: 50.776505
+[43, 75] loss: 51.069702
+[43, 100] loss: 56.730625
+[43, 125] loss: 57.063644
+[43, 150] loss: 52.315666
+[43, 175] loss: 50.696514
+[43, 200] loss: 54.266373
+[43, 225] loss: 52.231167
+[43, 250] loss: 53.139408
+[43, 275] loss: 50.494812
+[43, 300] loss: 52.893768
+[43, 325] loss: 49.555737
+[43, 350] loss: 54.449455
+Epoch: 43 Validation loss: 250.42636 accuracy: 0.88146 accuracy_scn: 0.00000
+Epoch: 43 Test loss: 327.71771 accuracy: 0.82683 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_42
+[44, 25] loss: 51.551373
+[44, 50] loss: 46.357918
+[44, 75] loss: 48.605476
+[44, 100] loss: 54.547581
+[44, 125] loss: 55.756618
+[44, 150] loss: 51.534462
+[44, 175] loss: 48.572868
+[44, 200] loss: 49.418140
+[44, 225] loss: 51.431885
+[44, 250] loss: 55.048401
+[44, 275] loss: 52.701096
+[44, 300] loss: 51.576511
+[44, 325] loss: 51.487011
+[44, 350] loss: 53.305706
+Epoch: 44 Validation loss: 250.83215 accuracy: 0.88392 accuracy_scn: 0.00000
+Epoch: 44 Test loss: 328.07352 accuracy: 0.82616 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_43
+[45, 25] loss: 49.363914
+[45, 50] loss: 52.187801
+[45, 75] loss: 50.734287
+[45, 100] loss: 51.667221
+[45, 125] loss: 47.463924
+[45, 150] loss: 59.638748
+[45, 175] loss: 53.845352
+[45, 200] loss: 52.162300
+[45, 225] loss: 48.641014
+[45, 250] loss: 56.109573
+[45, 275] loss: 52.249622
+[45, 300] loss: 51.100258
+[45, 325] loss: 51.809738
+[45, 350] loss: 50.983650
+Epoch: 45 Validation loss: 250.11293 accuracy: 0.88096 accuracy_scn: 0.00000
+Epoch: 45 Test loss: 326.13324 accuracy: 0.82750 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_44
+[46, 25] loss: 55.719280
+[46, 50] loss: 51.128754
+[46, 75] loss: 53.502968
+[46, 100] loss: 55.179314
+[46, 125] loss: 50.961697
+[46, 150] loss: 52.589645
+[46, 175] loss: 55.062523
+[46, 200] loss: 50.900063
+[46, 225] loss: 50.448315
+[46, 250] loss: 51.134438
+[46, 275] loss: 51.814865
+[46, 300] loss: 53.931087
+[46, 325] loss: 48.968426
+[46, 350] loss: 54.507259
+Epoch: 46 Validation loss: 253.09802 accuracy: 0.88195 accuracy_scn: 0.00000
+Epoch: 46 Test loss: 330.16663 accuracy: 0.82750 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_45
+[47, 25] loss: 53.203728
+[47, 50] loss: 52.684570
+[47, 75] loss: 49.108624
+[47, 100] loss: 48.932499
+[47, 125] loss: 52.953300
+[47, 150] loss: 49.317139
+[47, 175] loss: 51.801537
+[47, 200] loss: 51.034416
+[47, 225] loss: 49.436756
+[47, 250] loss: 46.963799
+[47, 275] loss: 49.722103
+[47, 300] loss: 50.526001
+[47, 325] loss: 47.774174
+[47, 350] loss: 56.710068
+Epoch: 47 Validation loss: 248.95116 accuracy: 0.88539 accuracy_scn: 0.00000
+Epoch: 47 Test loss: 326.45377 accuracy: 0.82952 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_46
+[48, 25] loss: 49.750347
+[48, 50] loss: 53.325840
+[48, 75] loss: 48.938446
+[48, 100] loss: 45.612419
+[48, 125] loss: 47.242661
+[48, 150] loss: 53.912323
+[48, 175] loss: 50.307137
+[48, 200] loss: 46.684299
+[48, 225] loss: 48.735985
+[48, 250] loss: 42.299843
+[48, 275] loss: 46.421169
+[48, 300] loss: 53.226685
+[48, 325] loss: 45.721729
+[48, 350] loss: 50.085361
+Epoch: 48 Validation loss: 248.14542 accuracy: 0.88293 accuracy_scn: 0.00000
+Epoch: 48 Test loss: 325.17422 accuracy: 0.82784 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_47
+[49, 25] loss: 47.445789
+[49, 50] loss: 48.208969
+[49, 75] loss: 46.463264
+[49, 100] loss: 50.773823
+[49, 125] loss: 48.466213
+[49, 150] loss: 49.643593
+[49, 175] loss: 45.985092
+[49, 200] loss: 49.091728
+[49, 225] loss: 47.196033
+[49, 250] loss: 50.081303
+[49, 275] loss: 50.716057
+[49, 300] loss: 49.576241
+[49, 325] loss: 51.449402
+[49, 350] loss: 51.390038
+Epoch: 49 Validation loss: 255.23477 accuracy: 0.88195 accuracy_scn: 0.00000
+Epoch: 49 Test loss: 332.59222 accuracy: 0.82582 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_48
+[50, 25] loss: 51.100578
+[50, 50] loss: 57.328369
+[50, 75] loss: 48.721443
+[50, 100] loss: 48.359890
+[50, 125] loss: 45.580711
+[50, 150] loss: 52.872421
+[50, 175] loss: 58.727093
+[50, 200] loss: 53.171825
+[50, 225] loss: 53.605751
+[50, 250] loss: 51.503120
+[50, 275] loss: 46.912849
+[50, 300] loss: 53.932110
+[50, 325] loss: 55.152187
+[50, 350] loss: 51.447239
+Epoch: 50 Validation loss: 253.94830 accuracy: 0.87605 accuracy_scn: 0.00000
+Epoch: 50 Test loss: 330.16107 accuracy: 0.82246 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_49
+[51, 25] loss: 51.582508
+[51, 50] loss: 52.175785
+[51, 75] loss: 57.706970
+[51, 100] loss: 56.652832
+[51, 125] loss: 54.342209
+[51, 150] loss: 53.976654
+[51, 175] loss: 47.482044
+[51, 200] loss: 52.771503
+[51, 225] loss: 47.298897
+[51, 250] loss: 59.782742
+[51, 275] loss: 52.235180
+[51, 300] loss: 52.067333
+[51, 325] loss: 52.474339
+[51, 350] loss: 49.713760
+Epoch: 51 Validation loss: 251.56783 accuracy: 0.88342 accuracy_scn: 0.00000
+Epoch: 51 Test loss: 329.18414 accuracy: 0.82750 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_50
+[52, 25] loss: 53.831966
+[52, 50] loss: 51.373917
+[52, 75] loss: 46.916443
+[52, 100] loss: 51.707905
+[52, 125] loss: 47.352253
+[52, 150] loss: 53.449020
+[52, 175] loss: 49.528435
+[52, 200] loss: 54.451977
+[52, 225] loss: 53.230915
+[52, 250] loss: 50.908585
+[52, 275] loss: 53.331146
+[52, 300] loss: 53.437656
+[52, 325] loss: 50.417252
+[52, 350] loss: 47.406502
+Epoch: 52 Validation loss: 253.13075 accuracy: 0.88244 accuracy_scn: 0.00000
+Epoch: 52 Test loss: 331.95282 accuracy: 0.82750 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_51
+[53, 25] loss: 52.481205
+[53, 50] loss: 54.569237
+[53, 75] loss: 51.974636
+[53, 100] loss: 55.670059
+[53, 125] loss: 49.397217
+[53, 150] loss: 54.447510
+[53, 175] loss: 54.583450
+[53, 200] loss: 52.360111
+[53, 225] loss: 52.458515
+[53, 250] loss: 53.431557
+[53, 275] loss: 51.112377
+[53, 300] loss: 47.914246
+[53, 325] loss: 49.799988
+[53, 350] loss: 53.905296
+Epoch: 53 Validation loss: 250.47144 accuracy: 0.88392 accuracy_scn: 0.00000
+Epoch: 53 Test loss: 327.47116 accuracy: 0.82750 accuracy_scn: 0.00000
+Epoch 00053: reducing learning rate of group 0 to 6.2500e-06.
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_52
+[54, 25] loss: 53.016495
+[54, 50] loss: 50.380150
+[54, 75] loss: 50.974224
+[54, 100] loss: 51.724834
+[54, 125] loss: 52.723301
+[54, 150] loss: 54.048565
+[54, 175] loss: 48.106251
+[54, 200] loss: 53.556820
+[54, 225] loss: 52.565243
+[54, 250] loss: 49.665264
+[54, 275] loss: 50.613323
+[54, 300] loss: 51.326931
+[54, 325] loss: 45.796074
+[54, 350] loss: 50.927338
+Epoch: 54 Validation loss: 251.86960 accuracy: 0.88342 accuracy_scn: 0.00000
+Epoch: 54 Test loss: 328.98730 accuracy: 0.82784 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_53
+[55, 25] loss: 53.700745
+[55, 50] loss: 51.656242
+[55, 75] loss: 48.666561
+[55, 100] loss: 53.229984
+[55, 125] loss: 55.094063
+[55, 150] loss: 53.932556
+[55, 175] loss: 47.490608
+[55, 200] loss: 53.044758
+[55, 225] loss: 49.061005
+[55, 250] loss: 58.684555
+[55, 275] loss: 50.485790
+[55, 300] loss: 49.128864
+[55, 325] loss: 47.248280
+[55, 350] loss: 47.439434
+Epoch: 55 Validation loss: 251.32986 accuracy: 0.88441 accuracy_scn: 0.00000
+Epoch: 55 Test loss: 328.39569 accuracy: 0.82818 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_54
+[56, 25] loss: 47.936489
+[56, 50] loss: 53.601692
+[56, 75] loss: 52.950054
+[56, 100] loss: 52.597794
+[56, 125] loss: 52.486229
+[56, 150] loss: 48.143665
+[56, 175] loss: 52.769794
+[56, 200] loss: 49.671352
+[56, 225] loss: 53.935505
+[56, 250] loss: 49.013252
+[56, 275] loss: 49.141853
+[56, 300] loss: 49.883640
+[56, 325] loss: 43.971058
+[56, 350] loss: 48.140503
+Epoch: 56 Validation loss: 250.76689 accuracy: 0.88441 accuracy_scn: 0.00000
+Epoch: 56 Test loss: 327.89771 accuracy: 0.82885 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_55
+[57, 25] loss: 51.860107
+[57, 50] loss: 52.225483
+[57, 75] loss: 58.753792
+[57, 100] loss: 50.066120
+[57, 125] loss: 47.509960
+[57, 150] loss: 49.325062
+[57, 175] loss: 46.760757
+[57, 200] loss: 46.457684
+[57, 225] loss: 51.532494
+[57, 250] loss: 52.670609
+[57, 275] loss: 49.503094
+[57, 300] loss: 50.640892
+[57, 325] loss: 50.972851
+[57, 350] loss: 51.679760
+Epoch: 57 Validation loss: 250.41420 accuracy: 0.88539 accuracy_scn: 0.00000
+Epoch: 57 Test loss: 327.34283 accuracy: 0.82919 accuracy_scn: 0.00000
+Saving Model in /scratch/ut_ckp/orig/TGRU_intent_en_orig_contrast_out_32_0.1checkpoint_56
+Early Stopping the training
+Finished Training
+Saving Final Model in /scratch/ut_ckp/final/TGRU_intent_en_orig_contrast_out_32_0.1final
+Val loss = 250.41419982910156 	 Val accuracy = 0.8853909969329834 accuracy_scn = 0
+Test loss = 327.34283447265625 	 Test accuracy = 0.8291862607002258 accuracy_scn = 0
